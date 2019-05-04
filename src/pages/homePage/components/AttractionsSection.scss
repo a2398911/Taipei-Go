@@ -1,0 +1,79 @@
+@import '../../../scss/variable.scss';
+
+
+.attractions-wrap{
+  margin-bottom: 50px;
+}
+.attraction-texts{
+  margin-top: 30px;
+  position: relative;
+}
+.title{
+  font-size: 20px;
+  color: $color_black;
+}
+.subtitle{
+  font-size: 14px;
+  color: $color_primary;
+  margin-top: 5px;
+}
+.changeList{
+  height: 44px;
+  width: 44px;
+  @include btnInteractive($color_primary);
+  border-radius: 50%;
+  @include centerY;
+  right: 0;
+  color: #fff;
+}
+.hr{
+  width: 100%;
+  border: .5px solid rgba($color_ligthGray, .5);
+  margin-top: 10px;
+}
+.order{
+  height: 35px;
+  margin: 20px 0;
+}
+.sort-amount-down{
+  height: 100%;
+  width: 35px;
+  border: 1px solid $color_ligthGray;
+  background: url(../../../img/sort-amount-down-icon.svg) center/cover no-repeat;
+  background-size: 60%;
+  border-radius: 12px 0 0 12px;
+}
+.mostScore, .mostComment{
+  color: $color_ligthGray;
+  border: 1px solid $color_ligthGray;
+  height: 100%;
+  font-size: 14px;
+  transition: .3s;
+  &:hover, &:active{
+    background-color: rgba($color_ligthGray, .5);
+    color: #fff;
+  }
+}
+.mostComment{
+  border-radius: 0 12px 12px 0;
+}
+.order .active{
+  background-color: $color_ligthGray;
+  color: #fff;
+}
+.list-icon{
+  height: 15px;
+  width: 15px;
+  margin: auto;
+  background: url() center/cover no-repeat;
+}
+.srarch-results{
+  color: $color_Secondary;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 20px;
+}
+.exclamation-triangle{
+  margin-right: 5px;
+}

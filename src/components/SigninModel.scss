@@ -1,0 +1,132 @@
+@import '../scss/variable.scss';
+
+.signIn-wrap{
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 10;
+}
+.signIn-box{
+  position: fixed;
+  height: 55%;
+  width: 35%;
+  max-height: 420px;
+  min-width: 300px;
+  z-index: 10;
+  @include center();
+  animation: showUp .5s;
+}
+.select-btn{
+  padding: 10px 40px;
+  padding-bottom: 20px;
+  border-radius: 10px 10px 0 0;
+  background-color: $color_btnGray;
+  color: $color_darkhGray;
+  position: relative;
+  bottom: -10px;
+}
+.select-btn.active{
+  background-color: $color_Secondary;
+  color: #fff;
+}
+.signIn-select.select-btn.active{
+  box-shadow: 3px 0px 8px 0px rgba($color_Secondary, .5);
+  position: relative;
+  z-index: 9;
+}
+.signUp-select.select-btn.active{
+  box-shadow: -3px 0px 8px 0px rgba($color_Secondary, .5);
+  position: relative;
+  z-index: 9;
+}
+.signIn-content, .signup-content{
+  background-color: #fff;
+  height: calc(100% - 43px);
+  border-radius: 10px;
+  z-index: 10;
+  position: relative;
+  color: $color_darkhGray;
+  box-shadow: 0 3px 8px 0px rgba($color_black, .5);
+  overflow: hidden;
+}
+.signIn-title,.signup-title{
+  margin-top: auto;
+  margin-bottom: 10px;
+  font-size: 18px;
+  text-align: center;
+}
+.signIn-email-wrap{
+  flex-grow: 1;
+}
+.signIn-input-wrap,.signup-input-wrap{
+  width: 80%;
+  position: relative;
+}
+.signIn-input{
+  width: 100%;
+  background-color: $color_signInGray;
+  margin: 10px 0;
+  padding: 8px 18px;
+  border-radius: 17px;
+  color: $color_darkhGray;
+  transition: box-shadow .5s;
+  &:focus{
+    box-shadow: 0px 0px 0px 3px rgba($color_primary, .5);
+    & ~ .placeholder{
+      display: none !important;
+    }
+  }
+}
+.signIn-input.error{
+  border: 2px solid rgba($color_focus,.6);
+  &:focus{
+    box-shadow: 0px 0px 0px 2px rgba($color_focus, .5);
+  }
+}
+.signIn,.siginIn-google,.signUp{
+  margin-bottom: auto;
+  width: 80%;
+  background-color: $color_Secondary;
+  padding: 7px;
+  border-radius: 17px;
+  margin-top: 10px;
+  color: #fff;
+  @include btnInteractive($color_Secondary);
+  transition: .5s;
+}
+.signIn-google-wrap{
+  height: 30%;
+  background-color: $color_signInGray;
+  border-top: 1px solid darken($color_signInGray, 10%);
+}
+.signIn-google-wrap{
+  flex-grow: .4;
+}
+.siginIn-google{
+  margin-top: initial;
+  background-color: $color_focus;
+  @include btnInteractive($color_focus);
+}
+.signup-wrap{
+  width: 100%;
+}
+.error-message{
+  height: 55px;
+  padding-top: 10px;
+  position: absolute;
+  bottom: -45px;
+  width: 100%;
+  background-color: $color_focus;
+  border-radius: 0 0 10px 10px;
+  color: #fff;
+  box-shadow: 0 3px 8px 0px rgba($color_black, .5);
+  animation: slideInDown .5s;
+}
+.envelope,.lock,.google,.user{
+  margin-right: 5px;
+}
+.lock{
+  font-size: 18px;
+}

@@ -1,0 +1,757 @@
+[ {
+  "address" : "115台灣台北市南港區捷運南港軟體園區站",
+  "id" : "030",
+  "latitude" : 25.059904,
+  "line" : "Wenhu Line",
+  "longitude" : 121.615952,
+  "name" : "Nangang Software Park"
+}, {
+  "address" : "114台灣台北市內湖區捷運東湖站",
+  "id" : "029",
+  "latitude" : 25.067247,
+  "line" : "Wenhu Line",
+  "longitude" : 121.611504,
+  "name" : "Donghu"
+}, {
+  "address" : "114台灣台北市內湖區捷運葫洲站",
+  "id" : "028",
+  "latitude" : 25.072701,
+  "line" : "Wenhu Line",
+  "longitude" : 121.607158,
+  "name" : "Huzhou"
+}, {
+  "address" : "114台灣台北市內湖區捷運大湖公園站",
+  "id" : "027",
+  "latitude" : 25.083844,
+  "line" : "Wenhu Line",
+  "longitude" : 121.60214,
+  "name" : "Dahu Park"
+}, {
+  "address" : "114台灣台北市內湖區捷運內湖站",
+  "id" : "026",
+  "latitude" : 25.08366,
+  "line" : "Wenhu Line",
+  "longitude" : 121.594407,
+  "name" : "Neihu"
+}, {
+  "address" : "114台灣台北市內湖區捷運文德站",
+  "id" : "025",
+  "latitude" : 25.078531,
+  "line" : "Wenhu Line",
+  "longitude" : 121.584761,
+  "name" : "Wende"
+}, {
+  "address" : "114台灣台北市內湖區捷運港墘站",
+  "id" : "024",
+  "latitude" : 25.080027,
+  "line" : "Wenhu Line",
+  "longitude" : 121.57508,
+  "name" : "Gangqian"
+}, {
+  "address" : "114台灣台北市內湖區捷運西湖站",
+  "id" : "023",
+  "latitude" : 25.082133,
+  "line" : "Wenhu Line",
+  "longitude" : 121.567213,
+  "name" : "Xihu"
+}, {
+  "address" : "104台灣台北市中山區捷運劍南路站",
+  "id" : "022",
+  "latitude" : 25.084853,
+  "line" : "Wenhu Line",
+  "longitude" : 121.555592,
+  "name" : "Jiannan Rd."
+}, {
+  "address" : "104台灣台北市中山區捷運大直站",
+  "id" : "021",
+  "latitude" : 25.079476,
+  "line" : "Wenhu Line",
+  "longitude" : 121.546894,
+  "name" : "Dazhi"
+}, {
+  "address" : "105台灣台北市松山區捷運松山機場站",
+  "id" : "007",
+  "latitude" : 25.063,
+  "line" : "Wenhu Line",
+  "longitude" : 121.551995,
+  "name" : "Songshan Airport"
+}, {
+  "address" : "105台灣台北市松山區捷運中山國中站",
+  "id" : "008",
+  "latitude" : 25.060848,
+  "line" : "Wenhu Line",
+  "longitude" : 121.544226,
+  "name" : "Zhongshan Junior High School"
+}, {
+  "address" : "104台灣台北市中山區捷運南京東路站",
+  "id" : "009",
+  "latitude" : 25.052317,
+  "line" : "Wenhu Line",
+  "longitude" : 121.544011,
+  "name" : "Nanjing Dong Lu"
+}, {
+  "address" : "106台灣台北市大安區捷運大安站",
+  "id" : "011",
+  "latitude" : 25.033254,
+  "line" : "Wenhu Line",
+  "longitude" : 121.543565,
+  "name" : "Daan"
+}, {
+  "address" : "106台灣台北市大安區捷運科技大樓站",
+  "id" : "012",
+  "latitude" : 25.026124,
+  "line" : "Wenhu Line",
+  "longitude" : 121.543437,
+  "name" : "Technology Building"
+}, {
+  "address" : "106台灣台北市大安區捷運六張犁站",
+  "id" : "013",
+  "latitude" : 25.023739,
+  "line" : "Wenhu Line",
+  "longitude" : 121.553004,
+  "name" : "Liuzhangli"
+}, {
+  "address" : "106台灣台北市大安區捷運麟光站",
+  "id" : "014",
+  "latitude" : 25.018535,
+  "line" : "Wenhu Line",
+  "longitude" : 121.558791,
+  "name" : "Linguang"
+}, {
+  "address" : "116台灣台北市文山區捷運辛亥站",
+  "id" : "015",
+  "latitude" : 25.005475,
+  "line" : "Wenhu Line",
+  "longitude" : 121.557107,
+  "name" : "Xinhai"
+}, {
+  "address" : "116台灣台北市文山區捷運萬芳醫院站",
+  "id" : "016",
+  "latitude" : 24.999385,
+  "line" : "Wenhu Line",
+  "longitude" : 121.558151,
+  "name" : "Wanfang Hospital"
+}, {
+  "address" : "116台灣台北市文山區捷運萬芳社區站",
+  "id" : "017",
+  "latitude" : 24.998585,
+  "line" : "Wenhu Line",
+  "longitude" : 121.568102,
+  "name" : "Wanfang Community"
+}, {
+  "address" : "116台灣台北市文山區捷運木柵站",
+  "id" : "018",
+  "latitude" : 24.99824,
+  "line" : "Wenhu Line",
+  "longitude" : 121.573145,
+  "name" : "Muzha"
+}, {
+  "address" : "116台灣台北市文山區捷運動物園站",
+  "id" : "019",
+  "latitude" : 24.998197,
+  "line" : "Wenhu Line",
+  "longitude" : 121.579338,
+  "name" : "Taipei Zoo"
+}, {
+  "address" : "251台灣新北市淡水區捷運淡水站",
+  "id" : "071",
+  "latitude" : 25.167817,
+  "line" : "Tamsui-Xinyi Line",
+  "longitude" : 121.44556,
+  "name" : "Tamsui"
+}, {
+  "address" : "251台灣新北市淡水區捷運紅樹林站",
+  "id" : "070",
+  "latitude" : 25.154042,
+  "line" : "Tamsui-Xinyi Line",
+  "longitude" : 121.458871,
+  "name" : "Hongshulin"
+}, {
+  "address" : "251台灣新北市淡水區捷運竹圍站",
+  "id" : "069",
+  "latitude" : 25.13694,
+  "line" : "Tamsui-Xinyi Line",
+  "longitude" : 121.459479,
+  "name" : "Zhuwei"
+}, {
+  "address" : "112台灣台北市北投區捷運關渡站",
+  "id" : "068",
+  "latitude" : 25.125632,
+  "line" : "Tamsui-Xinyi Line",
+  "longitude" : 121.467102,
+  "name" : "Guandu"
+}, {
+  "address" : "112台灣台北市北投區捷運忠義站",
+  "id" : "067",
+  "latitude" : 25.130969,
+  "line" : "Tamsui-Xinyi Line",
+  "longitude" : 121.473409,
+  "name" : "Zhongyi"
+}, {
+  "address" : "112台灣台北市北投區捷運復興崗站",
+  "id" : "066",
+  "latitude" : 25.137473,
+  "line" : "Tamsui-Xinyi Line",
+  "longitude" : 121.485444,
+  "name" : "Fuxinggang"
+}, {
+  "address" : "112台灣台北市北投區捷運北投站",
+  "id" : "064",
+  "latitude" : 25.13184,
+  "line" : "Tamsui-Xinyi Line",
+  "longitude" : 121.498632,
+  "name" : "Beitou"
+}, {
+  "address" : "112台灣台北市北投區捷運新北投站",
+  "id" : "065",
+  "latitude" : 25.136932,
+  "line" : "Tamsui-Xinyi Line",
+  "longitude" : 121.502529,
+  "name" : "Xinbeitou"
+}, {
+  "address" : "112台灣台北市北投區捷運奇岩站",
+  "id" : "063",
+  "latitude" : 25.125491,
+  "line" : "Tamsui-Xinyi Line",
+  "longitude" : 121.501132,
+  "name" : "Qiyan"
+}, {
+  "address" : "112台灣台北市北投區捷運唭哩岸站",
+  "id" : "062",
+  "latitude" : 25.120871,
+  "line" : "Tamsui-Xinyi Line",
+  "longitude" : 121.506252,
+  "name" : "Qilian"
+}, {
+  "address" : "112台灣台北市北投區捷運石牌站",
+  "id" : "061",
+  "latitude" : 25.114523,
+  "line" : "Tamsui-Xinyi Line",
+  "longitude" : 121.515559,
+  "name" : "Shipai"
+}, {
+  "address" : "112台灣台北市北投區捷運明德站",
+  "id" : "060",
+  "latitude" : 25.10972,
+  "line" : "Tamsui-Xinyi Line",
+  "longitude" : 121.518848,
+  "name" : "Mingde"
+}, {
+  "address" : "111台灣台北市士林區捷運芝山站",
+  "id" : "059",
+  "latitude" : 25.103059,
+  "line" : "Tamsui-Xinyi Line",
+  "longitude" : 121.522513,
+  "name" : "Zhishan"
+}, {
+  "address" : "111台灣台北市士林區捷運士林站",
+  "id" : "058",
+  "latitude" : 25.093535,
+  "line" : "Tamsui-Xinyi Line",
+  "longitude" : 121.526229,
+  "name" : "Shilin"
+}, {
+  "address" : "111台灣台北市士林區捷運劍潭站",
+  "id" : "057",
+  "latitude" : 25.084873,
+  "line" : "Tamsui-Xinyi Line",
+  "longitude" : 121.525077,
+  "name" : "Jiantan"
+}, {
+  "address" : "103台灣台北市大同區捷運圓山站",
+  "id" : "056",
+  "latitude" : 25.071353,
+  "line" : "Tamsui-Xinyi Line",
+  "longitude" : 121.520118,
+  "name" : "Yuanshan"
+}, {
+  "address" : "103台灣台北市大同區捷運民權西路站",
+  "id" : "055",
+  "latitude" : 25.062905,
+  "line" : "Tamsui-Xinyi Line",
+  "longitude" : 121.519319,
+  "name" : "Minquan W. Rd."
+}, {
+  "address" : "104台灣台北市中山區捷運雙連站",
+  "id" : "054",
+  "latitude" : 25.057804,
+  "line" : "Tamsui-Xinyi Line",
+  "longitude" : 121.520627,
+  "name" : "Shuanglian"
+}, {
+  "address" : "104台灣台北市中山區捷運中山站",
+  "id" : "053",
+  "latitude" : 25.052685,
+  "line" : "Tamsui-Xinyi Line",
+  "longitude" : 121.520391,
+  "name" : "Zhongshan"
+}, {
+  "address" : "100台灣台北市中正區捷運台北車站",
+  "id" : "051",
+  "latitude" : 25.046254,
+  "line" : "Tamsui-Xinyi Line",
+  "longitude" : 121.517532,
+  "name" : "Taipei Main Station"
+}, {
+  "address" : "100台灣台北市中正區捷運台大醫院站",
+  "id" : "050",
+  "latitude" : 25.041256,
+  "line" : "Tamsui-Xinyi Line",
+  "longitude" : 121.51604,
+  "name" : "NTU Hospital"
+}, {
+  "address" : "100台灣台北市中正區捷運中正紀念堂站",
+  "id" : "042",
+  "latitude" : 25.032729,
+  "line" : "Tamsui-Xinyi Line",
+  "longitude" : 121.51827,
+  "name" : "Chiang Kai-Shek Memorial Hall"
+}, {
+  "address" : "100台灣台北市中正區捷運東門站",
+  "id" : "134",
+  "latitude" : 25.033847,
+  "line" : "Tamsui-Xinyi Line",
+  "longitude" : 121.528739,
+  "name" : "Dongmen"
+}, {
+  "address" : "106台灣台北市大安區捷運大安森林公園站",
+  "id" : "103",
+  "latitude" : 25.033534,
+  "line" : "Tamsui-Xinyi Line",
+  "longitude" : 121.534869,
+  "name" : "Daan Park"
+}, {
+  "address" : "106台灣台北市大安區捷運信義安和站",
+  "id" : "101",
+  "latitude" : 25.033116,
+  "line" : "Tamsui-Xinyi Line",
+  "longitude" : 121.552798,
+  "name" : "Xinyi Anhe"
+}, {
+  "address" : "110台灣台北市信義區捷運台北101/世貿站",
+  "id" : "100",
+  "latitude" : 25.032933,
+  "line" : "Tamsui-Xinyi Line",
+  "longitude" : 121.562591,
+  "name" : "Taipei 101/World Trade Center"
+}, {
+  "address" : "110台灣台北市信義區捷運象山站",
+  "id" : "099",
+  "latitude" : 25.032765,
+  "line" : "Tamsui-Xinyi Line",
+  "longitude" : 121.570354,
+  "name" : "Xiangshan"
+}, {
+  "address" : "105台北市松山區八德路四段105號",
+  "id" : "102",
+  "latitude" : 25.063,
+  "line" : "Songshan-Xindian Line",
+  "longitude" : 121.551995,
+  "name" : "Songshan"
+}, {
+  "address" : "10341臺北市大同區塔城街10號",
+  "id" : "104",
+  "latitude" : 25.063,
+  "line" : "Songshan-Xindian Line",
+  "longitude" : 121.551995,
+  "name" : "Beimen"
+}, {
+  "address" : "10569臺北市松山區南京東路5段237號 ",
+  "id" : "105",
+  "latitude" : 25.063,
+  "line" : "Songshan-Xindian Line",
+  "longitude" : 121.551995,
+  "name" : "Nanjing Sanmin"
+}, {
+  "address" : "10553臺北市松山區南京東路4段10之1號",
+  "id" : "106",
+  "latitude" : 25.063,
+  "line" : "Songshan-Xindian Line",
+  "longitude" : 121.551995,
+  "name" : "Taipei Arena"
+}, {
+  "address" : "10550臺北市松山區南京東路3段253號",
+  "id" : "107",
+  "latitude" : 25.063,
+  "line" : "Songshan-Xindian Line",
+  "longitude" : 121.551995,
+  "name" : "Nanjing Fuxing"
+}, {
+  "address" : "100台灣台北市中正區捷運小南門站",
+  "id" : "043",
+  "latitude" : 25.035546,
+  "line" : "Songshan-Xindian Line",
+  "longitude" : 121.510857,
+  "name" : "Xiaonanmen"
+}, {
+  "address" : "100台灣台北市中正區捷運古亭站",
+  "id" : "041",
+  "latitude" : 25.026356,
+  "line" : "Songshan-Xindian Line",
+  "longitude" : 121.522872,
+  "name" : "Guting"
+}, {
+  "address" : "106台灣台北市大安區捷運台電大樓站",
+  "id" : "040",
+  "latitude" : 25.020724,
+  "line" : "Songshan-Xindian Line",
+  "longitude" : 121.528167,
+  "name" : "Taipower Building"
+}, {
+  "address" : "106台灣台北市大安區捷運公館站",
+  "id" : "039",
+  "latitude" : 25.014907,
+  "line" : "Songshan-Xindian Line",
+  "longitude" : 121.534215,
+  "name" : "Gongguan"
+}, {
+  "address" : "116台灣台北市文山區捷運萬隆站",
+  "id" : "038",
+  "latitude" : 25.001853,
+  "line" : "Songshan-Xindian Line",
+  "longitude" : 121.539051,
+  "name" : "Wanlong"
+}, {
+  "address" : "116台灣台北市文山區捷運景美站",
+  "id" : "037",
+  "latitude" : 24.992848,
+  "line" : "Songshan-Xindian Line",
+  "longitude" : 121.540782,
+  "name" : "Jingmei"
+}, {
+  "address" : "231台灣新北市新店區捷運大坪林站",
+  "id" : "036",
+  "latitude" : 24.982899,
+  "line" : "Songshan-Xindian Line",
+  "longitude" : 121.541351,
+  "name" : "Dapinglin"
+}, {
+  "address" : "231台灣新北市新店區捷運七張站",
+  "id" : "035",
+  "latitude" : 24.975168,
+  "line" : "Songshan-Xindian Line",
+  "longitude" : 121.542942,
+  "name" : "Qizhang"
+}, {
+  "address" : "231台灣新北市新店區捷運小碧潭站",
+  "id" : "032",
+  "latitude" : 24.971906,
+  "line" : "Songshan-Xindian Line",
+  "longitude" : 121.530338,
+  "name" : "Xiaobitan"
+}, {
+  "address" : "231台灣新北市新店區捷運新店區公所站",
+  "id" : "034",
+  "latitude" : 24.967393,
+  "line" : "Songshan-Xindian Line",
+  "longitude" : 121.541309,
+  "name" : "Xindian District Office"
+}, {
+  "address" : "231台灣新北市新店區捷運新店站",
+  "id" : "033",
+  "latitude" : 24.957855,
+  "line" : "Songshan-Xindian Line",
+  "longitude" : 121.537583,
+  "name" : "Xindian"
+}, {
+  "address" : "235台灣新北市中和區捷運南勢角站",
+  "id" : "048",
+  "latitude" : 24.990044,
+  "line" : "Zhonghe-Xinlu Line",
+  "longitude" : 121.509237,
+  "name" : "Nanshijiao"
+}, {
+  "address" : "235台灣新北市中和區捷運景安站",
+  "id" : "047",
+  "latitude" : 24.993905,
+  "line" : "Zhonghe-Xinlu Line",
+  "longitude" : 121.505113,
+  "name" : "Jingan"
+}, {
+  "address" : "235台灣新北市中和區捷運永安市場站",
+  "id" : "046",
+  "latitude" : 25.002876,
+  "line" : "Zhonghe-Xinlu Line",
+  "longitude" : 121.51123,
+  "name" : "Yongan Market"
+}, {
+  "address" : "234台灣新北市永和區捷運頂溪站",
+  "id" : "045",
+  "latitude" : 25.01382,
+  "line" : "Zhonghe-Xinlu Line",
+  "longitude" : 121.515484,
+  "name" : "Dingxi"
+}, {
+  "address" : "104台灣台北市中山區捷運松江南京站",
+  "id" : "132",
+  "latitude" : 25.052015,
+  "line" : "Zhonghe-Xinlu Line",
+  "longitude" : 121.533075,
+  "name" : "Songjiang Nanjing"
+}, {
+  "address" : "104台灣台北市中山區捷運行天宮站",
+  "id" : "131",
+  "latitude" : 25.059717,
+  "line" : "Zhonghe-Xinlu Line",
+  "longitude" : 121.533184,
+  "name" : "Xingtian Temple"
+}, {
+  "address" : "104台灣台北市中山區捷運中山國小站",
+  "id" : "130",
+  "latitude" : 25.062693,
+  "line" : "Zhonghe-Xinlu Line",
+  "longitude" : 121.526418,
+  "name" : "Zhongshan Elementary School"
+}, {
+  "address" : "103台灣台北市大同區捷運大橋頭站",
+  "id" : "128",
+  "latitude" : 25.063199,
+  "line" : "Zhonghe-Xinlu Line",
+  "longitude" : 121.512801,
+  "name" : "Daqiaotou"
+}, {
+  "address" : "241台灣新北市三重區捷運三重國小站",
+  "id" : "178",
+  "latitude" : 25.070318,
+  "line" : "Zhonghe-Xinlu Line",
+  "longitude" : 121.496904,
+  "name" : "Sanchong Elementary School"
+}, {
+  "address" : "241台灣新北市三重區捷運三和國中站",
+  "id" : "177",
+  "latitude" : 25.076858,
+  "line" : "Zhonghe-Xinlu Line",
+  "longitude" : 121.486346,
+  "name" : "Sanhe Junior High School"
+}, {
+  "address" : "247台灣新北市蘆洲區捷運徐匯中學站",
+  "id" : "176",
+  "latitude" : 25.080727,
+  "line" : "Zhonghe-Xinlu Line",
+  "longitude" : 121.479673,
+  "name" : "St. Ignatius High School"
+}, {
+  "address" : "247台灣新北市蘆洲區捷運三民高中站",
+  "id" : "175",
+  "latitude" : 25.085456,
+  "line" : "Zhonghe-Xinlu Line",
+  "longitude" : 121.473389,
+  "name" : "Sanmin Senior High School"
+}, {
+  "address" : "247台灣新北市蘆洲區捷運蘆洲站",
+  "id" : "174",
+  "latitude" : 25.091553,
+  "line" : "Zhonghe-Xinlu Line",
+  "longitude" : 121.464471,
+  "name" : "Luzhou"
+}, {
+  "address" : "241台灣新北市三重區捷運台北橋站",
+  "id" : "127",
+  "latitude" : 25.063274,
+  "line" : "Zhonghe-Xinlu Line",
+  "longitude" : 121.500762,
+  "name" : "Taipei Bridge"
+}, {
+  "address" : "241台灣新北市三重區捷運菜寮站",
+  "id" : "126",
+  "latitude" : 25.060274,
+  "line" : "Zhonghe-Xinlu Line",
+  "longitude" : 121.492156,
+  "name" : "Cailiao"
+}, {
+  "address" : "241台灣新北市三重區捷運三重站",
+  "id" : "125",
+  "latitude" : 25.055791,
+  "line" : "Zhonghe-Xinlu Line",
+  "longitude" : 121.484725,
+  "name" : "Sanchong"
+}, {
+  "address" : "241台灣新北市三重區捷運先嗇宮站",
+  "id" : "124",
+  "latitude" : 25.046493,
+  "line" : "Zhonghe-Xinlu Line",
+  "longitude" : 121.471916,
+  "name" : "Xianse Temple"
+}, {
+  "address" : "242台灣新北市新莊區捷運頭前庄站",
+  "id" : "123",
+  "latitude" : 25.039705,
+  "line" : "Zhonghe-Xinlu Line",
+  "longitude" : 121.461746,
+  "name" : "Touqianzhuang"
+}, {
+  "address" : "242台灣新北市新莊區捷運新莊站",
+  "id" : "122",
+  "latitude" : 25.036125,
+  "line" : "Zhonghe-Xinlu Line",
+  "longitude" : 121.452468,
+  "name" : "Xinzhuang"
+}, {
+  "address" : "242台灣新北市新莊區捷運輔大站",
+  "id" : "121",
+  "latitude" : 25.032718,
+  "line" : "Zhonghe-Xinlu Line",
+  "longitude" : 121.43547,
+  "name" : "Fu Jen University"
+}, {
+  "address" : "242台灣新北市新莊區捷運丹鳳站",
+  "id" : "180",
+  "latitude" : 25.028893,
+  "line" : "Zhonghe-Xinlu Line",
+  "longitude" : 121.422685,
+  "name" : "Danfeng"
+}, {
+  "address" : "242台灣新北市新莊區捷運迴龍站",
+  "id" : "179",
+  "latitude" : 25.022107,
+  "line" : "Zhonghe-Xinlu Line",
+  "longitude" : 121.411771,
+  "name" : "Huilong"
+}, {
+  "address" : "115台灣台北市南港區捷運南港展覽館站",
+  "id" : "031",
+  "latitude" : 25.055368,
+  "line" : "Bannan Line",
+  "longitude" : 121.6176,
+  "name" : "Taipei Nangang Exhibition Center"
+}, {
+  "address" : "115台灣台北市南港區捷運南港站",
+  "id" : "097",
+  "latitude" : 25.052116,
+  "line" : "Bannan Line",
+  "longitude" : 121.606686,
+  "name" : "Nangang"
+}, {
+  "address" : "115台灣台北市南港區捷運昆陽站",
+  "id" : "096",
+  "latitude" : 25.050461,
+  "line" : "Bannan Line",
+  "longitude" : 121.593268,
+  "name" : "Kunyang"
+}, {
+  "address" : "115台灣台北市南港區捷運後山埤站",
+  "id" : "095",
+  "latitude" : 25.045054,
+  "line" : "Bannan Line",
+  "longitude" : 121.582522,
+  "name" : "Houshanpi"
+}, {
+  "address" : "110台灣台北市信義區捷運永春站",
+  "id" : "094",
+  "latitude" : 25.040859,
+  "line" : "Bannan Line",
+  "longitude" : 121.576292,
+  "name" : "Yongchun"
+}, {
+  "address" : "110台灣台北市信義區捷運市政府站",
+  "id" : "093",
+  "latitude" : 25.041171,
+  "line" : "Bannan Line",
+  "longitude" : 121.565227,
+  "name" : "Taipei City Hall"
+}, {
+  "address" : "110台灣台北市信義區捷運國父紀念館站",
+  "id" : "092",
+  "latitude" : 25.041348,
+  "line" : "Bannan Line",
+  "longitude" : 121.557801,
+  "name" : "Sun Yat-Sen Memorial Hall"
+}, {
+  "address" : "106台灣台北市大安區捷運忠孝敦化站",
+  "id" : "091",
+  "latitude" : 25.041477,
+  "line" : "Bannan Line",
+  "longitude" : 121.551097,
+  "name" : "Zhongxiao Dunhua"
+}, {
+  "address" : "106台灣台北市大安區捷運忠孝復興站",
+  "id" : "010",
+  "latitude" : 25.041629,
+  "line" : "Bannan Line",
+  "longitude" : 121.543767,
+  "name" : "Zhongxiao Fuxing"
+}, {
+  "address" : "106台灣台北市大安區捷運忠孝新生站",
+  "id" : "089",
+  "latitude" : 25.042355,
+  "line" : "Bannan Line",
+  "longitude" : 121.532904,
+  "name" : "Zhongxiao Xinsheng"
+}, {
+  "address" : "100台灣台北市中正區捷運善導寺站",
+  "id" : "088",
+  "latitude" : 25.044823,
+  "line" : "Bannan Line",
+  "longitude" : 121.523207,
+  "name" : "Shandao Temple"
+}, {
+  "address" : "108台灣台北市萬華區捷運龍山寺站",
+  "id" : "085",
+  "latitude" : 25.035279,
+  "line" : "Bannan Line",
+  "longitude" : 121.499826,
+  "name" : "Longshan Temple"
+}, {
+  "address" : "100台灣台北市中正區捷運西門站",
+  "id" : "086",
+  "latitude" : 25.04209,
+  "line" : "Bannan Line",
+  "longitude" : 121.508303,
+  "name" : "Ximen"
+}, {
+  "address" : "220台灣新北市板橋區捷運新埔站",
+  "id" : "083",
+  "latitude" : 25.023738,
+  "line" : "Bannan Line",
+  "longitude" : 121.468361,
+  "name" : "Xinpu"
+}, {
+  "address" : "220台灣新北市板橋區捷運板橋站",
+  "id" : "082",
+  "latitude" : 25.013617,
+  "line" : "Bannan Line",
+  "longitude" : 121.462302,
+  "name" : "Banqiao"
+}, {
+  "address" : "220台灣新北市板橋區捷運府中站",
+  "id" : "081",
+  "latitude" : 25.008619,
+  "line" : "Bannan Line",
+  "longitude" : 121.459408,
+  "name" : "Fuzhong"
+}, {
+  "address" : "220台灣新北市板橋區捷運亞東醫院站",
+  "id" : "080",
+  "latitude" : 24.998037,
+  "line" : "Bannan Line",
+  "longitude" : 121.452514,
+  "name" : "Far Eastern Hospital"
+}, {
+  "address" : "236台灣新北市土城區捷運海山站",
+  "id" : "079",
+  "latitude" : 24.98534,
+  "line" : "Bannan Line",
+  "longitude" : 121.448785,
+  "name" : "Haishan"
+}, {
+  "address" : "236台灣新北市土城區捷運土城站",
+  "id" : "078",
+  "latitude" : 24.973093,
+  "line" : "Bannan Line",
+  "longitude" : 121.444361,
+  "name" : "Tucheng"
+}, {
+  "address" : "236台灣新北市土城區捷運永寧站",
+  "id" : "077",
+  "latitude" : 24.966726,
+  "line" : "Bannan Line",
+  "longitude" : 121.436072,
+  "name" : "Yongning"
+}, {
+  "address" : "220台灣新北市板橋區捷運江子翠站",
+  "id" : "084",
+  "latitude" : 25.030009,
+  "line" : "Bannan Line",
+  "longitude" : 121.472389,
+  "name" : "Jianzicui"
+} ]

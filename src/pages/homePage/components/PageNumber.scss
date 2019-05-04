@@ -1,0 +1,43 @@
+@import '../../../scss/variable.scss';
+
+.pageNum-wrap{
+  margin-top: 20px;
+}
+.pageNum-li{
+  height: 28px;
+  width: 28px;
+  border-radius: 50%;
+  margin: 4px;
+  transition: .5s;
+  @include btnInteractiveBorder($color_ligthGray);
+  cursor: pointer;
+  z-index: 3;
+}
+.pageNum-ul{
+  @media (max-width: 768px) {
+    justify-content: center;
+    align-items: center;
+  }
+}
+.pageNum-li.active{
+  background-color: $color_primary;
+  border-color: $color_primary;
+  color: #fff;
+  pointer-events: none;
+}
+.angle-left, .angle-right{
+  color: $color_primary;
+  font-size: 18px;
+  padding: 5px;
+  cursor: pointer;
+  transition: .3s;
+  &:hover, &:active{
+    color: lighten($color_primary, 15%);
+  }
+}
+.angle-left{
+  margin-right: 10px;
+}
+.angle-right{
+  margin-left: 10px;
+}

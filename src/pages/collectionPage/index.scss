@@ -1,0 +1,123 @@
+@import '../../scss/variable.scss';
+
+.collection-wrap{
+  padding-top: 55px;
+  color: $color_black;
+}
+.collection-cards{
+  margin-top: 20px;
+}
+.member-info{
+  padding-bottom: 28px;
+  border-bottom: 1px solid $color_btnGray;
+}
+.user{
+  font-size: 18px;
+  color: $color_primary;
+}
+.member-name{
+  font-size: 18px;
+  color: $color_Secondary;
+  margin-left: 5px;
+  font-weight: bold;
+}
+.collectionNum-title{
+  font-size: 18px;
+  margin-top: 20px;
+}
+.collection-category-wrap{
+  margin-top: 10px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  @media (max-width: 1200px) {
+    flex-direction: column;
+    height: 50px;
+    align-content: space-between;
+  }
+  @media (max-width: 768px) {
+    height: 70px;
+  }
+  @media (max-width: 576px) {
+    height: 140px;
+    align-content: initial;
+    & .category-item{
+      margin-bottom: 10px;
+    }
+  }
+  @media (max-width: 400px) {
+    align-content: space-between;
+  }
+}
+.collection-category-wrap.en{
+  @media (max-width: 768px) {
+    height: 105px;
+  }
+}
+.all,.item-0,.item-1,.item-2,.item-3,.item-4,.item-5,.item-6,.item-7,.item-8{
+  color: $color_InnerText;
+  &::before{
+    content: '全部:';
+    display: inline-block;
+    color: $color_primary;
+    margin-right: 5px;
+  }
+}
+.item-0::before{
+  content: '養生溫泉:'
+}
+.item-1::before{
+  content: '單車遊蹤:'
+}
+.item-2::before{
+  content: '歷史建築:'
+}
+.item-3::before{
+  content: '宗教信仰:'
+}
+.item-4::before{
+  content: '藝文館所:'
+}
+.item-5::before{
+  content: '公共藝術:'
+}
+.item-6::before{
+  content: '藍色公路:'
+}
+.item-7::before{
+  content: '親子共遊:'
+}
+.item-8::before{
+  content: '戶外踏青:'
+}
+
+
+.all.en::before{
+  content: 'All:'
+}
+.item-0.en::before{
+  content: 'SPA:'
+}
+.item-1.en::before{
+  content: 'Cycling:'
+}
+.item-2.en::before{
+  content: 'Historic Buildings:'
+}
+.item-3.en::before{
+  content: 'Faith:'
+}
+.item-4.en::before{
+  content: 'Art Gallery:'
+}
+.item-5.en::before{
+  content: 'Public Art:'
+}
+.item-6.en::before{
+  content: 'Bule Highway:'
+}
+.item-7.en::before{
+  content: 'Family Activities:'
+}
+.item-8.en::before{
+  content: 'Outdoor Walking:'
+}

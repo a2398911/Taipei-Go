@@ -1,0 +1,68 @@
+@import '../scss/variable.scss';
+
+.footer-bg{
+  background: url(../img/footer.png) center/cover no-repeat;
+  width: 100%;
+  height: 400px;
+  position: relative;
+  z-index: -1;
+  @media (max-width: 768px) {
+    height: 300px;
+  }
+  @media (max-width: 576px) {
+    background: none;
+    height: 50px;
+  }
+}
+.footer{
+  color: #fff;
+  font-size: 14px;
+  background-color: rgba($color_black, .95);
+  position: relative;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 10px 0;
+  width: 100%;
+}
+.github, .facebook-square{
+  font-size: 24px;
+}
+.github{
+  margin-left: auto;
+  margin-right: 10px;
+  @media (max-width: 576px) {
+    margin-left: 0;
+  }
+}
+.copyright{
+  font-size: 12px;
+  @media (max-width: 576px) {
+    margin-top: 5px;
+  }
+}
+.footer-icon-wrap{
+  margin-bottom: 5px;
+  margin-left: auto;
+  @media (max-width: 576px) {
+    margin-left: 0;
+    display: flex;
+    justify-content: center;
+  }
+}
+.footer-info{
+  margin-left: 15px;
+  @media (max-width: 768px) {
+    display: none;
+  }
+  @media (max-width: 992px) {
+    margin-left: 0;
+    margin-top: 5px;
+  }
+}
+.logo-wrap{
+  display: flex;
+  @media (max-width: 992px) {
+    flex-direction: column
+  }
+}

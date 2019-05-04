@@ -1,0 +1,67 @@
+$color_focus: #e83828;
+$color_black: #22223a;
+$color_primary: #6692ff;
+$color_Secondary: #4e5aff;
+$color_signInGray: #efefef;
+$color_btnGray: #dcdddd;
+$color_ligthGray: #b5b5b6;
+$color_darkhGray: #727171;
+$color_InnerText: #4e5e7d;
+$color_MRT_yellow: #ffab32;
+$color_MRT_green: #13ae67;
+$color_MRT_red: #e2180e;
+$color_MRT_brown: #c9a063;
+$color_MRT_blue: #00a0e9;
+
+@mixin center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+@mixin centerY {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+@mixin centerX {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+@mixin btnInteractive($color){
+  background-color: $color;
+  &:active, &:hover {
+    background-color: darken($color, 8%);
+  }
+  &:focus{
+    box-shadow: 0 0 1px 2.5px rgba($color, .5);
+    z-index: 1;
+  }
+}
+@mixin btnInteractiveBorder($color){
+  border: 1px solid $color;
+  color: $color;
+  &:active, &:hover {
+    background-color: darken($color, 8%);
+    color: #fff;
+  }
+  &:focus{
+    box-shadow: 0 0 1px 2.5px rgba($color, .5);
+    z-index: 1;
+  }
+}
+@mixin circleBtn($size,$color,$textColor){
+  height: $size;
+  width: $size;
+  background-color: $color;
+  color: $textColor;
+  border-radius: 50%;
+  &:active, &:hover {
+    background-color: darken($color, 8%);
+  }
+  &:focus{
+    box-shadow: 0 0 1px 2.5px rgba($color, .5);
+    z-index: 1;
+  }
+}

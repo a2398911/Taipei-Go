@@ -1,0 +1,61 @@
+@import '../scss/variable.scss';
+
+.remind-box{
+  position: fixed;
+  height: 40%;
+  width: 35%;
+  max-height: 300px;
+  min-width: 300px;
+  max-width: 350px;
+  z-index: 10;
+  @include center();
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 3px 8px 0px rgba($color_black, .5);
+  animation: showUp .5s;
+}
+.remind-title{
+  color: $color_Secondary;
+  text-align: center;
+}
+.remind-btn{
+  padding: 5px 20px;
+  background-color: $color_focus;
+  color: #fff;
+  border-radius: 14px;
+  @include btnInteractive($color_focus);
+  transition: .5s;
+  margin-top: 20px;
+}
+.checkmark {
+  display: block;
+  height: 120px;
+  position: relative;
+  width: 120px;
+  margin: auto;
+  border: 2px solid $color_Secondary;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+.checkmark:after {
+  animation: check .5s .3s both;
+}
+.checkmark:after {
+  transform: scaleX(-1) rotate(135deg);
+  transform-origin: left top;
+  border-right: 15px solid $color_Secondary;
+  border-top: 15px solid $color_Secondary;
+  content: '';
+  display: block;
+  height: 70px;
+  left: 25px;
+  position: absolute;
+  top: 65px;
+  width: 35px;
+}
+.exclamation-circle{
+  font-size: 130px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: $color_Secondary;
+}

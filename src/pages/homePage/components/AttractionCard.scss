@@ -1,0 +1,265 @@
+@import '../../../scss/variable.scss';
+
+.attractionCard{
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 3px 3px 10px 0px rgba($color_ligthGray, .5);
+  transition: .5s;
+  cursor: pointer;
+  margin-bottom: 45px;
+  @media (max-width: 992px) {
+    min-height: 200px;
+  }
+  @media (max-width: 576px) {
+    max-height: 100px;
+    min-height: initial;
+  }
+  &:hover{
+    transform: translate(-5px, -5px);
+    box-shadow: 10px 10px 15px 0px rgba($color_ligthGray, .3);
+  }
+  .attractionCard-photo{
+    width: 100%;
+    padding-bottom: 67.5675676%;
+    background: url() center/cover no-repeat;
+    position: relative;
+    @media (max-width:992px) {
+      max-width: 250px;
+      padding-bottom: initial;
+    }
+    @media (max-width:768px) {
+      width: 150%;
+      min-width: 100px;
+    }
+    @media (max-width:576px) {
+      width: 100px;
+    }
+  }
+  .attractionCard-heart{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    @include circleBtn(40px, rgba(#fff, .5), #fff);
+    transition: .5s;
+    @media (max-width:576px) {
+      transform: scale(.8);
+      right: 5px;
+      top: 5px;
+    }
+    .heart{
+      font-size: 20px;
+      background: url(../../../img//heart-icon.svg) center/cover no-repeat;
+      height: 25px;
+      width: 29px;
+      transition: .3s;
+      @include center();
+    }
+  }
+  .attractionCard-MRT, .attractionCard-dist{
+    position: absolute;
+    left: 0;
+    padding: 5px 10px;
+    color: #fff;
+    border-radius: 0 15px 15px 0;
+    font-size: 14px;
+    @media (max-width: 576px) {
+      padding: 1px 10px;
+    }
+  }
+  .attractionCard-MRT{
+    bottom: 40px;
+    max-width: 150px;
+    &::before{
+      content: '';
+      display: block;
+      background: url(../../../img/MRT-icon.svg) center/cover no-repeat;
+      height: 16px;
+      width: 16px;
+      margin-right: 5px;
+    }
+    @media (max-width: 576px) {
+      bottom: 10px;
+      max-width: 90px;
+    }
+    & span{
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }
+  .attractionCard-dist{
+    font-size: 13px;
+    bottom: 16px;
+    background-color: $color_Secondary;
+  }
+  .MRT-yellow{
+    background-color: $color_MRT_yellow;
+  }
+  .MRT-green{
+    background-color: $color_MRT_green;
+  }
+  .MRT-red{
+    background-color: $color_MRT_red;
+  }
+  .MRT-brown{
+    background-color: $color_MRT_brown;
+  }
+  .MRT-blue{
+    background-color: $color_MRT_blue;
+  }
+  .attractionCard-content{
+    background-color: #fff;
+    padding: 20px 10px;
+    width: 100%;
+    position: relative;
+    @media (max-width: 992px) {
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+    @media (max-width: 768px) {
+      width: 260px;
+    }
+    @media (max-width: 576px) {
+      padding: 10px;
+      width: 100%;
+    }
+  }
+  .attractionCard-tag{
+    position: absolute;
+    top: -22.5px;
+    right: 25px;
+    @include circleBtn(45px, $color_primary, #fff);
+    transition: .5s;
+    font-size: 13px;
+    box-shadow: 3px 3px 10px 0px rgba($color_primary, .5);
+    display: flex;
+    @media (max-width:992px) {
+      top: initial;
+    }
+    @media (max-width:768px) {
+      display: flex;
+    }
+    @media (max-width:576px) {
+      display: none;
+    }
+    &.en{
+      height: 45px;
+      width: 80px;
+      border-radius: 22.5px;
+      font-size: 12px;
+      right: 10px;
+    }
+  }
+  .tagText-wrap{
+    width: 80%;
+    text-align: center;
+  }
+  .attractionCard-content-title{
+    color: $color_InnerText;
+    width: 75%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    @media (max-width: 576px) {
+      font-size: 14px;
+      overflow: initial;
+      white-space: initial;
+      text-overflow: initial;
+      width: 100%;
+    }
+    @media (max-width: 400px) {
+      width: 75%;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }
+  .attractionCard-content-title.en{
+    width: 60%;
+  }
+  .attractionCard-content-subtilte{
+    font-size: 13px;
+    color: $color_primary;
+    margin: 0;
+    margin-top: 5px;
+  }
+  .map-marker{
+    margin-right: 4px;
+    font-size: 12px;
+  }
+  .attractionCard-content-texts{
+    color: lighten($color_InnerText, 30%);
+    text-align: justify;
+    margin: 10px 0;
+    font-size: 14px;
+    @media (max-width:992px) {
+      margin-top: 30px;
+    }
+    @media (max-width: 768px) {
+      display: block;
+    }
+    @media (max-width: 576px){
+      display: none;
+    }
+  }
+  .attractionCard-content-texts.en{
+    text-align: initial;
+  }
+  .attractionCard-details-wrap{
+    @media (max-width: 992px) {
+      margin-top: auto;
+    }
+  }
+  .attractionCard-details-btn{
+    padding: 5px 10px;
+    border-radius: 15px;
+    @include btnInteractiveBorder($color_Secondary);
+    transition: .3s;
+    @media (max-width:992px) {
+      order: 2;
+    }
+    @media (max-width: 576px) {
+      font-size: 13px;
+    }
+  }
+  .attractionCard-details-time{
+    font-size: 12px;
+    color: $color_ligthGray;
+    max-width: 60%;
+    & p {
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      margin: 0;
+    }
+    &::before{
+      content: '';
+      display: inline-block;
+      background: url(../../../img/clock-regular.svg) center/cover no-repeat;
+      height: 13px;
+      width: 13px;
+      margin-right: 5px;
+      flex-shrink: 0;
+    }
+    @media (max-width: 992px) {
+      max-width: 80%;
+    }
+    @media (max-width: 768px) {
+      max-width: 60%;
+    }
+    @media (max-width: 340px) {
+      max-width: 40%;
+    }
+  }
+  .attractionCard-content-addres{
+    width: 90%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: $color_Secondary;
+    font-size: 12px;
+    margin: 5px 0;
+    white-space: nowrap;
+  }
+}

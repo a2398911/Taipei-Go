@@ -1,0 +1,27 @@
+@import '../../../scss/variable.scss';
+
+.searchBar-wrap-mobile{
+  height: 280px;
+  background-color: #041f57;
+  display: none;
+  @media (max-width: 768px) {
+    display: flex;
+  }
+  .search, .select{
+    background-color: #fff;
+    border-radius: 20px;
+    height: 40px;
+  }
+  .placeholder{
+    width: 90%;
+  }
+  .search-btn, .searchAdvanced-btn{
+    flex: 1;
+  }
+  .search-btn{
+    border-radius: 20px 0 0 20px;
+  }
+  .search-wrap, .select-wrap, .search-btn-wrap{
+    margin: 10px 0; 
+  }
+}

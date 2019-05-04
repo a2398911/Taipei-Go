@@ -1,0 +1,2969 @@
+{
+  "Tourist": [
+    {
+      "id": 1,
+      "place_id": "ChIJd0tacReuQjQRi1K2WQ3Eswo",
+      "stitle": "新北投溫泉區"
+    },
+    {
+      "id": 2,
+      "place_id": "ChIJ604BuRapQjQR6JNutnPhit0",
+      "stitle": "大稻埕碼頭"
+    },
+    {
+      "id": 3,
+      "opening_hours": [
+        "Monday: Off day",
+        "Tuesday: 9:30 AM – 12:00 PM, 1:30 – 5:00 PM",
+        "Wednesday: 9:30 AM – 12:00 PM, 1:30 – 5:00 PM",
+        "Thursday: 9:30 AM – 12:00 PM, 1:30 – 5:00 PM",
+        "Friday: 9:30 AM – 12:00 PM, 1:30 – 5:00 PM",
+        "Saturday: 9:30 AM – 12:00 PM, 1:30 – 5:00 PM",
+        "Sunday: 9:30 AM – 12:00 PM, 1:30 – 5:00 PM"
+      ],
+      "place_id": "ChIJm5fgyKOuQjQR3vKgJWoDVPk",
+      "stitle": "士林官邸"
+    },
+    {
+      "id": 4,
+      "opening_hours": [
+        "Monday: 8:30 AM – 6:30 PM",
+        "Tuesday: 8:30 AM – 6:30 PM",
+        "Wednesday: 8:30 AM – 6:30 PM",
+        "Thursday: 8:30 AM – 6:30 PM",
+        "Friday: 8:30 AM – 9:00 PM",
+        "Saturday: 8:30 AM – 9:00 PM",
+        "Sunday: 8:30 AM – 6:30 PM"
+      ],
+      "place_id": "ChIJfUpAzTqsQjQRwQl6ORhwbV0",
+      "stitle": "國立故宮博物院"
+    },
+    {
+      "id": 5,
+      "opening_hours": [
+        "Monday: 9:00 AM – 5:00 PM",
+        "Tuesday: 8:30 AM – 9:00 PM",
+        "Wednesday: 8:30 AM – 9:00 PM",
+        "Thursday: 8:30 AM – 9:00 PM",
+        "Friday: 8:30 AM – 9:00 PM",
+        "Saturday: 8:30 AM – 9:00 PM",
+        "Sunday: 9:00 AM – 5:00 PM"
+      ],
+      "place_id": "ChIJC1DM2kSuQjQRHQpu_eh59Mg",
+      "stitle": "北投圖書館"
+    },
+    {
+      "id": 6,
+      "place_id": "ChIJS8fPJPitQjQRebDDT6PjC1w",
+      "stitle": "陽明山溫泉區"
+    },
+    {
+      "id": 7,
+      "opening_hours": [
+        "Monday: Open all day",
+        "Tuesday: Open all day",
+        "Wednesday: Open all day",
+        "Thursday: Open all day",
+        "Friday: Open all day",
+        "Saturday: Open all day",
+        "Sunday: Open all day"
+      ],
+      "place_id": "ChIJc1dD3nGvQjQR87RyJSb9nwo",
+      "stitle": "關渡、金色水岸、八里左岸自行車道"
+    },
+    {
+      "id": 8,
+      "opening_hours": [
+        "Monday: Open all day",
+        "Tuesday: Open all day",
+        "Wednesday: Open all day",
+        "Thursday: Open all day",
+        "Friday: Open all day",
+        "Saturday: Open all day",
+        "Sunday: Open all day"
+      ],
+      "place_id": "ChIJnzZlOoCpQjQRH-WG9egh-2E",
+      "stitle": "大安森林公園"
+    },
+    {
+      "id": 9,
+      "place_id": "ChIJq73cSEKuQjQRF6Pddi_UFeg",
+      "stitle": "地熱谷"
+    },
+    {
+      "id": 10,
+      "opening_hours": [
+        "Monday: Open all day",
+        "Tuesday: Open all day",
+        "Wednesday: Open all day",
+        "Thursday: Open all day",
+        "Friday: Open all day",
+        "Saturday: Open all day",
+        "Sunday: Open all day"
+      ],
+      "place_id": "ChIJJa7chrKrQjQRujG6Hz0IazI",
+      "stitle": "南港山系-象山親山步道"
+    },
+    {
+      "id": 11,
+      "opening_hours": [
+        "Monday: 6:00 – 10:00 PM",
+        "Tuesday: 6:00 – 10:00 PM",
+        "Wednesday: 6:00 – 10:00 PM",
+        "Thursday: 6:00 – 10:00 PM",
+        "Friday: 6:00 – 10:00 PM",
+        "Saturday: 6:00 – 10:00 PM",
+        "Sunday: 6:00 – 10:00 PM"
+      ],
+      "place_id": "ChIJCd7n16ipQjQRihzEWF4z6Pg",
+      "stitle": "艋舺龍山寺"
+    },
+    {
+      "id": 12,
+      "place_id": "ChIJG3jOqVmpQjQRlMAW5wvvwrA",
+      "stitle": "行天宮"
+    },
+    {
+      "id": 13,
+      "opening_hours": [
+        "Monday: Off day",
+        "Tuesday: 9:00 AM – 5:00 PM",
+        "Wednesday: 9:00 AM – 5:00 PM",
+        "Thursday: 9:00 AM – 5:00 PM",
+        "Friday: 9:00 AM – 5:00 PM",
+        "Saturday: 9:00 AM – 5:00 PM",
+        "Sunday: 9:00 AM – 5:00 PM"
+      ],
+      "place_id": "ChIJSU4BnUSuQjQRPMNi3hzXzAM",
+      "stitle": "梅庭"
+    },
+    {
+      "id": 14,
+      "opening_hours": [
+        "Monday: 9:00 AM – 6:00 PM",
+        "Tuesday: 9:00 AM – 6:00 PM",
+        "Wednesday: 9:00 AM – 6:00 PM",
+        "Thursday: 9:00 AM – 6:00 PM",
+        "Friday: 9:00 AM – 6:00 PM",
+        "Saturday: 9:00 AM – 6:00 PM",
+        "Sunday: 9:00 AM – 6:00 PM"
+      ],
+      "place_id": "ChIJTamiuZ2pQjQRsmnfkkID6UM",
+      "stitle": "中正紀念堂"
+    },
+    {
+      "id": 15,
+      "opening_hours": [
+        "Monday: Off day",
+        "Tuesday: 9:00 AM – 5:00 PM",
+        "Wednesday: 9:00 AM – 5:00 PM",
+        "Thursday: 9:00 AM – 5:00 PM",
+        "Friday: 9:00 AM – 5:00 PM",
+        "Saturday: 9:00 AM – 5:00 PM",
+        "Sunday: 9:00 AM – 5:00 PM"
+      ],
+      "place_id": "ChIJXVRz3LmrQjQR1rQIrWs8Q8s",
+      "stitle": "台北探索館"
+    },
+    {
+      "id": 16,
+      "opening_hours": [
+        "Monday: Off day",
+        "Tuesday: 9:00 AM – 5:00 PM",
+        "Wednesday: 9:00 AM – 5:00 PM",
+        "Thursday: 9:00 AM – 5:00 PM",
+        "Friday: 9:00 AM – 5:00 PM",
+        "Saturday: 9:00 AM – 5:00 PM",
+        "Sunday: 9:00 AM – 5:00 PM"
+      ],
+      "place_id": "ChIJ6fE69FCuQjQRPAp8aSmP8a0",
+      "stitle": "北投溫泉博物館"
+    },
+    {
+      "id": 17,
+      "opening_hours": [
+        "Monday: 暫時休館",
+        "Tuesday: 暫時休館",
+        "Wednesday: 暫時休館",
+        "Thursday: 暫時休館",
+        "Friday: 暫時休館",
+        "Saturday: 暫時休館",
+        "Sunday: 暫時休館"
+      ],
+      "place_id": "ChIJ-ZMPywyvQjQROcqIT4atPwQ",
+      "stitle": "琉園水晶博物館(暫時休館)"
+    },
+    {
+      "id": 18,
+      "opening_hours": [
+        "Monday: 9:30 AM – 9:00 PM",
+        "Tuesday: 9:30 AM – 9:00 PM",
+        "Wednesday: 9:30 AM – 9:00 PM",
+        "Thursday: 9:30 AM – 9:00 PM",
+        "Friday: 9:30 AM – 9:00 PM",
+        "Saturday: 9:30 AM – 9:00 PM",
+        "Sunday: 9:30 AM – 9:00 PM"
+      ],
+      "place_id": "ChIJbSTgI2WpQjQRcVwWB2cnyfE",
+      "stitle": "華山1914文化創意產業園區"
+    },
+    {
+      "id": 19,
+      "opening_hours": [
+        "Monday: Off day",
+        "Tuesday: 9:00 AM – 5:00 PM",
+        "Wednesday: 9:00 AM – 5:00 PM",
+        "Thursday: 9:00 AM – 5:00 PM",
+        "Friday: 9:00 AM – 5:00 PM",
+        "Saturday: 9:00 AM – 5:00 PM",
+        "Sunday: 9:00 AM – 5:00 PM"
+      ],
+      "place_id": "ChIJ35pHwXWpQjQR3Q86rghjY2k",
+      "stitle": "長榮海事博物館"
+    },
+    {
+      "id": 20,
+      "opening_hours": [
+        "Monday: Off day",
+        "Tuesday: 10:00 AM – 6:00 PM",
+        "Wednesday: 10:00 AM – 6:00 PM",
+        "Thursday: 10:00 AM – 6:00 PM",
+        "Friday: 10:00 AM – 6:00 PM",
+        "Saturday: 10:00 AM – 6:00 PM",
+        "Sunday: 10:00 AM – 6:00 PM"
+      ],
+      "place_id": "ChIJbVjU3GGpQjQRf-842jJJufc",
+      "stitle": "袖珍博物館"
+    },
+    {
+      "id": 21,
+      "place_id": "ChIJ77Zcf9upQjQR014BnFlbES8",
+      "stitle": "新店溪、大漢溪與淡水河自行車道"
+    },
+    {
+      "id": 22,
+      "opening_hours": [
+        "Monday: Open all day",
+        "Tuesday: Open all day",
+        "Wednesday: Open all day",
+        "Thursday: Open all day",
+        "Friday: Open all day",
+        "Saturday: Open all day",
+        "Sunday: Open all day"
+      ],
+      "place_id": "ChIJGYla20SuQjQRpGbfpJ57k1Q",
+      "stitle": "北投公園"
+    },
+    {
+      "id": 23,
+      "opening_hours": [
+        "Monday: 6:16 AM – 7:47 PM",
+        "Tuesday: 6:16 AM – 7:47 PM",
+        "Wednesday: 6:16 AM – 7:47 PM",
+        "Thursday: 6:16 AM – 7:47 PM",
+        "Friday: 6:16 AM – 7:47 PM",
+        "Saturday: 6:16 AM – 7:47 PM",
+        "Sunday: 6:16 AM – 7:47 PM"
+      ],
+      "place_id": "ChIJ58RTchSpQjQR0nPhT8U-bWk",
+      "stitle": "台北霞海城隍廟"
+    },
+    {
+      "id": 25,
+      "place_id": "ChIJH56c2rarQjQRphD9gvC8BhI",
+      "stitle": "台北101",
+      "park": "松智路及市府路各二處停車場出入口，TAIPEI 101 Mall B2-B4 共1100個車位週邊，500公尺內共15座停車場"
+    },
+    {
+      "id": 26,
+      "place_id": "ChIJS8fPJPitQjQRebDDT6PjC1w",
+      "stitle": "陽明山國家公園"
+    },
+    {
+      "id": 27,
+      "opening_hours": [
+        "Monday: 9:00 AM – 5:00 PM",
+        "Tuesday: 9:00 AM – 5:00 PM",
+        "Wednesday: 9:00 AM – 5:00 PM",
+        "Thursday: 9:00 AM – 5:00 PM",
+        "Friday: 9:00 AM – 5:00 PM",
+        "Saturday: 9:00 AM – 5:00 PM",
+        "Sunday: 9:00 AM – 5:00 PM"
+      ],
+      "place_id": "ChIJj4EySmCqQjQRZte0Cf0G_qo",
+      "stitle": "臺北市立動物園"
+    },
+    {
+      "id": 28,
+      "opening_hours": [
+        "Monday: Open all day",
+        "Tuesday: Open all day",
+        "Wednesday: Open all day",
+        "Thursday: Open all day",
+        "Friday: Open all day",
+        "Saturday: Open all day",
+        "Sunday: Open all day"
+      ],
+      "place_id": "ChIJM4pUiIqsQjQRCsQkmG2dHxU",
+      "stitle": "碧湖公園"
+    },
+    {
+      "id": 30,
+      "opening_hours": [
+        "Monday: 9:00 AM – 6:00 PM",
+        "Tuesday: 9:00 AM – 6:00 PM",
+        "Wednesday: 9:00 AM – 6:00 PM",
+        "Thursday: 9:00 AM – 6:00 PM",
+        "Friday: 9:00 AM – 6:00 PM",
+        "Saturday: 9:00 AM – 6:00 PM",
+        "Sunday: 9:00 AM – 6:00 PM"
+      ],
+      "place_id": "ChIJwyJxyO6pQjQRilcOb_lBRr4",
+      "stitle": "國父紀念館"
+    },
+    {
+      "id": 31,
+      "opening_hours": [
+        "Monday: Open all day",
+        "Tuesday: Open all day",
+        "Wednesday: Open all day",
+        "Thursday: Open all day",
+        "Friday: Open all day",
+        "Saturday: Open all day",
+        "Sunday: Open all day"
+      ],
+      "place_id": "ChIJL25qhuqsQjQRjzwIZ7a6UbI",
+      "stitle": "大湖公園"
+    },
+    {
+      "id": 32,
+      "opening_hours": [
+        "Monday: 9:00 AM – 5:00 PM",
+        "Tuesday: 9:00 AM – 5:00 PM",
+        "Wednesday: 9:00 AM – 5:00 PM",
+        "Thursday: 9:00 AM – 5:00 PM",
+        "Friday: 9:00 AM – 5:00 PM",
+        "Saturday: 9:00 AM – 5:00 PM",
+        "Sunday: 9:00 AM – 5:00 PM"
+      ],
+      "place_id": "ChIJb5w3o6uuQjQRlsXYoJ97zS4",
+      "stitle": "臺北忠烈祠"
+    },
+    {
+      "id": 33,
+      "place_id": "ChIJ7wenl26vQjQRFF-nvQL9wtI",
+      "stitle": "關渡碼頭-甘豆門"
+    },
+    {
+      "id": 34,
+      "place_id": "ChIJdTet88uuQjQR4RNICl3GWyY",
+      "stitle": "社子島環島與二重疏洪道自行車道"
+    },
+    {
+      "id": 35,
+      "opening_hours": [
+        "Monday: Open all day",
+        "Tuesday: Open all day",
+        "Wednesday: Open all day",
+        "Thursday: Open all day",
+        "Friday: Open all day",
+        "Saturday: Open all day",
+        "Sunday: Open all day"
+      ],
+      "place_id": "ChIJP5qfhn6uQjQR3MEGeIhFZDE",
+      "stitle": "七星山系-天母古道親山步道"
+    },
+    {
+      "id": 36,
+      "place_id": "ChIJQaZzI2mpQjQRk9MTQahdDr0",
+      "stitle": "光點臺北"
+    },
+    {
+      "id": 37,
+      "opening_hours": [
+        "Monday: Off day",
+        "Tuesday: 9:30 AM – 5:30 PM",
+        "Wednesday: 9:30 AM – 5:30 PM",
+        "Thursday: 9:30 AM – 5:30 PM",
+        "Friday: 9:30 AM – 5:30 PM",
+        "Saturday: 9:30 AM – 8:30 PM",
+        "Sunday: 9:30 AM – 5:30 PM"
+      ],
+      "place_id": "ChIJ-ffZ_VGpQjQRcaEDDIjDQHo",
+      "stitle": "臺北市立美術館"
+    },
+    {
+      "id": 38,
+      "place_id": "ChIJZ3Z00aWvQjQRQ7dGyqXvL0M",
+      "stitle": "行天宮北投分宮-忠義廟"
+    },
+    {
+      "id": 39,
+      "place_id": "ChIJq1X1bgiqQjQReJpAZ4lee24",
+      "stitle": "景美溪左、右岸自行車道"
+    },
+    {
+      "id": 40,
+      "place_id": "ChIJzx49raOpQjQR7NYRaIqDppk",
+      "stitle": "國立歷史博物館"
+    },
+    {
+      "id": 41,
+      "place_id": "ChIJY5m-zG2yQjQRqW2lSsUs3sU",
+      "stitle": "冷水坑溫泉區"
+    },
+    {
+      "id": 42,
+      "opening_hours": [
+        "Monday: Off day",
+        "Tuesday: 11:00 AM – 9:30 PM",
+        "Wednesday: 11:00 AM – 9:30 PM",
+        "Thursday: 11:00 AM – 9:30 PM",
+        "Friday: 11:00 AM – 10:00 PM",
+        "Saturday: 11:00 AM – 10:00 PM",
+        "Sunday: 11:00 AM – 9:30 PM"
+      ],
+      "place_id": "ChIJi-yspAmpQjQRxcHc_lwnNHw",
+      "stitle": "西門紅樓"
+    },
+    {
+      "id": 43,
+      "place_id": "ChIJy55HbZyrQjQRgTcmZb7QnQ4",
+      "stitle": "松山慈祐宮"
+    },
+    {
+      "id": 44,
+      "place_id": "ChIJeaOR-EfFDRQRXhAcRnu-PZc",
+      "stitle": "關渡宮"
+    },
+    {
+      "id": 45,
+      "opening_hours": [
+        "Monday: Open all day",
+        "Tuesday: Open all day",
+        "Wednesday: Open all day",
+        "Thursday: Open all day",
+        "Friday: Open all day",
+        "Saturday: Open all day",
+        "Sunday: Open all day"
+      ],
+      "place_id": "ChIJ94Xa7MusQjQR2XOlVIPgdTM",
+      "stitle": "內溝溪景觀生態步道"
+    },
+    {
+      "id": 46,
+      "place_id": "ChIJKX1kH3WpQjQRcyy76pvtt-s",
+      "stitle": "二二八和平公園"
+    },
+    {
+      "id": 47,
+      "opening_hours": [
+        "Monday: Off day",
+        "Tuesday: 9:00 AM – 5:00 PM",
+        "Wednesday: 9:00 AM – 5:00 PM",
+        "Thursday: 9:00 AM – 5:00 PM",
+        "Friday: 9:00 AM – 5:00 PM",
+        "Saturday: 9:00 AM – 6:00 PM",
+        "Sunday: 9:00 AM – 6:00 PM"
+      ],
+      "place_id": "ChIJ42fAy7iuQjQRE2DgdH7p7fQ",
+      "stitle": "國立臺灣科學教育館"
+    },
+    {
+      "id": 48,
+      "place_id": "ChIJVztw6IGqQjQRzHe2LA8qrj8",
+      "stitle": "指南宮"
+    },
+    {
+      "id": 49,
+      "opening_hours": [
+        "Monday: 8:00 AM – 4:30 PM",
+        "Tuesday: 8:00 AM – 4:30 PM",
+        "Wednesday: 8:00 AM – 4:30 PM",
+        "Thursday: 8:00 AM – 4:30 PM",
+        "Friday: 8:00 AM – 4:30 PM",
+        "Saturday: Off day",
+        "Sunday: Off day"
+      ],
+      "place_id": "ChIJicRc8mKpQjQRf52TOLCl-ig",
+      "stitle": "臺北啤酒工廠(原建國啤酒廠)"
+    },
+    {
+      "id": 50,
+      "opening_hours": [
+        "Monday: Off day",
+        "Tuesday: 10:00 AM – 6:00 PM",
+        "Wednesday: 10:00 AM – 6:00 PM",
+        "Thursday: 10:00 AM – 6:00 PM",
+        "Friday: 10:00 AM – 6:00 PM",
+        "Saturday: 10:00 AM – 6:00 PM",
+        "Sunday: 10:00 AM – 6:00 PM"
+      ],
+      "place_id": "ChIJc-TxSWypQjQR-8Eh7elK97Q",
+      "stitle": "台北當代藝術館"
+    },
+    {
+      "id": 51,
+      "opening_hours": [
+        "Monday: Off day",
+        "Tuesday: 10:00 AM – 6:00 PM",
+        "Wednesday: 10:00 AM – 6:00 PM",
+        "Thursday: 10:00 AM – 6:00 PM",
+        "Friday: 10:00 AM – 6:00 PM",
+        "Saturday: 10:00 AM – 6:00 PM",
+        "Sunday: 10:00 AM – 6:00 PM"
+      ],
+      "place_id": "ChIJ64wm5WmuQjQRZ0BQwNMuyBM",
+      "stitle": "北投文物館"
+    },
+    {
+      "id": 52,
+      "opening_hours": [
+        "Monday: 9:00 AM – 6:00 PM",
+        "Tuesday: 9:00 AM – 6:00 PM",
+        "Wednesday: 9:00 AM – 6:00 PM",
+        "Thursday: 9:00 AM – 6:00 PM",
+        "Friday: 9:00 AM – 6:00 PM",
+        "Saturday: 9:00 AM – 6:00 PM",
+        "Sunday: 9:00 AM – 6:00 PM"
+      ],
+      "place_id": "ChIJO0vOI7-rQjQR3Pl9_4cPK8g",
+      "stitle": "松山文創園區"
+    },
+    {
+      "id": 53,
+      "place_id": "ChIJoWFCL2qpQjQRPOoT7nFV3YU",
+      "stitle": "大龍峒保安宮"
+    },
+    {
+      "id": 54,
+      "opening_hours": [
+        "Monday: Open all day",
+        "Tuesday: Open all day",
+        "Wednesday: Open all day",
+        "Thursday: Open all day",
+        "Friday: Open all day",
+        "Saturday: Open all day",
+        "Sunday: Open all day"
+      ],
+      "place_id": "ChIJu_KT_ZeuQjQRkN-j-rM5etM",
+      "stitle": "雙溪生活水岸"
+    },
+    {
+      "id": 55,
+      "opening_hours": [
+        "Monday: 9:00 AM – 5:00 PM",
+        "Tuesday: 9:00 AM – 5:00 PM",
+        "Wednesday: 9:00 AM – 5:00 PM",
+        "Thursday: 9:00 AM – 5:00 PM",
+        "Friday: 9:00 AM – 5:00 PM",
+        "Saturday: 9:00 AM – 5:00 PM",
+        "Sunday: 9:00 AM – 5:00 PM"
+      ],
+      "place_id": "ChIJ4djAF_atQjQRQPDzjrL3Ihc",
+      "stitle": "陽明山中山樓"
+    },
+    {
+      "id": 56,
+      "opening_hours": [
+        "Monday: Off day",
+        "Tuesday: 9:00 AM – 5:00 PM",
+        "Wednesday: 9:00 AM – 5:00 PM",
+        "Thursday: 9:00 AM – 5:00 PM",
+        "Friday: 9:00 AM – 5:00 PM",
+        "Saturday: 9:00 AM – 5:00 PM",
+        "Sunday: 9:00 AM – 5:00 PM"
+      ],
+      "place_id": "ChIJg1xfGKapQjQRm3ri-24jMR4",
+      "stitle": "臺北市鄉土教育中心(剝皮寮歷史街區)"
+    },
+    {
+      "id": 57,
+      "opening_hours": [
+        "Monday: Off day",
+        "Tuesday: 9:00 AM – 5:00 PM",
+        "Wednesday: 9:00 AM – 5:00 PM",
+        "Thursday: 9:00 AM – 5:00 PM",
+        "Friday: 9:00 AM – 5:00 PM",
+        "Saturday: 9:00 AM – 5:00 PM",
+        "Sunday: 9:00 AM – 5:00 PM"
+      ],
+      "place_id": "ChIJa1Rks4ypQjQRPgfDs1jd8RQ",
+      "stitle": "自來水博物館"
+    },
+    {
+      "id": 58,
+      "opening_hours": [
+        "Monday: Open all day",
+        "Tuesday: Open all day",
+        "Wednesday: Open all day",
+        "Thursday: Open all day",
+        "Friday: Open all day",
+        "Saturday: Open all day",
+        "Sunday: Open all day"
+      ],
+      "place_id": "ChIJK-V3dMqpQjQRj4YC5tOD6h8",
+      "stitle": "華中河濱公園"
+    },
+    {
+      "id": 59,
+      "opening_hours": [
+        "Monday: 11:30 AM – 10:00 PM",
+        "Tuesday: 11:30 AM – 10:00 PM",
+        "Wednesday: 11:30 AM – 10:00 PM",
+        "Thursday: 11:30 AM – 10:00 PM",
+        "Friday: 11:30 AM – 10:00 PM",
+        "Saturday: 11:30 AM – 10:00 PM",
+        "Sunday: 11:30 AM – 10:00 PM"
+      ],
+      "place_id": "ChIJcwObHJ6pQjQRQtvoATqmt5k",
+      "stitle": "兩廳院 (國家戲劇院&國家音樂廳)"
+    },
+    {
+      "id": 60,
+      "opening_hours": [
+        "Monday: Off day",
+        "Tuesday: 10:00 AM – 6:00 PM",
+        "Wednesday: 10:00 AM – 6:00 PM",
+        "Thursday: 10:00 AM – 6:00 PM",
+        "Friday: 10:00 AM – 8:00 PM",
+        "Saturday: 10:00 AM – 6:00 PM",
+        "Sunday: Off day"
+      ],
+      "place_id": "ChIJnWhI-nuuQjQRl0_9nWKKLw8",
+      "stitle": "天母白屋"
+    },
+    {
+      "id": 61,
+      "opening_hours": [
+        "Monday: Off day",
+        "Tuesday: 9:00 AM – 5:00 PM",
+        "Wednesday: 9:00 AM – 5:00 PM",
+        "Thursday: 9:00 AM – 5:00 PM",
+        "Friday: 9:00 AM – 5:00 PM",
+        "Saturday: 9:00 AM – 5:30 PM",
+        "Sunday: 9:00 AM – 5:30 PM"
+      ],
+      "place_id": "ChIJ5zkxI2yvQjQR-kyqKyvvdns",
+      "stitle": "關渡自然公園"
+    },
+    {
+      "id": 62,
+      "place_id": "ChIJMRbm0_usQjQR7fQ2U5bZn-4",
+      "stitle": "碧山巖開漳聖王廟"
+    },
+    {
+      "id": 63,
+      "opening_hours": [
+        "Monday: Off day",
+        "Tuesday: 9:00 AM – 5:00 PM",
+        "Wednesday: 9:00 AM – 5:00 PM",
+        "Thursday: 9:00 AM – 5:00 PM",
+        "Friday: 9:00 AM – 5:00 PM",
+        "Saturday: 9:00 AM – 5:00 PM",
+        "Sunday: 9:00 AM – 5:00 PM"
+      ],
+      "place_id": "ChIJ85xGkFSpQjQRzTIFvt5DcmU",
+      "stitle": "林安泰古厝民俗文物館"
+    },
+    {
+      "id": 64,
+      "place_id": "ChIJpVGPVhKsQjQR1aybiYbrtZc",
+      "stitle": "美麗華大直影城"
+    },
+    {
+      "id": 65,
+      "opening_hours": [
+        "Monday: Open all day",
+        "Tuesday: Open all day",
+        "Wednesday: Open all day",
+        "Thursday: Open all day",
+        "Friday: Open all day",
+        "Saturday: Open all day",
+        "Sunday: Open all day"
+      ],
+      "place_id": "ChIJSyineripQjQRDzWdSfGRusQ",
+      "stitle": "馬場町紀念公園"
+    },
+    {
+      "id": 66,
+      "opening_hours": [
+        "Monday: Off day",
+        "Tuesday: 9:00 AM – 5:00 PM",
+        "Wednesday: 9:00 AM – 5:00 PM",
+        "Thursday: 9:00 AM – 5:00 PM",
+        "Friday: 9:00 AM – 5:00 PM",
+        "Saturday: 9:00 AM – 5:00 PM",
+        "Sunday: 9:00 AM – 5:00 PM"
+      ],
+      "place_id": "ChIJ5UsB_5uuQjQRI9fGBstDWS4",
+      "stitle": "芝山文化生態綠園(芝山岩展示館)"
+    },
+    {
+      "id": 67,
+      "place_id": "ChIJFZvhGwCsQjQR-eJ5peGSvPk",
+      "stitle": "大佳碼頭-圓山仔"
+    },
+    {
+      "id": 68,
+      "opening_hours": [
+        "Monday: 9:00 – 11:30 AM",
+        "Tuesday: 9:00 – 11:30 AM",
+        "Wednesday: 9:00 – 11:30 AM",
+        "Thursday: 9:00 – 11:30 AM",
+        "Friday: 9:00 – 11:30 AM",
+        "Saturday: Off day",
+        "Sunday: Off day"
+      ],
+      "place_id": "ChIJJXNJjQqpQjQR-UfWtMFthwI",
+      "stitle": "總統府"
+    },
+    {
+      "id": 69,
+      "opening_hours": [
+        "Monday: Open all day",
+        "Tuesday: Open all day",
+        "Wednesday: Open all day",
+        "Thursday: Open all day",
+        "Friday: Open all day",
+        "Saturday: Open all day",
+        "Sunday: Open all day"
+      ],
+      "place_id": "ChIJoxwgmQCsQjQRseq7tt1OFuU",
+      "stitle": "大佳河濱公園"
+    },
+    {
+      "id": 70,
+      "place_id": "ChIJVQLmGXWpQjQRE2IFPLgJ0b0",
+      "stitle": "臺北賓館"
+    },
+    {
+      "id": 71,
+      "opening_hours": [
+        "Monday: Open all day",
+        "Tuesday: Open all day",
+        "Wednesday: Open all day",
+        "Thursday: Open all day",
+        "Friday: Open all day",
+        "Saturday: Open all day",
+        "Sunday: Open all day"
+      ],
+      "place_id": "ChIJX9SSyAirQjQR9B9f7PKLqJo",
+      "stitle": "南港山系-虎山親山步道"
+    },
+    {
+      "id": 72,
+      "opening_hours": [
+        "Monday: 10:00 AM – 10:00 PM",
+        "Tuesday: 10:00 AM – 10:00 PM",
+        "Wednesday: 10:00 AM – 10:00 PM",
+        "Thursday: 10:00 AM – 10:00 PM",
+        "Friday: 10:00 AM – 10:00 PM",
+        "Saturday: 10:00 AM – 10:00 PM",
+        "Sunday: 10:00 AM – 10:00 PM"
+      ],
+      "place_id": "ChIJTW8Gs4epQjQRRA0-FAu_O0k",
+      "stitle": "紫藤廬"
+    },
+    {
+      "id": 73,
+      "opening_hours": [
+        "Monday: Open all day",
+        "Tuesday: Open all day",
+        "Wednesday: Open all day",
+        "Thursday: Open all day",
+        "Friday: Open all day",
+        "Saturday: Open all day",
+        "Sunday: Open all day"
+      ],
+      "place_id": "ChIJqaqj1luuQjQROyPpbyXGiuQ",
+      "stitle": "大屯山系-軍艦岩親山步道"
+    },
+    {
+      "id": 74,
+      "opening_hours": [
+        "Monday: Off day",
+        "Tuesday: 9:00 AM – 5:00 PM",
+        "Wednesday: 9:00 AM – 5:00 PM",
+        "Thursday: 9:00 AM – 5:00 PM",
+        "Friday: 9:00 AM – 5:00 PM",
+        "Saturday: 9:00 AM – 5:00 PM",
+        "Sunday: 9:00 AM – 5:00 PM"
+      ],
+      "place_id": "ChIJWXzyH0WuQjQRfpg3X-At_0Q",
+      "stitle": "凱達格蘭文化館"
+    },
+    {
+      "id": 75,
+      "opening_hours": [
+        "Monday: 8:30 AM – 9:00 PM",
+        "Tuesday: 8:30 AM – 9:00 PM",
+        "Wednesday: 8:30 AM – 9:00 PM",
+        "Thursday: 8:30 AM – 9:00 PM",
+        "Friday: 8:30 AM – 9:00 PM",
+        "Saturday: 9:00 AM – 12:00 PM",
+        "Sunday: Off day"
+      ],
+      "place_id": "ChIJxccAAQ2pQjQRgGoVa3_yuI4",
+      "stitle": "台北北門郵局(台北901支)"
+    },
+    {
+      "id": 76,
+      "opening_hours": [
+        "Monday: Open all day",
+        "Tuesday: Open all day",
+        "Wednesday: Open all day",
+        "Thursday: Open all day",
+        "Friday: Open all day",
+        "Saturday: Open all day",
+        "Sunday: Open all day"
+      ],
+      "place_id": "ChIJtcqEgg-qQjQR1G3ExAwW5Rk",
+      "stitle": "二格山系-仙跡岩親山步道"
+    },
+    {
+      "id": 77,
+      "place_id": "ChIJnWf3yJipQjQRX34xeCAISx4",
+      "stitle": "牯嶺街小劇場"
+    },
+    {
+      "id": 78,
+      "opening_hours": [
+        "Monday: Off day",
+        "Tuesday: 9:00 AM – 5:00 PM",
+        "Wednesday: 9:00 AM – 5:00 PM",
+        "Thursday: 9:00 AM – 5:00 PM",
+        "Friday: 9:00 AM – 5:00 PM",
+        "Saturday: 9:00 AM – 5:00 PM",
+        "Sunday: 9:00 AM – 5:00 PM"
+      ],
+      "place_id": "ChIJJxO0DC6sQjQRLIeZfWBrKN0",
+      "stitle": "林語堂故居"
+    },
+    {
+      "id": 79,
+      "place_id": "ChIJi6foVRGpQjQRJE_bg5vQILQ",
+      "stitle": "迪化街店屋"
+    },
+    {
+      "id": 80,
+      "place_id": "ChIJoWFCL2qpQjQRs7QGBRmf42Q",
+      "stitle": "臺北市孔廟"
+    },
+    {
+      "id": 81,
+      "opening_hours": [
+        "Monday: Open all day",
+        "Tuesday: Open all day",
+        "Wednesday: Open all day",
+        "Thursday: Open all day",
+        "Friday: Open all day",
+        "Saturday: Open all day",
+        "Sunday: Open all day"
+      ],
+      "place_id": "ChIJV69K-0CvQjQRAjNwXdEg8no",
+      "stitle": "社子島島頭公園"
+    },
+    {
+      "id": 82,
+      "opening_hours": [
+        "Monday: Open all day",
+        "Tuesday: Open all day",
+        "Wednesday: Open all day",
+        "Thursday: Open all day",
+        "Friday: Open all day",
+        "Saturday: Open all day",
+        "Sunday: Open all day"
+      ],
+      "place_id": "ChIJ_____-__ZzQR4KnO34EmpYs",
+      "stitle": "二格山系-指南宮貓空親山步道"
+    },
+    {
+      "id": 83,
+      "opening_hours": [
+        "Monday: Open all day",
+        "Tuesday: Open all day",
+        "Wednesday: Open all day",
+        "Thursday: Open all day",
+        "Friday: Open all day",
+        "Saturday: Open all day",
+        "Sunday: Open all day"
+      ],
+      "place_id": "ChIJxVdz0MqvQjQRyqvzwh8poF0",
+      "stitle": "大屯山系-貴子坑親山步道"
+    },
+    {
+      "id": 84,
+      "opening_hours": [
+        "Monday: Off day",
+        "Tuesday: 10:00 AM – 5:30 PM",
+        "Wednesday: 10:00 AM – 5:30 PM",
+        "Thursday: 10:00 AM – 5:30 PM",
+        "Friday: 10:00 AM – 5:30 PM",
+        "Saturday: 10:00 AM – 5:30 PM",
+        "Sunday: 10:00 AM – 5:30 PM"
+      ],
+      "place_id": "ChIJ-ffZ_VGpQjQRK8D1GPqahW8",
+      "stitle": "台北故事館"
+    },
+    {
+      "id": 85,
+      "place_id": "ChIJ9cr1fV2uQjQRNg6ENDaVPnw",
+      "stitle": "照明淨寺-情人廟"
+    },
+    {
+      "id": 86,
+      "opening_hours": [
+        "Monday: Off day",
+        "Tuesday: 9:00 AM – 5:00 PM",
+        "Wednesday: 9:00 AM – 5:00 PM",
+        "Thursday: 9:00 AM – 5:00 PM",
+        "Friday: 9:00 AM – 5:00 PM",
+        "Saturday: 9:00 AM – 5:00 PM",
+        "Sunday: 9:00 AM – 5:00 PM"
+      ],
+      "place_id": "ChIJP6xvyLWrQjQRY6zqID59Vrc",
+      "stitle": "信義公民會館"
+    },
+    {
+      "id": 87,
+      "opening_hours": [
+        "Monday: Off day",
+        "Tuesday: 9:30 AM – 5:00 PM",
+        "Wednesday: 9:30 AM – 5:00 PM",
+        "Thursday: 9:30 AM – 5:00 PM",
+        "Friday: 9:30 AM – 5:00 PM",
+        "Saturday: 9:30 AM – 5:00 PM",
+        "Sunday: 9:30 AM – 5:00 PM"
+      ],
+      "place_id": "ChIJcRV3WHOpQjQRFpgzTpxZWgo",
+      "stitle": "國立臺灣博物館"
+    },
+    {
+      "id": 88,
+      "opening_hours": [
+        "Monday: Off day",
+        "Tuesday: 9:00 AM – 5:00 PM",
+        "Wednesday: 9:00 AM – 5:00 PM",
+        "Thursday: 9:00 AM – 5:00 PM",
+        "Friday: 9:00 AM – 5:00 PM",
+        "Saturday: 9:00 AM – 8:00 PM",
+        "Sunday: 9:00 AM – 5:00 PM"
+      ],
+      "place_id": "ChIJl8eBsL6uQjQRwwn6OA2ejxI",
+      "stitle": "臺北市立天文科學教育館"
+    },
+    {
+      "id": 89,
+      "opening_hours": [
+        "Monday: Open all day",
+        "Tuesday: Open all day",
+        "Wednesday: Open all day",
+        "Thursday: Open all day",
+        "Friday: Open all day",
+        "Saturday: Open all day",
+        "Sunday: Open all day"
+      ],
+      "place_id": "ChIJIa-yEpyrQjQRyKkO7C2tuWo",
+      "stitle": "彩虹橋"
+    },
+    {
+      "id": 90,
+      "place_id": "ChIJvSndIK-uQjQRkxK5E0SSCkA",
+      "stitle": "五指山系-劍潭山親山步道"
+    },
+    {
+      "id": 91,
+      "place_id": "ChIJ1eMGHkOuQjQRj6IiCtQdLpg",
+      "stitle": "北投普濟寺"
+    },
+    {
+      "id": 93,
+      "place_id": "ChIJGf3abONFaTQRdcF8WzFbEhM",
+      "stitle": "天后宮"
+    },
+    {
+      "id": 94,
+      "opening_hours": [
+        "Monday: Off day",
+        "Tuesday: 11:00 AM – 9:00 PM",
+        "Wednesday: 11:00 AM – 9:00 PM",
+        "Thursday: 11:00 AM – 9:00 PM",
+        "Friday: 11:00 AM – 9:00 PM",
+        "Saturday: 11:00 AM – 9:00 PM",
+        "Sunday: 11:00 AM – 9:00 PM"
+      ],
+      "place_id": "ChIJc7oe1nGpQjQRGQXV1-s5A_0",
+      "stitle": "臺北國際藝術村"
+    },
+    {
+      "id": 95,
+      "place_id": "ChIJcbGIVhGpQjQR1prTJwWbMhE",
+      "stitle": "李春生紀念教堂"
+    },
+    {
+      "id": 96,
+      "opening_hours": [
+        "Monday: 9:00 AM – 8:00 PM",
+        "Tuesday: 9:00 AM – 8:00 PM",
+        "Wednesday: 9:00 AM – 8:00 PM",
+        "Thursday: 9:00 AM – 8:00 PM",
+        "Friday: 9:00 AM – 8:00 PM",
+        "Saturday: 9:00 AM – 8:00 PM",
+        "Sunday: 9:00 AM – 8:00 PM"
+      ],
+      "place_id": "ChIJk_s92NyipBIRUMnDG8Kq2Js",
+      "stitle": "聖家堂"
+    },
+    {
+      "id": 97,
+      "opening_hours": [
+        "Monday: Open all day",
+        "Tuesday: Open all day",
+        "Wednesday: Open all day",
+        "Thursday: Open all day",
+        "Friday: Open all day",
+        "Saturday: Open all day",
+        "Sunday: Open all day"
+      ],
+      "place_id": "ChIJMRbm0_usQjQROwTu4kmhUSI",
+      "stitle": "白石湖吊橋"
+    },
+    {
+      "id": 98,
+      "place_id": "ChIJ9SJE3QupQjQRqFLbem_b484",
+      "stitle": "中山堂"
+    },
+    {
+      "id": 99,
+      "opening_hours": [
+        "Monday: Open all day",
+        "Tuesday: Open all day",
+        "Wednesday: Open all day",
+        "Thursday: Open all day",
+        "Friday: Open all day",
+        "Saturday: Open all day",
+        "Sunday: Open all day"
+      ],
+      "place_id": "ChIJwZ4flRiuQjQRyPVSTqwCsNw",
+      "stitle": "大屯山系-中正山親山步道"
+    },
+    {
+      "id": 100,
+      "place_id": "ChIJuzfgB6ipQjQR9JnW-Elb070",
+      "stitle": "艋舺清水巖"
+    },
+    {
+      "id": 101,
+      "opening_hours": [
+        "Monday: Off day",
+        "Tuesday: 10:00 AM – 5:00 PM",
+        "Wednesday: 10:00 AM – 5:00 PM",
+        "Thursday: 10:00 AM – 5:00 PM",
+        "Friday: 10:00 AM – 5:00 PM",
+        "Saturday: 10:00 AM – 5:00 PM",
+        "Sunday: 10:00 AM – 5:00 PM"
+      ],
+      "place_id": "ChIJm603z7-rQjQR83X4gSH91qg",
+      "stitle": "臺北偶戲館"
+    },
+    {
+      "id": 102,
+      "opening_hours": [
+        "Monday: Off day",
+        "Tuesday: 9:00 AM – 5:00 PM",
+        "Wednesday: 9:00 AM – 5:00 PM",
+        "Thursday: 9:00 AM – 5:00 PM",
+        "Friday: 9:00 AM – 5:00 PM",
+        "Saturday: 9:00 AM – 5:00 PM",
+        "Sunday: 9:00 AM – 5:00 PM"
+      ],
+      "place_id": "ChIJUfdCqzusQjQRuNKyfvlikoM",
+      "stitle": "順益臺灣原住民博物館"
+    },
+    {
+      "id": 103,
+      "opening_hours": [
+        "Monday: 9:00 AM – 5:00 PM",
+        "Tuesday: 9:00 AM – 5:00 PM",
+        "Wednesday: 9:00 AM – 5:00 PM",
+        "Thursday: 9:00 AM – 5:00 PM",
+        "Friday: 9:00 AM – 5:00 PM",
+        "Saturday: 9:00 AM – 5:00 PM",
+        "Sunday: 9:00 AM – 5:00 PM"
+      ],
+      "place_id": "ChIJD-Zgfv-tQjQR3TCj4Auzvgc",
+      "stitle": "陽明山光復樓"
+    },
+    {
+      "id": 104,
+      "place_id": "ChIJ7RYjqBapQjQR2l0p-ZwCrmQ",
+      "stitle": "陳天來故居"
+    },
+    {
+      "id": 105,
+      "opening_hours": [
+        "Monday: 10:00 AM – 6:00 PM",
+        "Tuesday: 10:00 AM – 6:00 PM",
+        "Wednesday: 10:00 AM – 6:00 PM",
+        "Thursday: 10:00 AM – 6:00 PM",
+        "Friday: 10:00 AM – 8:00 PM",
+        "Saturday: 10:00 AM – 8:00 PM",
+        "Sunday: 10:00 AM – 8:00 PM"
+      ],
+      "place_id": "ChIJp3ENeZWrQjQR0QlUxjkPHpo",
+      "stitle": "BabyBoss職業體驗任意城"
+    },
+    {
+      "id": 106,
+      "opening_hours": [
+        "Monday: Open all day",
+        "Tuesday: Open all day",
+        "Wednesday: Open all day",
+        "Thursday: Open all day",
+        "Friday: Open all day",
+        "Saturday: Open all day",
+        "Sunday: Open all day"
+      ],
+      "place_id": "ChIJi-EO1qapQjQROy2QMtVAeEI",
+      "stitle": "小南門"
+    },
+    {
+      "id": 107,
+      "place_id": "ChIJEYEmz5urQjQRM5_epcZmmuo",
+      "stitle": "錫口(彩虹)碼頭"
+    },
+    {
+      "id": 108,
+      "opening_hours": [
+        "Monday: Off day",
+        "Tuesday: Off day",
+        "Wednesday: 9:30 AM – 4:30 PM",
+        "Thursday: 9:30 AM – 4:30 PM",
+        "Friday: 9:30 AM – 4:30 PM",
+        "Saturday: 9:30 AM – 4:30 PM",
+        "Sunday: 9:30 AM – 4:30 PM"
+      ],
+      "place_id": "ChIJnVLIeKOpQjQRlFIURp8dzck",
+      "stitle": "欽差行臺"
+    },
+    {
+      "id": 109,
+      "opening_hours": [
+        "Monday: 7:00 – 9:00 PM",
+        "Tuesday: Off day",
+        "Wednesday: 7:00 – 9:00 PM",
+        "Thursday: Off day",
+        "Friday: 7:00 – 9:00 PM",
+        "Saturday: 7:00 – 9:30 PM",
+        "Sunday: Off day"
+      ],
+      "place_id": "ChIJd_mcLNCoQjQReW80_YeRhug",
+      "stitle": "臺北戲棚"
+    },
+    {
+      "id": 110,
+      "opening_hours": [
+        "Monday: Open all day",
+        "Tuesday: Open all day",
+        "Wednesday: Open all day",
+        "Thursday: Open all day",
+        "Friday: Open all day",
+        "Saturday: Open all day",
+        "Sunday: Open all day"
+      ],
+      "place_id": "ChIJb4VqdxqrQjQRbxdhAurjVww",
+      "stitle": "南港山系-更寮古道親山步道"
+    },
+    {
+      "id": 112,
+      "opening_hours": [
+        "Monday: Off day",
+        "Tuesday: 9:00 AM – 6:00 PM",
+        "Wednesday: 9:00 AM – 6:00 PM",
+        "Thursday: 9:00 AM – 6:00 PM",
+        "Friday: 9:00 AM – 6:00 PM",
+        "Saturday: 9:00 AM – 6:00 PM",
+        "Sunday: 9:00 AM – 6:00 PM"
+      ],
+      "place_id": "ChIJM0qc95GpQjQRSBGrhjW-qTo",
+      "stitle": "臺北市客家文化主題公園"
+    },
+    {
+      "id": 113,
+      "place_id": "ChIJCbwCtKmpQjQRoCyO9G35UxQ",
+      "stitle": "艋舺青山宮"
+    },
+    {
+      "id": 114,
+      "opening_hours": [
+        "Monday: 9:30 AM – 4:30 PM",
+        "Tuesday: 9:30 AM – 4:30 PM",
+        "Wednesday: 9:30 AM – 4:30 PM",
+        "Thursday: 9:30 AM – 4:30 PM",
+        "Friday: 9:30 AM – 4:30 PM",
+        "Saturday: 9:30 AM – 4:30 PM",
+        "Sunday: Off day"
+      ],
+      "place_id": "ChIJiV2syWOpQjQRrChqa_sz7-o",
+      "stitle": "樹火紀念紙博物館"
+    },
+    {
+      "id": 115,
+      "opening_hours": [
+        "Monday: Open all day",
+        "Tuesday: Open all day",
+        "Wednesday: Open all day",
+        "Thursday: Open all day",
+        "Friday: Open all day",
+        "Saturday: Open all day",
+        "Sunday: Open all day"
+      ],
+      "place_id": "ChIJG-cQ0lapQjQRYL6sDWLWwos",
+      "stitle": "新生公園"
+    },
+    {
+      "id": 116,
+      "opening_hours": [
+        "Monday: Open all day",
+        "Tuesday: Open all day",
+        "Wednesday: Open all day",
+        "Thursday: Open all day",
+        "Friday: Open all day",
+        "Saturday: Open all day",
+        "Sunday: Open all day"
+      ],
+      "place_id": "ChIJ_____0-uQjQRCtNdWBRn19k",
+      "stitle": "大屯山系-關渡親山步道"
+    },
+    {
+      "id": 117,
+      "opening_hours": [
+        "Monday: 9:00 AM – 9:00 PM",
+        "Tuesday: 9:00 AM – 9:00 PM",
+        "Wednesday: 9:00 AM – 9:00 PM",
+        "Thursday: 9:00 AM – 9:00 PM",
+        "Friday: 9:00 AM – 9:00 PM",
+        "Saturday: 9:00 AM – 9:00 PM",
+        "Sunday: 9:00 AM – 9:00 PM"
+      ],
+      "place_id": "ChIJgZ9_SHepQjQRUVSTSQoCVYU",
+      "stitle": "市長官邸藝文沙龍"
+    },
+    {
+      "id": 118,
+      "opening_hours": [
+        "Monday: Open all day",
+        "Tuesday: Open all day",
+        "Wednesday: Open all day",
+        "Thursday: Open all day",
+        "Friday: Open all day",
+        "Saturday: Open all day",
+        "Sunday: Open all day"
+      ],
+      "place_id": "ChIJD6qy852tQjQRo9qCS0u_GDo",
+      "stitle": "七星山系-坪頂古圳親山步道"
+    },
+    {
+      "id": 119,
+      "place_id": "ChIJAew2VpmuQjQRfnxGm_myui4",
+      "stitle": "芝山巖惠濟宮"
+    },
+    {
+      "id": 120,
+      "place_id": "ChIJ__ktES8AaDQROHtMiKeSf9A",
+      "stitle": "天恩宮"
+    },
+    {
+      "id": 121,
+      "place_id": "ChIJ9Wv0NQasQjQR4xXmG0O352c",
+      "stitle": "美堤碼頭"
+    },
+    {
+      "id": 122,
+      "place_id": "ChIJedx-8hOsQjQRqqOX36PVFQg",
+      "stitle": "劍潭古寺"
+    },
+    {
+      "id": 123,
+      "opening_hours": [
+        "Monday: Open all day",
+        "Tuesday: Open all day",
+        "Wednesday: Open all day",
+        "Thursday: Open all day",
+        "Friday: Open all day",
+        "Saturday: Open all day",
+        "Sunday: Open all day"
+      ],
+      "place_id": "ChIJ_____-__ZzQR4KnO34EmpYs",
+      "stitle": "二格山系-指南茶路親山步道"
+    },
+    {
+      "id": 124,
+      "place_id": "ChIJa6ODh3OpQjQRS5S20fKaUTY",
+      "stitle": "臺大醫院西址院區"
+    },
+    {
+      "id": 125,
+      "opening_hours": [
+        "Monday: 9:00 AM – 5:00 PM",
+        "Tuesday: 9:00 AM – 5:00 PM",
+        "Wednesday: Off day",
+        "Thursday: 9:00 AM – 5:00 PM",
+        "Friday: 9:00 AM – 5:00 PM",
+        "Saturday: 9:00 AM – 5:00 PM",
+        "Sunday: 9:00 AM – 5:00 PM"
+      ],
+      "place_id": "ChIJtXNmAtKsQjQRVS7vQCrlHjc",
+      "stitle": "內溝溪生態展示館"
+    },
+    {
+      "id": 127,
+      "opening_hours": [
+        "Monday: 9:00 AM – 5:00 PM",
+        "Tuesday: 9:00 AM – 5:00 PM",
+        "Wednesday: 9:00 AM – 5:00 PM",
+        "Thursday: 9:00 AM – 5:00 PM",
+        "Friday: 9:00 AM – 5:00 PM",
+        "Saturday: Off day",
+        "Sunday: Off day"
+      ],
+      "place_id": "ChIJj_awXBKpQjQRCuoJL8sEmMY",
+      "stitle": "海關博物館"
+    },
+    {
+      "id": 128,
+      "opening_hours": [
+        "Monday: 10:00 AM – 9:00 PM",
+        "Tuesday: 10:00 AM – 9:00 PM",
+        "Wednesday: 10:00 AM – 9:00 PM",
+        "Thursday: 10:00 AM – 9:00 PM",
+        "Friday: 10:00 AM – 9:00 PM",
+        "Saturday: 10:00 AM – 9:00 PM",
+        "Sunday: 10:00 AM – 9:00 PM"
+      ],
+      "place_id": "ChIJeyrNBUKuQjQR9nEJ_PLE_Ps",
+      "stitle": "少帥禪園"
+    },
+    {
+      "id": 129,
+      "opening_hours": [
+        "Monday: 9:30 AM – 5:00 PM",
+        "Tuesday: 9:30 AM – 5:00 PM",
+        "Wednesday: 9:30 AM – 5:00 PM",
+        "Thursday: 9:30 AM – 5:00 PM",
+        "Friday: 9:30 AM – 5:00 PM",
+        "Saturday: 9:30 AM – 5:00 PM",
+        "Sunday: 9:30 AM – 5:00 PM"
+      ],
+      "place_id": "ChIJ_T8x36OuQjQRFrhmtfK0kZA",
+      "stitle": "士林官邸公園"
+    },
+    {
+      "id": 130,
+      "opening_hours": [
+        "Monday: 9:00 AM – 4:00 PM",
+        "Tuesday: 9:00 AM – 4:00 PM",
+        "Wednesday: 9:00 AM – 4:00 PM",
+        "Thursday: 9:00 AM – 4:00 PM",
+        "Friday: 9:00 AM – 4:00 PM",
+        "Saturday: Off day",
+        "Sunday: Off day"
+      ],
+      "place_id": "ChIJTaMuV6epQjQR3-51LVamSA8",
+      "stitle": "國軍歷史文物館"
+    },
+    {
+      "id": 131,
+      "opening_hours": [
+        "Monday: 6:00 AM – 9:00 PM",
+        "Tuesday: 6:00 AM – 9:00 PM",
+        "Wednesday: 6:00 AM – 9:00 PM",
+        "Thursday: 6:00 AM – 9:00 PM",
+        "Friday: 6:00 AM – 9:00 PM",
+        "Saturday: 6:00 AM – 9:00 PM",
+        "Sunday: 6:00 AM – 9:00 PM"
+      ],
+      "place_id": "ChIJSzar2QCqQjQRJfJiD3YJ9W0",
+      "stitle": "景美集應廟"
+    },
+    {
+      "id": 132,
+      "place_id": "ChIJa1AtUhirQjQRRP1RL7O0HmQ",
+      "stitle": "南港山系-南港山縱走親山步道"
+    },
+    {
+      "id": 133,
+      "opening_hours": [
+        "Monday: Open all day",
+        "Tuesday: Open all day",
+        "Wednesday: Open all day",
+        "Thursday: Open all day",
+        "Friday: Open all day",
+        "Saturday: Open all day",
+        "Sunday: Open all day"
+      ],
+      "place_id": "ChIJb4VqdxqrQjQRbxdhAurjVww",
+      "stitle": "南港山系-麗山橋口親山步道"
+    },
+    {
+      "id": 135,
+      "place_id": "ChIJjcilT3KoQjQR0w-W0FqovOU",
+      "stitle": "文昌祠"
+    },
+    {
+      "id": 136,
+      "place_id": "ChIJ63Hu1RWpQjQRvTaLF1sh_Q8",
+      "stitle": "大稻埕辜宅"
+    },
+    {
+      "id": 137,
+      "place_id": "ChIJ2S62qgGtQjQRp4DHpwjGhdI",
+      "stitle": "五指山系-大崙頭尾山親山步道"
+    },
+    {
+      "id": 138,
+      "opening_hours": [
+        "Monday: Off day",
+        "Tuesday: 9:00 AM – 5:00 PM",
+        "Wednesday: 9:00 AM – 5:00 PM",
+        "Thursday: 9:00 AM – 5:00 PM",
+        "Friday: 9:00 AM – 5:00 PM",
+        "Saturday: 9:00 AM – 5:00 PM",
+        "Sunday: 9:00 AM – 5:00 PM"
+      ],
+      "place_id": "ChIJ0QGCo5ipQjQRRVNCf4ND6VM",
+      "stitle": "郵政博物館"
+    },
+    {
+      "id": 139,
+      "place_id": "ChIJ7x-VPHGpQjQR4_mV6YCqegI",
+      "stitle": "臺北愛樂暨梅哲音樂文化館"
+    },
+    {
+      "id": 141,
+      "opening_hours": [
+        "Monday: Off day",
+        "Tuesday: 9:00 AM – 5:00 PM",
+        "Wednesday: 9:00 AM – 5:00 PM",
+        "Thursday: 9:00 AM – 5:00 PM",
+        "Friday: 9:00 AM – 5:00 PM",
+        "Saturday: 9:00 AM – 5:00 PM",
+        "Sunday: Off day"
+      ],
+      "place_id": "ChIJi4BOd0WrQjQRsvPDF7xNNaM",
+      "stitle": "胡適紀念館"
+    },
+    {
+      "id": 143,
+      "opening_hours": [
+        "Monday: Off day",
+        "Tuesday: 9:00 AM – 9:00 PM",
+        "Wednesday: 9:00 AM – 9:00 PM",
+        "Thursday: 9:00 AM – 9:00 PM",
+        "Friday: 9:00 AM – 9:00 PM",
+        "Saturday: 9:00 AM – 9:00 PM",
+        "Sunday: 9:00 AM – 9:00 PM"
+      ],
+      "place_id": "ChIJNejJUcKrQjQRFx6tp48yejo",
+      "stitle": "臺北市立社會教育館"
+    },
+    {
+      "id": 144,
+      "place_id": "ChIJnXkQ53OpQjQRcOgYqDoXly0",
+      "stitle": "濟南教會"
+    },
+    {
+      "id": 145,
+      "opening_hours": [
+        "Monday: Off day",
+        "Tuesday: Off day",
+        "Wednesday: 9:30 AM – 4:30 PM",
+        "Thursday: Off day",
+        "Friday: Off day",
+        "Saturday: 9:30 AM – 4:30 PM",
+        "Sunday: 9:30 AM – 4:30 PM"
+      ],
+      "place_id": "ChIJp5FkF0arQjQRmBrZwkFQW6o",
+      "stitle": "中研院歷史文物陳列館"
+    },
+    {
+      "id": 146,
+      "opening_hours": [
+        "Monday: Open all day",
+        "Tuesday: Open all day",
+        "Wednesday: Open all day",
+        "Thursday: Open all day",
+        "Friday: Open all day",
+        "Saturday: Open all day",
+        "Sunday: Open all day"
+      ],
+      "place_id": "ChIJ_____0-uQjQRCtNdWBRn19k",
+      "stitle": "大屯山系-忠義山親山步道"
+    },
+    {
+      "id": 147,
+      "opening_hours": [
+        "Monday: Open all day",
+        "Tuesday: Open all day",
+        "Wednesday: Open all day",
+        "Thursday: Open all day",
+        "Friday: Open all day",
+        "Saturday: Open all day",
+        "Sunday: Open all day"
+      ],
+      "place_id": "ChIJX4w78_isQjQRYdwoNBXAHT0",
+      "stitle": "五指山系-忠勇山、鯉魚山親山步道"
+    },
+    {
+      "id": 149,
+      "opening_hours": [
+        "Monday: Open all day",
+        "Tuesday: Open all day",
+        "Wednesday: Open all day",
+        "Thursday: Open all day",
+        "Friday: Open all day",
+        "Saturday: Open all day",
+        "Sunday: Open all day"
+      ],
+      "place_id": "ChIJPa9rpw2pQjQRX_lDhL9Wnhw",
+      "stitle": "北門-承恩門"
+    },
+    {
+      "id": 150,
+      "place_id": "ChIJ8yTxWq2uQjQRPx2hN4IMZ-Y",
+      "stitle": "圓山飯店"
+    },
+    {
+      "id": 151,
+      "place_id": "ChIJRy2gvLquQjQRlgtKEgMl6XI",
+      "stitle": "慈諴宮"
+    },
+    {
+      "id": 152,
+      "opening_hours": [
+        "Monday: Off day",
+        "Tuesday: 11:00 AM – 6:00 PM",
+        "Wednesday: 11:00 AM – 6:00 PM",
+        "Thursday: 11:00 AM – 6:00 PM",
+        "Friday: 11:00 AM – 6:00 PM",
+        "Saturday: 11:00 AM – 6:00 PM",
+        "Sunday: Off day"
+      ],
+      "place_id": "ChIJ8VJGTESpQjQRNQ-OEkpyDYQ",
+      "stitle": "家畫廊"
+    },
+    {
+      "id": 153,
+      "opening_hours": [
+        "Monday: Open all day",
+        "Tuesday: Open all day",
+        "Wednesday: Open all day",
+        "Thursday: Open all day",
+        "Friday: Open all day",
+        "Saturday: Open all day",
+        "Sunday: Open all day"
+      ],
+      "place_id": "ChIJke28pHWpQjQR30OL7DM8wTo",
+      "stitle": "東門-景福門"
+    },
+    {
+      "id": 155,
+      "opening_hours": [
+        "Monday: Off day",
+        "Tuesday: Off day",
+        "Wednesday: Off day",
+        "Thursday: 11:30 AM – 5:00 PM",
+        "Friday: 11:30 AM – 5:00 PM",
+        "Saturday: 11:30 AM – 5:00 PM",
+        "Sunday: 11:30 AM – 5:00 PM"
+      ],
+      "place_id": "ChIJbQoYhY-pQjQRxm0c4eecB1A",
+      "stitle": "梁實秋故居"
+    },
+    {
+      "id": 156,
+      "opening_hours": [
+        "Monday: Open all day",
+        "Tuesday: Open all day",
+        "Wednesday: Open all day",
+        "Thursday: Open all day",
+        "Friday: Open all day",
+        "Saturday: Open all day",
+        "Sunday: Open all day"
+      ],
+      "place_id": "ChIJp6s0vUWsQjQRLocNbrRbuqA",
+      "stitle": "五指山系-金面山親山步道"
+    },
+    {
+      "id": 157,
+      "opening_hours": [
+        "Monday: 9:30 AM – 6:30 PM",
+        "Tuesday: 9:30 AM – 6:30 PM",
+        "Wednesday: 9:30 AM – 6:30 PM",
+        "Thursday: 9:30 AM – 6:30 PM",
+        "Friday: 9:30 AM – 6:30 PM",
+        "Saturday: Off day",
+        "Sunday: Off day"
+      ],
+      "place_id": "ChIJn6gu_VerQjQRjtxENjO4y7o",
+      "stitle": "台灣精品館"
+    },
+    {
+      "id": 158,
+      "opening_hours": [
+        "Monday: Open all day",
+        "Tuesday: Open all day",
+        "Wednesday: Open all day",
+        "Thursday: Open all day",
+        "Friday: Open all day",
+        "Saturday: Open all day",
+        "Sunday: Open all day"
+      ],
+      "place_id": "ChIJiZUE0KmtQjQRZnhDG4A0mXU",
+      "stitle": "內雙溪自然公園"
+    },
+    {
+      "id": 159,
+      "opening_hours": [
+        "Monday: Open all day",
+        "Tuesday: Open all day",
+        "Wednesday: Open all day",
+        "Thursday: Open all day",
+        "Friday: Open all day",
+        "Saturday: Open all day",
+        "Sunday: Open all day"
+      ],
+      "place_id": "ChIJHbe4QgOoQjQRpab892gw7nY",
+      "stitle": "迎風河濱公園"
+    },
+    {
+      "id": 160,
+      "opening_hours": [
+        "Monday: Open all day",
+        "Tuesday: Open all day",
+        "Wednesday: Open all day",
+        "Thursday: Open all day",
+        "Friday: Open all day",
+        "Saturday: Open all day",
+        "Sunday: Open all day"
+      ],
+      "place_id": "ChIJQ3AJd5-pQjQRrCY-XQwBFmM",
+      "stitle": "南門-麗正門"
+    },
+    {
+      "id": 161,
+      "opening_hours": [
+        "Monday: Off day",
+        "Tuesday: 10:00 AM – 5:00 PM",
+        "Wednesday: 10:00 AM – 5:00 PM",
+        "Thursday: 10:00 AM – 5:00 PM",
+        "Friday: 10:00 AM – 5:00 PM",
+        "Saturday: 10:00 AM – 5:00 PM",
+        "Sunday: 10:00 AM – 5:00 PM"
+      ],
+      "place_id": "ChIJnYcnC_6tQjQRdi9-BffDr1E",
+      "stitle": "草山行館"
+    },
+    {
+      "id": 162,
+      "place_id": "ChIJEQNOBcesQjQRqSKQ5Himw6k",
+      "stitle": "五指山系-白鷺鷥山、康樂山、明舉山親山步道"
+    },
+    {
+      "id": 164,
+      "place_id": "ChIJS8fPJPitQjQRebDDT6PjC1w",
+      "stitle": "陽明山夜景"
+    },
+    {
+      "id": 165,
+      "place_id": "ChIJQV8RqSKsQjQRp1iHmVJ7Guw",
+      "stitle": "錢穆故居"
+    },
+    {
+      "id": 166,
+      "place_id": "ChIJSaRSK88BaDQRdWE741zJQgY",
+      "stitle": "優人神鼓山上劇場"
+    },
+    {
+      "id": 167,
+      "place_id": "ChIJ-w3d8fSpQjQR3a2ULo8vN8U",
+      "stitle": "寶藏巖"
+    },
+    {
+      "id": 168,
+      "opening_hours": [
+        "Monday: Off day",
+        "Tuesday: 10:00 AM – 5:00 PM",
+        "Wednesday: 10:00 AM – 5:00 PM",
+        "Thursday: 10:00 AM – 5:00 PM",
+        "Friday: 10:00 AM – 5:00 PM",
+        "Saturday: 10:00 AM – 5:00 PM",
+        "Sunday: 10:00 AM – 5:00 PM"
+      ],
+      "place_id": "ChIJtwt6ummpQjQRTSWBNNDkfvI",
+      "stitle": "蔡瑞月舞蹈研究社"
+    },
+    {
+      "id": 169,
+      "opening_hours": [
+        "Monday: 10:00 AM – 5:00 PM",
+        "Tuesday: 10:00 AM – 5:00 PM",
+        "Wednesday: 10:00 AM – 5:00 PM",
+        "Thursday: 10:00 AM – 5:00 PM",
+        "Friday: 10:00 AM – 5:00 PM",
+        "Saturday: 10:00 AM – 5:00 PM",
+        "Sunday: Off day"
+      ],
+      "place_id": "ChIJUxRq3-SrQjQRFeaAHjg9bSs",
+      "stitle": "自由巷及鄭南榕紀念館"
+    },
+    {
+      "id": 170,
+      "place_id": "",
+      "opening_hours": [
+        "Monday: 09 :00 AM – 5:30 PM",
+        "Tuesday: 09 :00 AM – 5:30 PM",
+        "Wednesday: 09 :00 AM – 5:30 PM",
+        "Thursday: 09 :00 AM – 5:30 PM",
+        "Friday: 09 :00 AM – 5:30 PM",
+        "Saturday: Off day",
+        "Sunday: Off day"
+      ],
+      "stitle": "內科探索館"
+    },
+    {
+      "id": 171,
+      "place_id": "ChIJ4Yv8_z-sQjQR0GtBbn3k21Q",
+      "stitle": "敘舊布袋戲園"
+    },
+    {
+      "id": 172,
+      "opening_hours": [
+        "Monday: Open all day",
+        "Tuesday: Open all day",
+        "Wednesday: Open all day",
+        "Thursday: Open all day",
+        "Friday: Open all day",
+        "Saturday: Open all day",
+        "Sunday: Open all day"
+      ],
+      "place_id": "ChIJNehVjGSyQjQRiHAgVTN2Gdk",
+      "stitle": "擎天崗草原"
+    },
+    {
+      "id": 173,
+      "opening_hours": [
+        "Monday: Off day",
+        "Tuesday: 9:00 AM – 5:00 PM",
+        "Wednesday: 9:00 AM – 5:00 PM",
+        "Thursday: 9:00 AM – 5:00 PM",
+        "Friday: 9:00 AM – 5:00 PM",
+        "Saturday: 9:00 AM – 5:00 PM",
+        "Sunday: 9:00 AM – 5:00 PM"
+      ],
+      "place_id": "ChIJhQCvgSUAaDQR1ZDKfGIA-eA",
+      "stitle": "臺北市鐵觀音包種茶研發推廣中心"
+    },
+    {
+      "id": 174,
+      "opening_hours": [
+        "Monday: Open all day",
+        "Tuesday: Open all day",
+        "Wednesday: Open all day",
+        "Thursday: Open all day",
+        "Friday: Open all day",
+        "Saturday: Open all day",
+        "Sunday: Open all day"
+      ],
+      "place_id": "ChIJqfbvC66pQjQRnrL6K4u70sM",
+      "stitle": "艋舺公園"
+    },
+    {
+      "id": 175,
+      "opening_hours": [
+        "Monday: Open all day",
+        "Tuesday: Open all day",
+        "Wednesday: Open all day",
+        "Thursday: Open all day",
+        "Friday: Open all day",
+        "Saturday: Open all day",
+        "Sunday: Open all day"
+      ],
+      "place_id": "ChIJKT-hO_KsQjQRqcJBaStmlxY",
+      "stitle": "碧湖步道"
+    },
+    {
+      "id": 176,
+      "opening_hours": [
+        "Monday: Open all day",
+        "Tuesday: Open all day",
+        "Wednesday: Open all day",
+        "Thursday: Open all day",
+        "Friday: Open all day",
+        "Saturday: Open all day",
+        "Sunday: Open all day"
+      ],
+      "place_id": "ChIJc7yjJSmvQjQRgIhHqCPzsbc",
+      "stitle": "延平河濱公園"
+    },
+    {
+      "id": 177,
+      "opening_hours": [
+        "Monday: Off day",
+        "Tuesday: 11:00 AM – 7:00 PM",
+        "Wednesday: 11:00 AM – 7:00 PM",
+        "Thursday: 11:00 AM – 7:00 PM",
+        "Friday: 11:00 AM – 7:00 PM",
+        "Saturday: 11:00 AM – 7:00 PM",
+        "Sunday: 11:00 AM – 7:00 PM"
+      ],
+      "place_id": "ChIJhZ-14E2pQjQRAQRTRt-XKic",
+      "stitle": "原民生活美學館"
+    },
+    {
+      "id": 178,
+      "opening_hours": [
+        "Monday: Open all day",
+        "Tuesday: Open all day",
+        "Wednesday: Open all day",
+        "Thursday: Open all day",
+        "Friday: Open all day",
+        "Saturday: Open all day",
+        "Sunday: Open all day"
+      ],
+      "place_id": "ChIJG-cQ0lapQjQRYL6sDWLWwos",
+      "stitle": "花博公園"
+    },
+    {
+      "id": 179,
+      "opening_hours": [
+        "Monday: 9:00 AM – 9:00 PM",
+        "Tuesday: 9:00 AM – 9:00 PM",
+        "Wednesday: 9:00 AM – 9:00 PM",
+        "Thursday: 9:00 AM – 9:00 PM",
+        "Friday: 9:00 AM – 9:00 PM",
+        "Saturday: 9:00 AM – 9:00 PM",
+        "Sunday: 9:00 AM – 9:00 PM"
+      ],
+      "place_id": "ChIJXd9DqPGrQjQRSQOKxx5Ns34",
+      "stitle": "臺北松山機場觀景台"
+    },
+    {
+      "id": 180,
+      "opening_hours": [
+        "Monday: 9:00 AM – 5:00 PM",
+        "Tuesday: 9:00 AM – 5:00 PM",
+        "Wednesday: 9:00 AM – 5:00 PM",
+        "Thursday: 9:00 AM – 5:00 PM",
+        "Friday: 9:00 AM – 5:00 PM",
+        "Saturday: 9:00 AM – 8:00 PM",
+        "Sunday: 9:00 AM – 6:00 PM"
+      ],
+      "place_id": "ChIJG9qGWr-uQjQRR1iXVOTfVl8",
+      "stitle": "臺北市立兒童新樂園"
+    },
+    {
+      "id": 181,
+      "opening_hours": [
+        "Monday: 9:00 AM – 5:30 PM",
+        "Tuesday: 9:00 AM – 5:30 PM",
+        "Wednesday: 9:00 AM – 5:30 PM",
+        "Thursday: 9:00 AM – 5:30 PM",
+        "Friday: 9:00 AM – 5:30 PM",
+        "Saturday: 9:00 AM – 5:30 PM",
+        "Sunday: 9:00 AM – 5:30 PM"
+      ],
+      "place_id": "ChIJ8_Zce58kaDQROYgVWjAIOPQ",
+      "stitle": "郭元益糕餅博物館"
+    },
+    {
+      "id": 182,
+      "opening_hours": [
+        "Monday: Off day",
+        "Tuesday: Off day",
+        "Wednesday: Off day",
+        "Thursday: Off day",
+        "Friday: Off day",
+        "Saturday: 10:00 AM – 4:00 PM",
+        "Sunday: Off day"
+      ],
+      "place_id": "ChIJm7auw3CpQjQRCoFjPDglDbY",
+      "stitle": "成功高中 蝴蝶宮‧昆蟲科學博物館"
+    },
+    {
+      "id": 183,
+      "opening_hours": [
+        "Monday: Off day",
+        "Tuesday: 10:00 AM – 5:00 PM",
+        "Wednesday: 10:00 AM – 5:00 PM",
+        "Thursday: 10:00 AM – 5:00 PM",
+        "Friday: 10:00 AM – 5:00 PM",
+        "Saturday: 10:00 AM – 5:00 PM",
+        "Sunday: 10:00 AM – 5:00 PM"
+      ],
+      "place_id": "ChIJc9QBl62pQjQRsZNbKcTgXGE",
+      "stitle": "糖廍文化園區"
+    },
+    {
+      "id": 185,
+      "opening_hours": [
+        "Monday: Off day",
+        "Tuesday: 10:00 AM – 6:00 PM",
+        "Wednesday: 10:00 AM – 6:00 PM",
+        "Thursday: 10:00 AM – 6:00 PM",
+        "Friday: 10:00 AM – 9:00 PM",
+        "Saturday: 10:00 AM – 9:00 PM",
+        "Sunday: 10:00 AM – 6:00 PM"
+      ],
+      "place_id": "ChIJ_UqnT5GpQjQRLiNTTq95w9k",
+      "stitle": "紀州庵文學森林"
+    },
+    {
+      "id": 186,
+      "opening_hours": [
+        "Monday: Open all day",
+        "Tuesday: Open all day",
+        "Wednesday: Open all day",
+        "Thursday: Open all day",
+        "Friday: Open all day",
+        "Saturday: Open all day",
+        "Sunday: Open all day"
+      ],
+      "place_id": "ChIJL6n6Mc3WDRQR2_KZl5miSgo",
+      "stitle": "和平青草園(原萬華402號公園)"
+    },
+    {
+      "id": 187,
+      "opening_hours": [
+        "Monday: Open all day",
+        "Tuesday: Open all day",
+        "Wednesday: Open all day",
+        "Thursday: Open all day",
+        "Friday: Open all day",
+        "Saturday: Open all day",
+        "Sunday: Open all day"
+      ],
+      "place_id": "ChIJfQNTLDiqQjQRfVU8bVpiGS0",
+      "stitle": "富陽自然生態公園"
+    },
+    {
+      "id": 188,
+      "opening_hours": [
+        "Monday: 10:00 AM – 7:00 PM",
+        "Tuesday: 10:00 AM – 7:00 PM",
+        "Wednesday: 10:00 AM – 7:00 PM",
+        "Thursday: 10:00 AM – 7:00 PM",
+        "Friday: 10:00 AM – 7:00 PM",
+        "Saturday: 10:00 AM – 7:00 PM",
+        "Sunday: 10:00 AM – 7:00 PM"
+      ],
+      "place_id": "ChIJT70jFK6pQjQR89BYBukdYGk",
+      "stitle": "西園29服飾創作基地(臺北服飾文化館)"
+    },
+    {
+      "id": 189,
+      "place_id": "ChIJcVe4HuirQjQRWHrzxtVRImg",
+      "stitle": "臺北小巨蛋"
+    },
+    {
+      "id": 190,
+      "opening_hours": [
+        "Monday: Open all day",
+        "Tuesday: Open all day",
+        "Wednesday: Open all day",
+        "Thursday: Open all day",
+        "Friday: Open all day",
+        "Saturday: Open all day",
+        "Sunday: Open all day"
+      ],
+      "place_id": "ChIJ95CkqWypQjQRIKANiL99X5o",
+      "stitle": "大稻埕圓環防空蓄水池(幸福之泉)"
+    },
+    {
+      "id": 191,
+      "opening_hours": [
+        "Monday: 9:00 AM – 4:30 PM",
+        "Tuesday: 9:00 AM – 4:30 PM",
+        "Wednesday: 9:00 AM – 4:30 PM",
+        "Thursday: 9:00 AM – 4:30 PM",
+        "Friday: 9:00 AM – 4:30 PM",
+        "Saturday: 9:00 AM – 4:30 PM",
+        "Sunday: 9:00 AM – 4:30 PM"
+      ],
+      "place_id": "ChIJPRTlDwGyQjQRJ0lg4_VI4tk",
+      "stitle": "陽明書屋"
+    },
+    {
+      "id": 192,
+      "opening_hours": [
+        "Monday: 11:00 AM – 10:00 PM",
+        "Tuesday: 11:00 AM – 10:00 PM",
+        "Wednesday: 11:00 AM – 10:00 PM",
+        "Thursday: 11:00 AM – 10:00 PM",
+        "Friday: 11:00 AM – 10:00 PM",
+        "Saturday: 11:00 AM – 10:00 PM",
+        "Sunday: 11:00 AM – 10:00 PM"
+      ],
+      "place_id": "ChIJhRBW73GsQjQRGplsiWJkEoQ",
+      "stitle": "學學文創"
+    },
+    {
+      "id": 193,
+      "place_id": "ChIJsfP9EHCpQjQR8Sdp820DMeE",
+      "stitle": "蒲添生故居"
+    },
+    {
+      "id": 194,
+      "place_id": "ChIJQ6iJ4HSvQjQRKv7lAp2njNs",
+      "stitle": "臺北藝術大學"
+    },
+    {
+      "id": 196,
+      "opening_hours": [
+        "Monday: 10:00 AM – 6:00 PM",
+        "Tuesday: 10:00 AM – 6:00 PM",
+        "Wednesday: 10:00 AM – 6:00 PM",
+        "Thursday: 10:00 AM – 6:00 PM",
+        "Friday: 10:00 AM – 6:00 PM",
+        "Saturday: 10:00 AM – 6:00 PM",
+        "Sunday: Off day"
+      ],
+      "place_id": "ChIJZ0mwUwypQjQRMRPCuE-wBCE",
+      "stitle": "撫臺街洋樓"
+    },
+    {
+      "id": 197,
+      "opening_hours": [
+        "Monday: Off day",
+        "Tuesday: 11:00 AM – 5:00 PM",
+        "Wednesday: 1:00 – 5:00 PM",
+        "Thursday: 11:00 AM – 5:00 PM",
+        "Friday: 1:00 – 5:00 PM",
+        "Saturday: 11:00 AM – 5:00 PM",
+        "Sunday: Off day"
+      ],
+      "place_id": "ChIJn9bVD4apQjQRIyvOJmpcRDg",
+      "stitle": "殷海光故居"
+    },
+    {
+      "id": 198,
+      "opening_hours": [
+        "Monday: Off day",
+        "Tuesday: 9:30 AM – 4:30 PM",
+        "Wednesday: 9:30 AM – 4:30 PM",
+        "Thursday: 9:30 AM – 4:30 PM",
+        "Friday: 9:30 AM – 4:30 PM",
+        "Saturday: Off day",
+        "Sunday: Off day"
+      ],
+      "place_id": "ChIJewounHapQjQRfL-SxTnkLv4",
+      "stitle": "臺大醫學人文博物館"
+    },
+    {
+      "id": 200,
+      "opening_hours": [
+        "Monday: 9:00 AM – 10:00 PM",
+        "Tuesday: 9:00 AM – 10:00 PM",
+        "Wednesday: 9:00 AM – 10:00 PM",
+        "Thursday: 9:00 AM – 10:00 PM",
+        "Friday: 9:00 AM – 10:00 PM",
+        "Saturday: 9:00 AM – 10:00 PM",
+        "Sunday: 9:00 AM – 10:00 PM"
+      ],
+      "place_id": "ChIJTc3E_eauQjQRRcWFjnQJm4Y",
+      "stitle": "北投焚化廠觀景台"
+    },
+    {
+      "id": 201,
+      "place_id": "ChIJHc9n2hqsQjQR57Qq0sg0-h8",
+      "stitle": "實踐大學"
+    },
+    {
+      "id": 203,
+      "place_id": "ChIJuyykbbsBaDQRaLwm5gdwEuw",
+      "stitle": "國史館"
+    },
+    {
+      "id": 204,
+      "place_id": "ChIJuXMhQa6uQjQR3cyZ990_zck",
+      "stitle": "圓山水神社"
+    },
+    {
+      "id": 205,
+      "place_id": "ChIJ3cs39iWqQjQRIRmliBDjanA",
+      "stitle": "臺大法學院"
+    },
+    {
+      "id": 206,
+      "place_id": "ChIJh8orrtMBaDQR49K3MPDeIoE",
+      "stitle": "樟山寺"
+    },
+    {
+      "id": 207,
+      "opening_hours": [
+        "Monday: Off day",
+        "Tuesday: 9:30 AM – 5:00 PM",
+        "Wednesday: 9:30 AM – 5:00 PM",
+        "Thursday: 9:30 AM – 5:00 PM",
+        "Friday: 9:30 AM – 5:00 PM",
+        "Saturday: 9:30 AM – 5:00 PM",
+        "Sunday: 9:30 AM – 5:00 PM"
+      ],
+      "place_id": "ChIJa1U1VXOpQjQR6InZ2RmUU0s",
+      "stitle": "國立臺灣博物館 (土銀展示館)"
+    },
+    {
+      "id": 208,
+      "place_id": "ChIJwTIvWAmrQjQRqIYE2mEtbuY",
+      "stitle": "松山慈惠堂"
+    },
+    {
+      "id": 209,
+      "opening_hours": [
+        "Monday: Off day",
+        "Tuesday: 3:00 – 8:00 PM",
+        "Wednesday: 3:00 – 8:00 PM",
+        "Thursday: 3:00 – 8:00 PM",
+        "Friday: 3:00 – 8:00 PM",
+        "Saturday: 3:00 – 8:00 PM",
+        "Sunday: Off day"
+      ],
+      "place_id": "ChIJzd57r2ysQjQRAjk5qbO9tz8",
+      "stitle": "LOVE 台北之愛 台灣之愛"
+    },
+    {
+      "id": 210,
+      "opening_hours": [
+        "Monday: Open all day",
+        "Tuesday: Open all day",
+        "Wednesday: Open all day",
+        "Thursday: Open all day",
+        "Friday: Open all day",
+        "Saturday: Open all day",
+        "Sunday: Open all day"
+      ],
+      "place_id": "ChIJMXzkvaupQjQRmTCbwfV7DpU",
+      "stitle": "華江雁鴨自然公園"
+    },
+    {
+      "id": 211,
+      "opening_hours": [
+        "Monday: Open all day",
+        "Tuesday: Open all day",
+        "Wednesday: Open all day",
+        "Thursday: Open all day",
+        "Friday: Open all day",
+        "Saturday: Open all day",
+        "Sunday: Open all day"
+      ],
+      "place_id": "ChIJkQEb8HKrQjQRD-ftkugwALQ",
+      "stitle": "南港公園"
+    },
+    {
+      "id": 212,
+      "opening_hours": [
+        "Monday: Off day",
+        "Tuesday: 10:00 AM – 5:00 PM",
+        "Wednesday: 10:00 AM – 5:00 PM",
+        "Thursday: 10:00 AM – 5:00 PM",
+        "Friday: 10:00 AM – 5:00 PM",
+        "Saturday: 10:00 AM – 5:00 PM",
+        "Sunday: 10:00 AM – 5:00 PM"
+      ],
+      "place_id": "ChIJ1cTqBRSpQjQRGLpSNmBQ-LU",
+      "stitle": "台原亞洲偶戲博物館"
+    },
+    {
+      "id": 213,
+      "place_id": "ChIJqS4y_ompQjQRZn8d7gQEdSE",
+      "stitle": "臺灣大學"
+    },
+    {
+      "id": 214,
+      "opening_hours": [
+        "Monday: Open all day",
+        "Tuesday: Open all day",
+        "Wednesday: Open all day",
+        "Thursday: Open all day",
+        "Friday: Open all day",
+        "Saturday: Open all day",
+        "Sunday: Open all day"
+      ],
+      "place_id": "ChIJgyEP0DapQjQRRa_YvllDBV0",
+      "stitle": "迪化運動公園跨堤景觀平臺"
+    },
+    {
+      "id": 215,
+      "opening_hours": [
+        "Monday: Off day",
+        "Tuesday: 9:00 AM – 9:00 PM",
+        "Wednesday: 9:00 AM – 9:00 PM",
+        "Thursday: 9:00 AM – 9:00 PM",
+        "Friday: 9:00 AM – 9:00 PM",
+        "Saturday: 9:00 AM – 9:00 PM",
+        "Sunday: 9:00 AM – 9:00 PM"
+      ],
+      "place_id": "ChIJ18zXSrGrQjQR3k7dwGFeoX4",
+      "stitle": "幾米月亮公車"
+    },
+    {
+      "id": 216,
+      "opening_hours": [
+        "Monday: 5:30 – 7:30 AM, 8:00 – 10:00 AM, 10:30 AM – 1:00 PM, 1:30 – 4:00 PM, 4:30 – 7:00 PM, 7:30 – 10:00 PM",
+        "Tuesday: 5:30 – 7:30 AM, 8:00 – 10:00 AM, 10:30 AM – 1:00 PM, 1:30 – 4:00 PM, 4:30 – 7:00 PM, 7:30 – 10:00 PM",
+        "Wednesday: 5:30 – 7:30 AM, 8:00 – 10:00 AM, 10:30 AM – 1:00 PM, 1:30 – 4:00 PM, 4:30 – 7:00 PM, 7:30 – 10:00 PM",
+        "Thursday: 5:30 – 7:30 AM, 8:00 – 10:00 AM, 10:30 AM – 1:00 PM, 1:30 – 4:00 PM, 4:30 – 7:00 PM, 7:30 – 10:00 PM",
+        "Friday: 5:30 – 7:30 AM, 8:00 – 10:00 AM, 10:30 AM – 1:00 PM, 1:30 – 4:00 PM, 4:30 – 7:00 PM, 7:30 – 10:00 PM",
+        "Saturday: 5:30 – 7:30 AM, 8:00 – 10:00 AM, 10:30 AM – 1:00 PM, 1:30 – 4:00 PM, 4:30 – 7:00 PM, 7:30 – 10:00 PM",
+        "Sunday: 5:30 – 7:30 AM, 8:00 – 10:00 AM, 10:30 AM – 1:00 PM, 1:30 – 4:00 PM, 4:30 – 7:00 PM, 7:30 – 10:00 PM"
+      ],
+      "place_id": "ChIJSU4BnUSuQjQRLfZGgyjCaHw",
+      "stitle": "北投公園露天溫泉浴池"
+    },
+    {
+      "id": 217,
+      "place_id": "ChIJPQKB9xmuQjQRd8ghJoDC294",
+      "stitle": "北投十八份木炭窯"
+    },
+    {
+      "id": 218,
+      "opening_hours": [
+        "Monday: Open all day",
+        "Tuesday: Open all day",
+        "Wednesday: Open all day",
+        "Thursday: Open all day",
+        "Friday: Open all day",
+        "Saturday: Open all day",
+        "Sunday: Open all day"
+      ],
+      "place_id": "ChIJI9Bx_hCqQjQRS2qe08fywwE",
+      "stitle": "興隆公園"
+    },
+    {
+      "id": 220,
+      "place_id": "ChIJhRr21AupQjQRU5Pqd_tqPB0",
+      "stitle": "「西門印象」裝置藝術"
+    },
+    {
+      "id": 221,
+      "place_id": "ChIJX10H1gipQjQRfmZjnra3znU",
+      "stitle": "意在臺北"
+    },
+    {
+      "id": 222,
+      "opening_hours": [
+        "Monday: Open all day",
+        "Tuesday: Open all day",
+        "Wednesday: Open all day",
+        "Thursday: Open all day",
+        "Friday: Open all day",
+        "Saturday: Open all day",
+        "Sunday: Open all day"
+      ],
+      "place_id": "ChIJ5ZtXDRCqQjQRjJGuRBQmwgY",
+      "stitle": "仙岩公園"
+    },
+    {
+      "id": 223,
+      "place_id": "ChIJI946wbSuQjQRk3QUr0dl1wQ",
+      "stitle": "三腳渡擺渡口"
+    },
+    {
+      "id": 225,
+      "opening_hours": [
+        "Monday: Open all day",
+        "Tuesday: Open all day",
+        "Wednesday: Open all day",
+        "Thursday: Open all day",
+        "Friday: Open all day",
+        "Saturday: Open all day",
+        "Sunday: Open all day"
+      ],
+      "place_id": "ChIJie9C4AmpQjQRBwWHiuPPLH8",
+      "stitle": "西本願寺廣場"
+    },
+    {
+      "id": 226,
+      "opening_hours": [
+        "Monday: Off day",
+        "Tuesday: 9:00 AM – 12:00 PM, 2:00 – 5:00 PM",
+        "Wednesday: 9:00 AM – 12:00 PM, 2:00 – 5:00 PM",
+        "Thursday: 9:00 AM – 12:00 PM, 2:00 – 5:00 PM",
+        "Friday: 9:00 AM – 12:00 PM, 2:00 – 5:00 PM",
+        "Saturday: 9:00 AM – 12:00 PM, 2:00 – 5:00 PM",
+        "Sunday: 9:00 AM – 12:00 PM, 2:00 – 5:00 PM"
+      ],
+      "place_id": "ChIJZ8eJQoSsQjQRW2r6uloZrvY",
+      "stitle": "防災科學教育館"
+    },
+    {
+      "id": 227,
+      "opening_hours": [
+        "Monday: Off day",
+        "Tuesday: 9:00 AM – 5:00 PM",
+        "Wednesday: 9:00 AM – 5:00 PM",
+        "Thursday: 9:00 AM – 5:00 PM",
+        "Friday: 9:00 AM – 5:00 PM",
+        "Saturday: 9:00 AM – 5:00 PM",
+        "Sunday: 9:00 AM – 5:00 PM"
+      ],
+      "place_id": "ChIJK9OBXEmrQjQRtPPeGu7czEE",
+      "stitle": "南港茶葉製造示範場(台北找茶園)"
+    },
+    {
+      "id": 228,
+      "opening_hours": [
+        "Monday: Off day",
+        "Tuesday: 9:00 AM – 5:00 PM",
+        "Wednesday: 9:00 AM – 5:00 PM",
+        "Thursday: 9:00 AM – 5:00 PM",
+        "Friday: 9:00 AM – 5:00 PM",
+        "Saturday: 9:00 AM – 5:00 PM",
+        "Sunday: 9:00 AM – 5:00 PM"
+      ],
+      "place_id": "ChIJKfiSOaKpQjQRa_1SUMFWW9Y",
+      "stitle": "國立臺灣藝術教育館"
+    },
+    {
+      "id": 229,
+      "place_id": "ChIJeXELiROpQjQRMWTKTTs6OtA",
+      "stitle": "大稻埕戲苑"
+    },
+    {
+      "id": 230,
+      "opening_hours": [
+        "Monday: 9:30 AM – 7:00 PM",
+        "Tuesday: 9:30 AM – 7:00 PM",
+        "Wednesday: 9:30 AM – 7:00 PM",
+        "Thursday: 9:30 AM – 7:00 PM",
+        "Friday: 9:30 AM – 7:00 PM",
+        "Saturday: 9:30 AM – 7:00 PM",
+        "Sunday: 9:30 AM – 7:00 PM"
+      ],
+      "place_id": "ChIJEfYKhTvmc0gR3dLTvOJwkZc",
+      "stitle": "科幻巨石陣 Stonehenge"
+    },
+    {
+      "id": 232,
+      "place_id": "ChIJa1buYBWpQjQRGbjCNX178FE",
+      "stitle": "台灣基督長老教會大稻埕教會"
+    },
+    {
+      "id": 233,
+      "opening_hours": [
+        "Monday: 11:30 AM – 2:30 PM, 5:30 – 9:30 PM",
+        "Tuesday: 11:30 AM – 2:30 PM, 5:30 – 9:30 PM",
+        "Wednesday: 11:30 AM – 2:30 PM, 5:30 – 9:30 PM",
+        "Thursday: 11:30 AM – 2:30 PM, 5:30 – 9:30 PM",
+        "Friday: 11:30 AM – 2:30 PM, 5:30 – 9:30 PM",
+        "Saturday: 11:30 AM – 2:30 PM, 5:30 – 9:30 PM",
+        "Sunday: 11:30 AM – 2:30 PM, 5:30 – 9:30 PM"
+      ],
+      "place_id": "ChIJx2H0RsarQjQRy91pwhnS9D4",
+      "stitle": "大安樹"
+    },
+    {
+      "id": 235,
+      "opening_hours": [
+        "Monday: Open all day",
+        "Tuesday: Open all day",
+        "Wednesday: Open all day",
+        "Thursday: Open all day",
+        "Friday: Open all day",
+        "Saturday: Open all day",
+        "Sunday: Open all day"
+      ],
+      "place_id": "ChIJ1xSANECpQjQR-lt-zC_I_M4",
+      "stitle": "蔣渭水紀念公園"
+    },
+    {
+      "id": 236,
+      "place_id": "ChIJE80mlwepQjQRQ74S6YZPS6k",
+      "stitle": "臺北傳奇"
+    },
+    {
+      "id": 237,
+      "opening_hours": [
+        "Monday: Open all day",
+        "Tuesday: Open all day",
+        "Wednesday: Open all day",
+        "Thursday: Open all day",
+        "Friday: Open all day",
+        "Saturday: Open all day",
+        "Sunday: Open all day"
+      ],
+      "place_id": "ChIJZQF167upQjQRqA9HhykFV-c",
+      "stitle": "青年公園"
+    },
+    {
+      "id": 238,
+      "opening_hours": [
+        "Monday: 9:00 AM – 9:00 PM",
+        "Tuesday: 9:00 AM – 9:00 PM",
+        "Wednesday: 9:00 AM – 9:00 PM",
+        "Thursday: 9:00 AM – 9:00 PM",
+        "Friday: 9:00 AM – 10:00 PM",
+        "Saturday: 8:30 AM – 10:00 PM",
+        "Sunday: 8:30 AM – 9:00 PM"
+      ],
+      "place_id": "ChIJ0aTeDWSqQjQRU2CpRjozvqQ",
+      "stitle": "貓空纜車"
+    },
+    {
+      "id": 242,
+      "opening_hours": [
+        "Monday: 11:00 AM – 10:00 PM",
+        "Tuesday: 11:00 AM – 10:00 PM",
+        "Wednesday: 11:00 AM – 10:00 PM",
+        "Thursday: 11:00 AM – 10:00 PM",
+        "Friday: 11:00 AM – 10:00 PM",
+        "Saturday: 11:00 AM – 10:00 PM",
+        "Sunday: 11:00 AM – 10:00 PM"
+      ],
+      "place_id": "ChIJQb0d-RKsQjQRe53Evgnkq8w",
+      "stitle": "美麗華百樂園"
+    },
+    {
+      "id": 244,
+      "opening_hours": [
+        "Monday: Open all day",
+        "Tuesday: Open all day",
+        "Wednesday: Open all day",
+        "Thursday: Open all day",
+        "Friday: Open all day",
+        "Saturday: Open all day",
+        "Sunday: Open all day"
+      ],
+      "place_id": "ChIJ7y0zZ_KuQjQRcSiS3nCfv2U",
+      "stitle": "吉慶聖誕巷"
+    },
+    {
+      "id": 245,
+      "opening_hours": [
+        "Monday: 11:00 AM – 9:30 PM",
+        "Tuesday: 11:00 AM – 9:30 PM",
+        "Wednesday: 11:00 AM – 9:30 PM",
+        "Thursday: 11:00 AM – 9:30 PM",
+        "Friday: 11:00 AM – 10:00 PM",
+        "Saturday: 11:00 AM – 10:00 PM",
+        "Sunday: 11:00 AM – 9:30 PM"
+      ],
+      "place_id": "ChIJc1otWHupQjQRYn2ASKtWHps",
+      "stitle": "三創生活園區"
+    },
+    {
+      "id": 246,
+      "opening_hours": [
+        "Monday: 9:00 AM – 5:00 PM",
+        "Tuesday: 9:00 AM – 5:00 PM",
+        "Wednesday: 9:00 AM – 5:00 PM",
+        "Thursday: 9:00 AM – 5:00 PM",
+        "Friday: 9:00 AM – 5:00 PM",
+        "Saturday: 9:00 AM – 5:00 PM",
+        "Sunday: 9:00 AM – 5:00 PM"
+      ],
+      "place_id": "ChIJIYwY1KqrQjQRn8uztPGohk4",
+      "stitle": "和興炭坑"
+    },
+    {
+      "id": 247,
+      "place_id": "ChIJWWbPn2-pQjQRO5GO235m4Rc",
+      "stitle": "中山基督長老教會"
+    },
+    {
+      "id": 248,
+      "place_id": "ChIJscPvDW6pQjQRRYUGIbL25gA",
+      "stitle": "臺北市交通資訊中心"
+    },
+    {
+      "id": 249,
+      "opening_hours": [
+        "Monday: Open all day",
+        "Tuesday: Open all day",
+        "Wednesday: Open all day",
+        "Thursday: Open all day",
+        "Friday: Open all day",
+        "Saturday: Open all day",
+        "Sunday: Open all day"
+      ],
+      "place_id": "ChIJmcYsz42rQjQR0qof6zQ3SbQ",
+      "stitle": "富民生態公園"
+    },
+    {
+      "id": 250,
+      "opening_hours": [
+        "Monday: Open all day",
+        "Tuesday: Open all day",
+        "Wednesday: Open all day",
+        "Thursday: Open all day",
+        "Friday: Open all day",
+        "Saturday: Open all day",
+        "Sunday: Open all day"
+      ],
+      "place_id": "ChIJBSHeSziuQjQR1mPhRPXgYtk",
+      "stitle": "復興三路櫻花隧道"
+    },
+    {
+      "id": 251,
+      "opening_hours": [
+        "Monday: Open all day",
+        "Tuesday: Open all day",
+        "Wednesday: Open all day",
+        "Thursday: Open all day",
+        "Friday: Open all day",
+        "Saturday: Open all day",
+        "Sunday: Open all day"
+      ],
+      "place_id": "ChIJfZ0sflqqQjQR3ncywYl19TA",
+      "stitle": "糶米古道"
+    },
+    {
+      "id": 253,
+      "place_id": "ChIJudXyv3CqQjQRhUVT_Rbvw1U",
+      "stitle": "文山教會"
+    },
+    {
+      "id": 254,
+      "place_id": "ChIJd55_FkKpQjQRzAaz_lDtVP0",
+      "stitle": "文昌宮"
+    },
+    {
+      "id": 255,
+      "place_id": "ChIJKyaoGAmpQjQR99RS3zrx9Ms",
+      "stitle": "西門町徒步區"
+    },
+    {
+      "id": 256,
+      "opening_hours": [
+        "Monday: Open all day",
+        "Tuesday: Open all day",
+        "Wednesday: Open all day",
+        "Thursday: Open all day",
+        "Friday: Open all day",
+        "Saturday: Open all day",
+        "Sunday: Open all day"
+      ],
+      "place_id": "ChIJNacW3ZKpQjQRZ7kmhBTmrvs",
+      "stitle": "古亭河濱公園"
+    },
+    {
+      "id": 257,
+      "place_id": "ChIJeVgjt6KuQjQRg9xmbWrTUcI",
+      "stitle": "士林神農宮"
+    },
+    {
+      "id": 258,
+      "place_id": "ChIJB29jnwypQjQRjF2zZ4sAS5I",
+      "stitle": "財團法人台北市臺灣省城隍廟"
+    },
+    {
+      "id": 259,
+      "place_id": "ChIJL596x1qpQjQRFvMkCtNEmNo",
+      "stitle": "新生北路3段62巷24號(Miracle x HOUSE)"
+    },
+    {
+      "id": 261,
+      "opening_hours": [
+        "Monday: Off day",
+        "Tuesday: 9:00 AM – 5:00 PM",
+        "Wednesday: 9:00 AM – 5:00 PM",
+        "Thursday: 9:00 AM – 5:00 PM",
+        "Friday: 9:00 AM – 5:00 PM",
+        "Saturday: 9:00 AM – 5:00 PM",
+        "Sunday: 9:00 AM – 5:00 PM"
+      ],
+      "place_id": "ChIJ-_sqg0SuQjQRO-rRZ0OA4e8",
+      "stitle": "北投公民會館"
+    },
+    {
+      "id": 267,
+      "opening_hours": [
+        "Monday: 6:00 AM – 10:00 PM",
+        "Tuesday: 6:00 AM – 10:00 PM",
+        "Wednesday: 6:00 AM – 10:00 PM",
+        "Thursday: 6:00 AM – 10:00 PM",
+        "Friday: 6:00 AM – 10:00 PM",
+        "Saturday: 6:00 AM – 10:00 PM",
+        "Sunday: 6:00 AM – 10:00 PM"
+      ],
+      "place_id": "ChIJDQoiqTarQjQRiRM7w_NVwN0",
+      "stitle": "山水綠生態公園"
+    },
+    {
+      "id": 273,
+      "place_id": "ChIJ1QgjKAqrQjQRrXcJ7D1I000",
+      "stitle": "松山奉天宮"
+    },
+    {
+      "id": 279,
+      "place_id": "ChIJ35hVJX2pQjQRqlM_j4506kc",
+      "stitle": "臺北工業學校紅樓"
+    },
+    {
+      "id": 280,
+      "place_id": "ChIJLeKcUiiqQjQR3xX75FBDVuk",
+      "stitle": "龍安坡黃宅濂讓居"
+    },
+    {
+      "id": 281,
+      "place_id": "ChIJxcwfxaipQjQRi358m39fgXY",
+      "stitle": "艋舺地藏庵"
+    },
+    {
+      "id": 283,
+      "place_id": "ChIJeYAeF2upQjQR6RIFN8BpAO8",
+      "stitle": "陳德星堂"
+    },
+    {
+      "id": 284,
+      "place_id": "ChIJ1795XFSsQjQRKDon0ddCq8Y",
+      "stitle": "碧山露營場"
+    },
+    {
+      "id": 285,
+      "opening_hours": [
+        "Monday: Open all day",
+        "Tuesday: Open all day",
+        "Wednesday: Open all day",
+        "Thursday: Open all day",
+        "Friday: Open all day",
+        "Saturday: Open all day",
+        "Sunday: Open all day"
+      ],
+      "place_id": "ChIJG35f3oKpQjQRuJNdst1xyfQ",
+      "stitle": "臺北監獄圍牆遺蹟"
+    },
+    {
+      "id": 286,
+      "opening_hours": [
+        "Monday: Open all day",
+        "Tuesday: Open all day",
+        "Wednesday: Open all day",
+        "Thursday: Open all day",
+        "Friday: Open all day",
+        "Saturday: Open all day",
+        "Sunday: Open all day"
+      ],
+      "place_id": "ChIJuwDE9bGrQjQRY7eR6Ve0Kik",
+      "stitle": "中強公園"
+    },
+    {
+      "id": 287,
+      "opening_hours": [
+        "Monday: Off day",
+        "Tuesday: Off day",
+        "Wednesday: 9:30 AM – 4:30 PM",
+        "Thursday: 9:30 AM – 4:30 PM",
+        "Friday: 9:30 AM – 4:30 PM",
+        "Saturday: 9:30 AM – 4:30 PM",
+        "Sunday: 9:30 AM – 4:30 PM"
+      ],
+      "place_id": "ChIJ4-I6e6OpQjQRA4wWCPuoFEw",
+      "stitle": "南門町三二三"
+    },
+    {
+      "id": 288,
+      "opening_hours": [
+        "Monday: 9:00 AM – 5:00 PM",
+        "Tuesday: 9:00 AM – 5:00 PM",
+        "Wednesday: 9:00 AM – 5:00 PM",
+        "Thursday: 9:00 AM – 5:00 PM",
+        "Friday: 9:00 AM – 5:00 PM",
+        "Saturday: 9:00 AM – 5:00 PM",
+        "Sunday: Off day"
+      ],
+      "place_id": "ChIJDS4yiHCqQjQRXCjIFuHyXJI",
+      "stitle": "文山公民會館"
+    },
+    {
+      "id": 289,
+      "opening_hours": [
+        "Monday: Open all day",
+        "Tuesday: Open all day",
+        "Wednesday: Open all day",
+        "Thursday: Open all day",
+        "Friday: Open all day",
+        "Saturday: Open all day",
+        "Sunday: Open all day"
+      ],
+      "place_id": "ChIJH4Xpt5-sQjQRBNmuF6Fs5VQ",
+      "stitle": "內湖復育園區"
+    },
+    {
+      "id": 291,
+      "opening_hours": [
+        "Monday: Open all day",
+        "Tuesday: Open all day",
+        "Wednesday: Open all day",
+        "Thursday: Open all day",
+        "Friday: Open all day",
+        "Saturday: Open all day",
+        "Sunday: Open all day"
+      ],
+      "place_id": "ChIJkfbnsaKtQjQRMg0BeabB1rY",
+      "stitle": "平等里櫻花"
+    },
+    {
+      "id": 292,
+      "opening_hours": [
+        "Monday: 8:30 AM – 5:30 PM",
+        "Tuesday: 8:30 AM – 5:30 PM",
+        "Wednesday: 8:30 AM – 5:30 PM",
+        "Thursday: 8:30 AM – 5:30 PM",
+        "Friday: 8:30 AM – 5:30 PM",
+        "Saturday: Off day",
+        "Sunday: Off day"
+      ],
+      "place_id": "ChIJU6NoixOpQjQRAx1iY8ITzv0",
+      "stitle": "迪化街郵局"
+    },
+    {
+      "id": 293,
+      "opening_hours": [
+        "Monday: Open all day",
+        "Tuesday: Open all day",
+        "Wednesday: Open all day",
+        "Thursday: Open all day",
+        "Friday: Open all day",
+        "Saturday: Open all day",
+        "Sunday: Open all day"
+      ],
+      "place_id": "ChIJaV0csJ6uQjQRcK9C7arqElY",
+      "stitle": "芝山公園"
+    },
+    {
+      "id": 294,
+      "place_id": "ChIJH4_0Wf-pQjQR5IgjbIoZ-8Y",
+      "stitle": "萬慶巖清水祖師廟"
+    },
+    {
+      "id": 295,
+      "opening_hours": [
+        "Monday: 8:00 AM – 5:00 PM",
+        "Tuesday: 8:00 AM – 5:00 PM",
+        "Wednesday: 8:00 AM – 5:00 PM",
+        "Thursday: 8:00 AM – 5:00 PM",
+        "Friday: 8:00 AM – 5:00 PM",
+        "Saturday: 8:00 AM – 5:00 PM",
+        "Sunday: 8:00 AM – 5:00 PM"
+      ],
+      "place_id": "ChIJY-MnDh-yQjQRpXfU_6UZ9tA",
+      "stitle": "竹子湖海芋季"
+    },
+    {
+      "id": 296,
+      "opening_hours": [
+        "Monday: 9:00 AM – 6:00 PM",
+        "Tuesday: Off day",
+        "Wednesday: 9:00 AM – 6:00 PM",
+        "Thursday: 9:00 AM – 6:00 PM",
+        "Friday: 9:00 AM – 6:00 PM",
+        "Saturday: 9:00 AM – 6:00 PM",
+        "Sunday: 9:00 AM – 6:00 PM"
+      ],
+      "place_id": "ChIJod7tSseifDUR9hXHLFNGMIs",
+      "stitle": "景福宮"
+    },
+    {
+      "id": 298,
+      "opening_hours": [
+        "Monday: Open all day",
+        "Tuesday: Open all day",
+        "Wednesday: Open all day",
+        "Thursday: Open all day",
+        "Friday: Open all day",
+        "Saturday: Open all day",
+        "Sunday: Open all day"
+      ],
+      "place_id": "ChIJ293KxeKrQjQRewbnsVtdLBg",
+      "stitle": "榮星花園公園"
+    },
+    {
+      "id": 299,
+      "opening_hours": [
+        "Monday: Open all day",
+        "Tuesday: Open all day",
+        "Wednesday: Open all day",
+        "Thursday: Open all day",
+        "Friday: Open all day",
+        "Saturday: Open all day",
+        "Sunday: Open all day"
+      ],
+      "place_id": "ChIJoWVP6x8faDQRS1gqIy406iI",
+      "stitle": "陽明公園"
+    },
+    {
+      "id": 300,
+      "place_id": "ChIJESYjqAipQjQRxyVQGteyv-4",
+      "stitle": "國立臺北教育大學"
+    },
+    {
+      "id": 301,
+      "place_id": "ChIJQ5mRfIOpQjQRCc56TWfDpe0",
+      "stitle": "錦町日式宿舍群"
+    },
+    {
+      "id": 302,
+      "place_id": "ChIJlVgnLkipQjQRI9uO0KKT0vE",
+      "stitle": "臨濟護國禪寺"
+    },
+    {
+      "id": 303,
+      "opening_hours": [
+        "Monday: 9:00 AM – 5:00 PM",
+        "Tuesday: 9:00 AM – 5:00 PM",
+        "Wednesday: 9:00 AM – 5:00 PM",
+        "Thursday: 9:00 AM – 5:00 PM",
+        "Friday: 9:00 AM – 5:00 PM",
+        "Saturday: 9:00 AM – 5:00 PM",
+        "Sunday: 9:00 AM – 5:00 PM"
+      ],
+      "place_id": "ChIJ9UvPvP6uQjQRq0CCfaWofcY",
+      "stitle": "農禪寺"
+    },
+    {
+      "id": 304,
+      "place_id": "ChIJUU2bxQ-sQjQRGRHsNZ1XKbk",
+      "stitle": "大直植福宮"
+    },
+    {
+      "id": 305,
+      "place_id": "ChIJrZY2E6ypQjQRnb4kdv5N8TM",
+      "stitle": "學海書院（今高氏宗祠）"
+    },
+    {
+      "id": 306,
+      "place_id": "ChIJPfeBBF6rQjQRMzfxD6cSUNQ",
+      "stitle": "南港瓶蓋工廠"
+    },
+    {
+      "id": 307,
+      "opening_hours": [
+        "Monday: Off day",
+        "Tuesday: 9:30 AM – 5:30 PM",
+        "Wednesday: 9:30 AM – 5:30 PM",
+        "Thursday: 9:30 AM – 5:30 PM",
+        "Friday: 9:30 AM – 5:30 PM",
+        "Saturday: 9:30 AM – 5:30 PM",
+        "Sunday: 9:30 AM – 5:30 PM"
+      ],
+      "place_id": "ChIJqeyOEW2pQjQRYqFY35Bs2ig",
+      "stitle": "臺北當代工藝設計分館"
+    },
+    {
+      "id": 308,
+      "place_id": "ChIJjcZR1z-pQjQR-2Ya_zUQo_o",
+      "stitle": "大稻埕慈聖宮"
+    },
+    {
+      "id": 309,
+      "place_id": "ChIJZx7_jQ2pQjQRVVdBU-mY2uw",
+      "stitle": "捷運北門站(台北鐵道局)"
+    },
+    {
+      "id": 310,
+      "place_id": "ChIJ21oFdV6rQjQRNmvwwojb3Qo",
+      "stitle": "幾米主題南港站"
+    },
+    {
+      "id": 311,
+      "opening_hours": [
+        "Monday: Open all day",
+        "Tuesday: Open all day",
+        "Wednesday: Open all day",
+        "Thursday: Open all day",
+        "Friday: Open all day",
+        "Saturday: Open all day",
+        "Sunday: Open all day"
+      ],
+      "place_id": "ChIJ8c4iekKqQjQR-tHD79ycJlk",
+      "stitle": "140高地公園"
+    },
+    {
+      "id": 312,
+      "place_id": "ChIJQd3OjsurQjQRoVqrM8I7NFY",
+      "stitle": "通化公園"
+    },
+    {
+      "id": 313,
+      "place_id": "ChIJf1gllaesQjQRKjHvJLxBdmA",
+      "stitle": "世貿公園"
+    },
+    {
+      "id": 314,
+      "opening_hours": [
+        "Monday: Open all day",
+        "Tuesday: Open all day",
+        "Wednesday: Open all day",
+        "Thursday: Open all day",
+        "Friday: Open all day",
+        "Saturday: Open all day",
+        "Sunday: Open all day"
+      ],
+      "place_id": "ChIJ-2iGHziqQjQRtIxo8kzMOl8",
+      "stitle": "福州山公園"
+    },
+    {
+      "id": 315,
+      "opening_hours": [
+        "Monday: Open all day",
+        "Tuesday: Open all day",
+        "Wednesday: Open all day",
+        "Thursday: Open all day",
+        "Friday: Open all day",
+        "Saturday: Open all day",
+        "Sunday: Open all day"
+      ],
+      "place_id": "ChIJxcQNseCrQjQRvTeG_O-byQA",
+      "stitle": "遼寧公園"
+    },
+    {
+      "id": 316,
+      "opening_hours": [
+        "Monday: Open all day",
+        "Tuesday: Open all day",
+        "Wednesday: Open all day",
+        "Thursday: Open all day",
+        "Friday: Open all day",
+        "Saturday: Open all day",
+        "Sunday: Open all day"
+      ],
+      "place_id": "ChIJL4twrM6rQjQRaZ2ynqdsNjE",
+      "stitle": "敦安公園"
+    },
+    {
+      "id": 317,
+      "place_id": "ChIJdZfn_hOpQjQRXY8tKfp3KrA",
+      "stitle": "李臨秋故居"
+    },
+    {
+      "id": 318,
+      "opening_hours": [
+        "Monday: Open all day",
+        "Tuesday: Open all day",
+        "Wednesday: Open all day",
+        "Thursday: Open all day",
+        "Friday: Open all day",
+        "Saturday: Open all day",
+        "Sunday: Open all day"
+      ],
+      "place_id": "ChIJQ8-5rheqQjQRZRVTG1LVLlA",
+      "stitle": "興旺公園"
+    },
+    {
+      "id": 319,
+      "opening_hours": [
+        "Monday: Open all day",
+        "Tuesday: Open all day",
+        "Wednesday: Open all day",
+        "Thursday: Open all day",
+        "Friday: Open all day",
+        "Saturday: Open all day",
+        "Sunday: Open all day"
+      ],
+      "place_id": "ChIJH1kLFSOsQjQRLgrDAdVT_IA",
+      "stitle": "至德園公園"
+    }
+  ]
+}

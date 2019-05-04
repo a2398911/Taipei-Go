@@ -1,0 +1,37 @@
+@import '../../../scss/variable.scss';
+
+.mobile.searchAdvanced-content-wrap{
+  position: fixed !important;
+  @include center();
+  z-index: 10;
+  width: 80%;
+  min-width: 426px;
+  height: initial;
+  min-height: 200px;
+  @media (max-width: 400px) {
+    min-width: 300px;
+  }
+  & .searchAdvanced-items-wrap{
+    padding-top: 20px;
+    padding-bottom: 5px;
+  }
+}
+.searchAdvanced-searchBtn{
+  margin-bottom: 20px;
+  padding: 5px 20px;
+  border-radius: 13px;
+  font-size: 14px;
+  background-color: $color_focus;
+  color: #fff;
+  @include btnInteractive($color_focus);
+  transition: .5s;
+}
+.cover-bg,.remind-wrap{
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba($color_black, .8);
+  z-index: 5;
+}

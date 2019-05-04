@@ -1,0 +1,79 @@
+@import '../../../scss/variable.scss';
+
+.attraction-weather-wrap{
+  position: relative;
+}
+.line{
+  height: 100px;
+  width: 1px;
+  background-color: rgba($color_ligthGray, .3);
+  @media (max-width: 400px) {
+    display: none;
+  }
+}
+.weather-item{
+  display: flex;
+  max-width: 65px;
+  margin: 0 15px;
+  align-self: flex-start;
+  @media (max-width: 768px) {
+    margin: initial;
+  }
+  @media (max-width: 576px) {
+    margin: 0 15px;
+  }
+  @media (max-width: 400px) {
+    margin: initial;
+  }
+}
+.weather-date{
+  background-color: $color_Secondary;
+  color: #fff;
+  display: flex;
+  padding: 2px 8px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 300;
+}
+.temperature{
+  font-size: 25px;
+  color: $color_black;
+  position: relative;
+  &::after{
+    content: '°';
+    position: absolute;
+    right: -10px;
+    top: 0;
+  }
+}
+.weather-day{
+  color: $color_Secondary;
+  margin-bottom: 5px;
+}
+.weatherStatus{
+  font-size: 14px;
+  margin: 0;
+  width: 70px;
+  text-align: center;
+  color: $color_InnerText;
+  font-weight: 300;
+  height: 36px;
+}
+.weather-icon{
+  background: url(../../../img/weather-1.png) center/contain no-repeat;
+  width: 100%;
+  height: 60px;
+}
+.wearth-cloudy-day{
+  background: url(../../../img/weather-1.png) center/contain no-repeat;
+}
+.wearth-rain{
+  background: url(../../../img/weather-4.png) center/contain no-repeat;
+}
+.wearth-sun{
+  background: url(../../../img/weather-2.png) center/contain no-repeat;
+}
+.wearth-thunderstorm{
+  background: url(../../../img/weather-3.png) center/contain no-repeat;
+}

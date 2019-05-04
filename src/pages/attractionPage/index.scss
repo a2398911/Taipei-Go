@@ -1,0 +1,266 @@
+@import '../../scss/variable.scss';
+
+.attraction-wrap{
+  padding-top: 55px;
+}
+.attraction-title,.collection-title{
+  margin-top: 50px;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.map{
+  margin-right: 10px;
+}
+.attraction-star{
+  margin-left: 10px;
+}
+.star{
+  color: $color_ligthGray;
+}
+.star.active{
+  color: #f8b62d;
+}
+.starNum{
+  color: $color_black;
+  font-size: 16px;
+  margin-left: 5px;
+}
+.attraction-info-wrap, .google-map, .attraction-opinion-wrap, .attraction-weather-wrap, .collection-member-wrap{
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 3px 3px 10px 0px rgba($color_ligthGray, .5);
+}
+.attraction-img{
+  background: url() center/cover no-repeat;
+  padding-bottom: 65%;
+  // width: 50%;
+  // height: 400px;
+  flex-shrink: 0;
+  position: relative;
+  .attractionCard-heart{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    @include circleBtn(40px, rgba(#fff, .2), #fff);
+    transition: .5s;
+    @media (max-width:576px) {
+      transform: scale(.8);
+      right: 5px;
+      top: 5px;
+    }
+    .heart{
+      font-size: 20px;
+      background: url(../../img//heart-icon.svg) center/cover no-repeat;
+      height: 25px;
+      width: 29px;
+      transition: .3s;
+      @include center();
+      &:hover, &:active{
+        background-image: url(../../img/heart-hover-icon.svg);
+      }
+    }
+  }
+}
+.attraction-info{
+  margin: 20px 0;
+  text-align: justify;
+  line-height: 20px;
+  color: $color_darkhGray;
+}
+.attraction-details-title, .google-map-tilte, .attraction-opinion-title, .nearby-title, .attraction-weather-tilte{
+  color: $color_black;
+  font-size: 18px;
+  font-weight: bold;
+  border-top: solid 1px $color_ligthGray;
+  border-bottom: solid 1px $color_ligthGray;
+  padding: 10px 0;
+}
+.attraction-details-item{
+  margin: 20px 0;
+}
+.details-title{
+  color: $color_Secondary;
+  font-weight: bold;
+  flex-shrink: 0;
+  width: 100px;
+}
+.details-title.en{
+  width: 155px;
+}
+.dtails-content-text{
+  color: $color_InnerText;
+  font-size: 15px;
+  & .googleMap-link{
+    color: $color_InnerText;
+    border: 1px solid $color_InnerText;
+    padding: 0 5px;
+    border-radius: 5px;
+    transition: .5s;
+    &:hover, &:active{
+      @include btnInteractiveBorder($color_InnerText);
+    }
+  }
+  &.tracffic-text{
+    text-align: justify;
+    line-height: 20px;
+  }
+}
+.dtails-months{
+  display: inline-block;
+  padding: 5px;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  font-size: 14px;
+  background-color: $color_MRT_yellow;
+  color: #fff;
+  margin: 5px 0;
+  margin-right: 5px;
+}
+.dtails-content-text.target{
+  background-color: $color_primary;
+  color: #fff;
+  padding: 3px 5px;
+  border-radius: 5px;
+}
+.details-official-site{
+  color: $color_Secondary;
+  border: 1px solid $color_Secondary;
+  padding: 2px 5px;
+  border-radius: 5px;
+  transition: .5s;
+  @include btnInteractiveBorder($color_Secondary);
+}
+.opentTime-list{
+  margin-bottom: 10px;
+}
+.tag, .map-marker, .street-view, .collection-heart-icon,
+.comments, .paper-plane, .map-pin, .dtails-content-text.target, .phone, .check-square{
+  margin-right: 5px;
+}
+.details-service{
+  margin-right: 10px;
+  color: $color_primary;
+}
+.MRT-line{
+  padding: 0 5px;
+  border-radius: 5px;
+  color: #fff;
+  margin-right: 10px;
+  padding: 5px;
+}
+.google-map, .attraction-opinion-wrap, .attraction-weather-wrap{
+  margin-top: 20px;
+}
+.attraction-opinion-wrap{
+  margin-bottom: 20px;
+}
+.google-map-tilte, .attraction-weather-tilte{
+  border-top: none;
+  padding-top: 0;
+}
+.nearby-title{
+  border: none;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+.attraction-opinion-title{
+  border: none;
+  padding: 0;
+}
+.google-map-show{
+  margin-top: 15px;
+  height: 300px;
+}
+.attraction-opinion-item{
+  position: relative;
+}
+.attraction-message-num{
+  margin-left: 5px;
+}
+.attraction-opinion-infos{
+  font-size: 18px;
+  padding: 10px 0;
+  color: $color_primary;
+  border-bottom: 1px solid $color_ligthGray;
+  margin: 10px 0;
+}
+.attraction-opinion-name{
+  margin-right: 10px;
+}
+.attraction-option-date{
+  font-size: 12px;
+  color: $color_ligthGray;
+  margin-left: auto;
+  align-self: flex-end;
+}
+.attraction-opinion-message{
+  color: $color_InnerText;
+  text-align: justify;
+  padding-bottom: 20px;
+}
+.delet,.eidt{
+  background-color: $color_focus;
+  color: #fff;
+  padding: 4px 5px;
+  border-radius: 5px;
+  @include btnInteractive($color_focus);
+  position: absolute;
+  right: 0;
+  bottom: 4px;
+  transition: .5s;
+}
+.eidt{
+  right: 85px;
+  background-color: $color_Secondary;
+  @include btnInteractive($color_Secondary);
+}
+.MRT-yellow{
+  background-color: $color_MRT_yellow;
+}
+.MRT-green{
+  background-color: $color_MRT_green;
+}
+.MRT-red{
+  background-color: $color_MRT_red;
+}
+.MRT-brown{
+  background-color: $color_MRT_brown;
+}
+.MRT-blue{
+  background-color: $color_MRT_blue;
+}
+.messageTextarea{
+  margin-top: 20px;
+}
+.messageBtn,.senMessageBtn{
+  padding: 5px 10px;
+  margin-top: 20px;
+  background-color: $color_Secondary;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 18px;
+  transition: .5s;
+  @include btnInteractive($color_Secondary);
+}
+.senMessageBtn{
+  background-color: $color_focus;
+  @include btnInteractive($color_focus);
+  margin-left: 20px;
+}
+blockquote{
+  margin: 0 0 10px;
+  padding: 15px 20px;
+  background-color: #f1f2f3;
+  border-left: 5px solid #ccc;
+  color: $color_darkhGray;
+  font-style: italic;
+}
+hr{
+  height:1px;
+  border: none;
+  border-top:1px solid $color_ligthGray;
+  margin:15px 0;
+}
