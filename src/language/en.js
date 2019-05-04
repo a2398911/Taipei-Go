@@ -87,6 +87,8 @@ export default {
   },
   editor: {
     title: 'Give a rating',
-    placeholder: 'Write a review!'
+    placeholder: 'Write a review!',
+    editMessage: 'Edit Message',
+    deleteMessage: 'Delete Message'
   }
 }

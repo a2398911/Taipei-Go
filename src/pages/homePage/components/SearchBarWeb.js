@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import FontAwesome from "react-fontawesome";
 import { Consumer } from "../../../context/DataContext";
 import LanguageZhTW from '../../../language/zh-TW';
-import LanguageZhEn from '../../../language/en';
+import LanguageEn from '../../../language/en';
 class SearchBarWeb extends Component {
   render() {
     const { showOptionDate,optionDateShow,
@@ -16,7 +16,7 @@ class SearchBarWeb extends Component {
         searchMRT, TaipeiMRT, searchHandle, selectTagThemes, tagTheme, selectAreaThemes, areaTheme, removeSelectItem }) => {
         let languageStatus;
         let theme;
-        language === 'zh-TW' ? languageStatus = LanguageZhTW : languageStatus = LanguageZhEn;  
+        language === 'zh-TW' ? languageStatus = LanguageZhTW : languageStatus = LanguageEn;  
         currentThemeIsTag ? theme = 'tag' : theme = 'area';
         return (
           <div className="searchBar-wrap">
@@ -91,6 +91,7 @@ class SearchBarWeb extends Component {
               </div>
               <div className="searchAdvanced-content d-flex h-flex-column h-align-items-center h-justify-content-center">
                 <div className="searchAdvanced-items-wrap d-flex h-justify-content-center h-flex-wrap">
+                  {console.log(tagTheme,'tagTheme')}
                   {currentThemeIsTag && tagTheme.map(item => (
                     <button className={ item.active ? "searchAdvanced-item active" : "searchAdvanced-item" }
                       key={item.id}

@@ -4,7 +4,7 @@ import SearchBarMobile from "./SearchBarMobile";
 import { Consumer } from "../../../context/DataContext";
 import "./Hero.scss";
 import LanguageZhTW from '../../../language/zh-TW';
-import LanguageZhEn from '../../../language/en';
+import LanguageEn from '../../../language/en';
 
 class Hero extends Component {
   state = {
@@ -69,7 +69,7 @@ class Hero extends Component {
       {({language}) => {
         let languageStatus;
         let week;
-        language === 'zh-TW' ? languageStatus = LanguageZhTW : languageStatus = LanguageZhEn;
+        language === 'zh-TW' ? languageStatus = LanguageZhTW : languageStatus = LanguageEn;
         language === 'zh-TW' ? week = this.state.week : week = this.state.weekEn
         return (
           <>

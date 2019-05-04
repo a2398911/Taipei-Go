@@ -146,7 +146,7 @@ class AttractionCard extends Component {
           let opentTIme;
           let currentActiveDay = this.getDay(language);
           let contentText;
-          xbody && (language === 'zh-TW' ? contentText = this.contentTextBreakLineHandle(xbody.substr(0, 65)) : contentText = this.contentTextBreakLineHandle(xbody.substr(0, 30)));
+          xbody && (language === 'zh-TW' ? contentText = (this.contentTextBreakLineHandle(xbody))[0].substr(0, 40) : contentText = this.contentTextBreakLineHandle(xbody.substr(0, 30)));
           MRT && (this.filterMRTLine(MRT, language))[0] && (MRTLine = (this.filterMRTLine(MRT, language))[0].line) && (MRTColor = this.switchMRTLine(MRTLine, language));
           !currentDay && (opentTIme = this.filterOpenTime(opening_hours));
           currentDay && (opentTIme = this.filterOpenTime(opening_hours, currentDay));

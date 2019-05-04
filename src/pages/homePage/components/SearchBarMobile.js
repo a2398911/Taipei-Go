@@ -3,7 +3,7 @@ import FontAwesome  from 'react-fontawesome';
 import { Consumer } from "../../../context/DataContext";
 import SearchAdvancedMobile from './SearchAdvancedMobile';
 import LanguageZhTW from '../../../language/zh-TW';
-import LanguageZhEn from '../../../language/en';
+import LanguageEn from '../../../language/en';
 import './SearchBarMobile.scss';
 
 class SearchBarMobile extends Component {
@@ -18,7 +18,7 @@ class SearchBarMobile extends Component {
       {({showSearchAdvancedMobile, searchInput, changeInputHandle, selectDayOptionHandle,
       selectMrtOptionHandle, searchDay, searchMRT, TaipeiMRT, searchHandle, searchAdvancedMobileHandle, language}) => {
         let languageStatus;
-        language === 'zh-TW' ? languageStatus = LanguageZhTW : languageStatus = LanguageZhEn;  
+        language === 'zh-TW' ? languageStatus = LanguageZhTW : languageStatus = LanguageEn;  
         return (
           <section className="searchBar-wrap-mobile h-align-items-center" onClick={closeOptionDateOnSection}>
             <div className="container">

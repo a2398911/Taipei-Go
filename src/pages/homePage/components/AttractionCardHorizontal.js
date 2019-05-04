@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import './AttractionCardHorizontal.scss';
 import { Consumer } from '../../../context/DataContext';
 import LanguageZhTW from '../../../language/zh-TW';
-import LanguageZhEn from '../../../language/en';
+import LanguageEn from '../../../language/en';
 
 export default class AttractionCardHorizontal extends Component {
   render() {
@@ -16,7 +16,7 @@ export default class AttractionCardHorizontal extends Component {
       {({uid,userData,clickHeartIconHandle,filterFavorite,language}) => {
         let languageStatus;
         let addClass;
-        language === 'zh-TW' ? languageStatus = LanguageZhTW : languageStatus = LanguageZhEn;
+        language === 'zh-TW' ? languageStatus = LanguageZhTW : languageStatus = LanguageEn;
         language === 'zh-TW' ? addClass = '' : addClass = ' en';
         return (
           <div className="col-12 col-lg-6" data-id={_id}>

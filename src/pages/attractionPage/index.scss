@@ -201,7 +201,7 @@
   text-align: justify;
   padding-bottom: 20px;
 }
-.delet,.eidt{
+.delet,.edit{
   background-color: $color_focus;
   color: #fff;
   padding: 4px 5px;
@@ -212,10 +212,13 @@
   bottom: 4px;
   transition: .5s;
 }
-.eidt{
+.edit{
   right: 85px;
   background-color: $color_Secondary;
   @include btnInteractive($color_Secondary);
+}
+.edit.en{
+  right: 140px;
 }
 .MRT-yellow{
   background-color: $color_MRT_yellow;

@@ -3,7 +3,7 @@ import { Consumer } from '../context/DataContext';
 import SigninContent from './SigninContent';
 import SignupContent from './SignupContent';
 import LanguageZhTW from '../language/zh-TW';
-import LanguageZhEn from '../language/en';
+import LanguageEn from '../language/en';
 import './SigninModel.scss';
 
 class SigninModel extends Component {
@@ -50,7 +50,7 @@ class SigninModel extends Component {
       <Consumer>
       {({ setState, language }) => {
         let languageStatus;
-        language === 'zh-TW' ? languageStatus = LanguageZhTW : languageStatus = LanguageZhEn;
+        language === 'zh-TW' ? languageStatus = LanguageZhTW : languageStatus = LanguageEn;
         return (
           <div className="signIn-wrap">
             <div className="signIn-box">

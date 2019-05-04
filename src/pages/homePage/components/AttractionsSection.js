@@ -6,7 +6,7 @@ import PageNumber from "./PageNumber";
 import BouncingLoader from '../../../components/BouncingLoader';
 import square from '../../../img/square.svg';
 import LanguageZhTW from '../../../language/zh-TW';
-import LanguageZhEn from '../../../language/en';
+import LanguageEn from '../../../language/en';
 import "./AttractionsSection.scss";
 
 class AttractionsSection extends Component {
@@ -44,7 +44,7 @@ class AttractionsSection extends Component {
         results && (currentData = this.currentDataHandle(results, searchData, currentPage));
         searchData ? (currentCount = searchData.length) : (currentCount = count);
         !currentCount && (currentCount = 0);
-        language === 'zh-TW' ? languageStatus = LanguageZhTW : languageStatus = LanguageZhEn;
+        language === 'zh-TW' ? languageStatus = LanguageZhTW : languageStatus = LanguageEn;
         language === 'zh-TW' ? currentCountText = `共有 ${currentCount} 處景點` : currentCountText = `${currentCount} Attractions`;
         return (
           <section>

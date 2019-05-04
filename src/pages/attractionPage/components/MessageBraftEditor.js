@@ -4,7 +4,7 @@ import 'braft-editor/dist/index.css';
 import './MessageBraftEditor.css';
 import { Consumer } from '../../../context/DataContext';
 import LanguageZhTW from '../../../language/zh-TW';
-import LanguageZhEn from '../../../language/en';
+import LanguageEn from '../../../language/en';
 
 const controls =[
   'undo', 'redo', 'separator',
@@ -29,7 +29,7 @@ export default class MessageBraftEditor extends React.Component {
       <Consumer>
       {({language}) => {
         let languageStatus;
-        language === 'zh-TW' ? languageStatus = LanguageZhTW : languageStatus = LanguageZhEn;
+        language === 'zh-TW' ? languageStatus = LanguageZhTW : languageStatus = LanguageEn;
         return (
           <div className="editor-wrap">
             <span className="editor-start-wrap d-flex">

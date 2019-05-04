@@ -3,7 +3,7 @@ import AttractionCard from '../homePage/components/AttractionCard';
 import FontAwesome from "react-fontawesome";
 import { Consumer } from "../../context/DataContext";
 import LanguageZhTW from '../../language/zh-TW';
-import LanguageZhEn from '../../language/en';
+import LanguageEn from '../../language/en';
 import './index.scss';
 
 class CollectionPage extends Component {
@@ -32,7 +32,7 @@ class CollectionPage extends Component {
         const userFavoriteData = this.favoriteDataHandle(userData,results);
         let languageStatus;
         let addCategoryClass;
-        language === 'zh-TW' ? languageStatus = LanguageZhTW : languageStatus = LanguageZhEn;
+        language === 'zh-TW' ? languageStatus = LanguageZhTW : languageStatus = LanguageEn;
         language === 'zh-TW' ? addCategoryClass = '' : addCategoryClass = ' en';
         return(
           <section>
@@ -50,7 +50,7 @@ class CollectionPage extends Component {
                   <div className="col-12">
                   <div className="collection-member-wrap">
                     <div className="member-info d-flex h-align-items-center">
-                      <FontAwesome name="user" className="user" />
+                      <FontAwesome name="user" className="collection-user" />
                       <span className="member-name">{userData && userData.nickName}</span>
                     </div>
                     <div className="member-collectionNum">

@@ -13,7 +13,7 @@ import activeHeartIcon from '../../img/heart-hover-icon.svg';
 import BraftEditor from 'braft-editor';
 import './index.scss';
 import LanguageZhTW from '../../language/zh-TW';
-import LanguageZhEn from '../../language/en';
+import LanguageEn from '../../language/en';
 
 // const api = 'https://data.taipei/opendata/datalist/apiAccess?scope=resourceAquire&rid=e6831708-02b4-4ef8-98fa-4b4ce53459d9&q=%E8%87%BA%E5%8C%97%E5%B8%82';
 const api = 'https://weather.yfxie.com/api?region=taipei_city&_=1555515701988';
@@ -249,7 +249,7 @@ class AttractionPage extends Component {
         MRT && (this.filterMRTLine(MRT,language))[0] && (MRTLine = (this.filterMRTLine(MRT,language))[0].line) && (MRTColor = this.switchMRTLine(MRTLine,language));
         let languageStatus;
         let detailsTitleClass;
-        language === 'zh-TW' ? languageStatus = LanguageZhTW : languageStatus = LanguageZhEn;
+        language === 'zh-TW' ? languageStatus = LanguageZhTW : languageStatus = LanguageEn;
         language === 'zh-TW' ? detailsTitleClass = 'details-title' : detailsTitleClass = 'details-title en';
         return (
           <section>

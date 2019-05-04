@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Consumer } from "../../../context/DataContext";
 import './SearchAdvancedMobile.scss';
 import LanguageZhTW from '../../../language/zh-TW';
-import LanguageZhEn from '../../../language/en';
+import LanguageEn from '../../../language/en';
 
 class SearchAdvancedMobile extends Component {
   render() {
@@ -11,7 +11,7 @@ class SearchAdvancedMobile extends Component {
       <Consumer>
       {({selectTagThemes, tagTheme, selectAreaThemes, areaTheme, searchHandle, searchAdvancedMobileHandle, language}) => {
         let languageStatus;
-        language === 'zh-TW' ? languageStatus = LanguageZhTW : languageStatus = LanguageZhEn;
+        language === 'zh-TW' ? languageStatus = LanguageZhTW : languageStatus = LanguageEn;
         return (
           <>
             <div className="mobile searchAdvanced-content-wrap">

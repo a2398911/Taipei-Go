@@ -3,7 +3,7 @@ import FontAwesome from "react-fontawesome";
 import './Footer.scss';
 import { Consumer } from "../context/DataContext";
 import LanguageZhTW from '../language/zh-TW';
-import LanguageZhEn from '../language/en';
+import LanguageEn from '../language/en';
 
 class Footer extends Component {
   render() {
@@ -11,7 +11,7 @@ class Footer extends Component {
       <Consumer>
       {({language}) => {
         let languageStatus;
-        language === 'zh-TW' ? languageStatus = LanguageZhTW : languageStatus = LanguageZhEn;
+        language === 'zh-TW' ? languageStatus = LanguageZhTW : languageStatus = LanguageEn;
         return (
           <footer className="footer-bg">
             <div className="footer">

@@ -87,6 +87,8 @@ export default {
   },
   editor: {
     title: '給予評價',
-    placeholder: '寫下你的評價'
+    placeholder: '寫下你的評價',
+    editMessage: '編輯內容',
+    deleteMessage: '刪除內容'
   }
 }

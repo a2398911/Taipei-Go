@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import FontAwesome from 'react-fontawesome';
 import { Consumer } from '../../../context/DataContext';
 import LanguageZhTW from '../../../language/zh-TW';
-import LanguageZhEn from '../../../language/en';
+import LanguageEn from '../../../language/en';
 
 class AttractionCardStraight extends Component {
   strTmpLanguageHandle = (strTmp) => {
@@ -22,7 +22,7 @@ class AttractionCardStraight extends Component {
         let languageStatus;
         let strTmpText;
         let addClass;
-        language === 'zh-TW' ? languageStatus = LanguageZhTW : languageStatus = LanguageZhEn;
+        language === 'zh-TW' ? languageStatus = LanguageZhTW : languageStatus = LanguageEn;
         strTmp && (language === 'zh-TW' ? strTmpText = `距離 ${strTmp}` : strTmpText = this.strTmpLanguageHandle(strTmp));
         language === 'zh-TW' ? addClass = '' : addClass = ' en';
         return (

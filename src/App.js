@@ -498,6 +498,7 @@ class App extends Component {
       changeTaipeiDataSortHandle: this.changeTaipeiDataSortHandle,
       getTaipeiDate: this.getTaipeiDate,
       changeLanguageMRT: this.changeLanguageMRT,
+      changeLanguageAdvance: this.changeLanguageAdvance,
       setState: this.setState.bind(this),
     };
     return (

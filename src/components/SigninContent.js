@@ -3,7 +3,7 @@ import FontAwesome from 'react-fontawesome';
 import firebase, { fireAuth } from '../config/firebase.js';
 import { Consumer } from '../context/DataContext';
 import LanguageZhTW from '../language/zh-TW';
-import LanguageZhEn from '../language/en';
+import LanguageEn from '../language/en';
 
 class SigninContent extends Component {
   state = {
@@ -64,7 +64,7 @@ class SigninContent extends Component {
       <Consumer>
       {({language}) => {
         let languageStatus;
-        language === 'zh-TW' ? languageStatus = LanguageZhTW : languageStatus = LanguageZhEn;
+        language === 'zh-TW' ? languageStatus = LanguageZhTW : languageStatus = LanguageEn;
         return (
           <div className="signIn-content d-flex h-flex-column">
             <div className="signIn-email-wrap d-flex h-flex-column h-align-items-center">

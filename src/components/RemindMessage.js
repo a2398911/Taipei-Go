@@ -3,7 +3,7 @@ import './RemindMessage.scss';
 import { Consumer } from '../context/DataContext';
 import FontAwesome from 'react-fontawesome';
 import LanguageZhTW from '../language/zh-TW';
-import LanguageZhEn from '../language/en';
+import LanguageEn from '../language/en';
 
 class RemindMessage extends Component {
   changeTitleHandle = (modelStatus,language) => {
@@ -69,7 +69,7 @@ class RemindMessage extends Component {
       <Consumer>
       {({ setState,showRemindModel,userName,showErrorReminModel,language}) => {
         let languageStatus;
-        language === 'zh-TW' ? languageStatus = LanguageZhTW : languageStatus = LanguageZhEn;
+        language === 'zh-TW' ? languageStatus = LanguageZhTW : languageStatus = LanguageEn;
         return (
           <div className="remind-wrap" onClick={() => setState({ showErrorReminModel: false })}>
             <div className="remind-box d-flex h-align-items-center h-flex-column h-justify-content-center">
