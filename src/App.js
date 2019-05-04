@@ -6,7 +6,7 @@ import Footer from "./components/Footer";
 import SigninModel from './components/SigninModel';
 import CollectionPage from './pages/collectionPage';
 import { Provider } from "./context/DataContext";
-import { BrowserRouter, Route } from 'react-router-dom';
+import { HashRouter, Route } from 'react-router-dom';
 import firebase, { fireAuth } from './config/firebase.js';
 import TaipeiMRT from "./taipei-MRT";
 import TaipeiMRT_EN from './taipei-MRT_EN';
@@ -501,7 +501,7 @@ class App extends Component {
       setState: this.setState.bind(this),
     };
     return (
-      <BrowserRouter>
+      <HashRouter>
         <ScrollToTop>
           <Provider value={contextValue}>
             <Header />
@@ -516,7 +516,7 @@ class App extends Component {
             <Footer />
           </Provider>
         </ScrollToTop>
-      </BrowserRouter>
+      </HashRouter>
     );
   }
 }
