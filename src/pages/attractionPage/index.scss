@@ -78,12 +78,19 @@
 }
 .attraction-details-item{
   margin: 20px 0;
+  @media (max-width: 576px) {
+    flex-direction: column;
+    align-items: initial !important;
+  }
 }
 .details-title{
   color: $color_Secondary;
   font-weight: bold;
   flex-shrink: 0;
   width: 100px;
+  @media (max-width: 576px) {
+    margin-bottom: 5px;
+  }
 }
 .details-title.en{
   width: 155px;
@@ -105,6 +112,11 @@
     text-align: justify;
     line-height: 20px;
   }
+  &.mobile-MRT{
+    @media (max-width: 576px) {
+      margin-top: 10px;
+    }
+  }
 }
 .dtails-months{
   display: inline-block;
@@ -123,6 +135,9 @@
   color: #fff;
   padding: 3px 5px;
   border-radius: 5px;
+  @media (max-width: 576px) {
+    margin-bottom: 5px;
+  }
 }
 .details-official-site{
   color: $color_Secondary;

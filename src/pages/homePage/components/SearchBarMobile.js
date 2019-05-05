@@ -37,11 +37,12 @@ class SearchBarMobile extends Component {
                     )}
                 </div>
                 </div>
-                <div className="col-12" onClick={selectDayOptionHandle}>
+                <div className="col-12">
                   <div className="select-wrap">
                     <button className="select d-flex h-align-items-center"
                       onFocus={showOptionDate}
-                      // onClick={selectDayOptionHandle}
+                      onClick={selectDayOptionHandle}
+                      onTouch={selectDayOptionHandle}
                       >
                     </button>
                     <div className="placeholder d-flex h-align-items-center">
@@ -56,11 +57,12 @@ class SearchBarMobile extends Component {
                     </ul>
                   </div>
                 </div>
-                <div className="col-12" onClick={selectMrtOptionHandle}>
+                <div className="col-12">
                   <div className="select-wrap">
                     <button className="select d-flex h-align-items-center"
                       onFocus={showOptionMRT}
-                      // onClick={selectMrtOptionHandle}
+                      onClick={selectMrtOptionHandle}
+                      onTouch={selectMrtOptionHandle}
                       >
                     </button>
                     <div className="placeholder d-flex h-align-items-center">

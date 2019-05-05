@@ -58,4 +58,7 @@
   text-align: center;
   margin-bottom: 20px;
   color: $color_Secondary;
+  @media (max-width: 576px) {
+    margin-bottom: 10px;
+  }
 }

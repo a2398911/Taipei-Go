@@ -351,7 +351,7 @@ class AttractionPage extends Component {
                         {MRTLine ? (
                           <ul className="attraction-details-item d-flex h-align-items-center">
                             <li className={detailsTitleClass}>{languageStatus.attractionPage.mrt}</li>
-                            <li className="dtails-content-text"><span className={`MRT-line ${MRTColor}`}>{MRTLine}</span><span>{MRT}</span></li>
+                            <li className="dtails-content-text mobile-MRT"><span className={`MRT-line ${MRTColor}`}>{MRTLine}</span><span>{MRT}</span></li>
                           </ul>
                           ) : null}
                         <ul className="attraction-details-item d-flex h-align-items-center">
