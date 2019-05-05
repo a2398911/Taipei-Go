@@ -37,11 +37,12 @@ class SearchBarMobile extends Component {
                     )}
                 </div>
                 </div>
-                <div className="col-12">
+                <div className="col-12" onClick={selectDayOptionHandle}>
                   <div className="select-wrap">
                     <button className="select d-flex h-align-items-center"
                       onFocus={showOptionDate}
-                      onClick={selectDayOptionHandle}>
+                      // onClick={selectDayOptionHandle}
+                      >
                     </button>
                     <div className="placeholder d-flex h-align-items-center">
                       <FontAwesome name="calendar" className="calendar" />
@@ -55,11 +56,13 @@ class SearchBarMobile extends Component {
                     </ul>
                   </div>
                 </div>
-                <div className="col-12">
+                <div className="col-12" onClick={selectMrtOptionHandle}>
                   <div className="select-wrap">
                     <button className="select d-flex h-align-items-center"
                       onFocus={showOptionMRT}
-                      onClick={selectMrtOptionHandle}></button>
+                      // onClick={selectMrtOptionHandle}
+                      >
+                    </button>
                     <div className="placeholder d-flex h-align-items-center">
                       <FontAwesome name="location-arrow" className="location-arrow" />
                       <span className="select-text">{!searchMRT ? languageStatus.hero.MRT : searchMRT}</span>

@@ -31,9 +31,7 @@ class Hero extends Component {
     });
   };
   closeOptionDateOnSection = (e) => {
-    if (e.target.className !== 'hero d-flex h-align-items-center' 
-      && e.target.className !== 'hero-subtitle' 
-      && e.target.className !== 'hero-title' && e.target.className !== 'col-12') return;
+    if (e.target.className === 'select d-flex h-align-items-center') return;
     this.setState({
       optionDateShow: false,
       optionMRTShow: false
