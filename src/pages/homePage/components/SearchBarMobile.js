@@ -42,7 +42,7 @@ class SearchBarMobile extends Component {
                     <button className="select d-flex h-align-items-center"
                       onFocus={showOptionDate}
                       onClick={selectDayOptionHandle}
-                      onTouch={selectDayOptionHandle}
+                      onTouchStart={showOptionDate}
                       >
                     </button>
                     <div className="placeholder d-flex h-align-items-center">
@@ -62,7 +62,7 @@ class SearchBarMobile extends Component {
                     <button className="select d-flex h-align-items-center"
                       onFocus={showOptionMRT}
                       onClick={selectMrtOptionHandle}
-                      onTouch={selectMrtOptionHandle}
+                      onTouchStart={showOptionMRT}
                       >
                     </button>
                     <div className="placeholder d-flex h-align-items-center">

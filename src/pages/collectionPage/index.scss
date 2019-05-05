@@ -52,6 +52,10 @@
   @media (max-width: 768px) {
     height: 105px;
   }
+  @media (max-width: 576px) {
+    height: 145px;
+    font-size: 14px;
+  }
 }
 .all,.item-0,.item-1,.item-2,.item-3,.item-4,.item-5,.item-6,.item-7,.item-8{
   color: $color_InnerText;
