@@ -9,11 +9,11 @@ import LanguageEn from '../language/en';
 import LanguageZhTW from '../language/zh-TW';
 import './Header.scss';
 
-
 class Header extends Component {
   state = {
     mobileMenu: false,
     languageSelect: false,
+    languageMobileMenu: false,
   }
   signOutHandle = (setState) => {
     fireAuth.signOut();
@@ -24,7 +24,8 @@ class Header extends Component {
   }
   mobileMenuHandle = () => {
     this.setState({
-      mobileMenu: !this.state.mobileMenu
+      mobileMenu: !this.state.mobileMenu,
+      languageMobileMenu: false,
     })
   }
   showLanguageSelectHandle = (e) => {
@@ -32,7 +33,10 @@ class Header extends Component {
     currentActiveClassName === 'menuLink-text' | currentActiveClassName === 'icon' 
       && this.setState({ languageSelect: !this.state.languageSelect });
   }
-  setCookieLanguage = (language,setState,getTaipeiDate,changeLanguageMRT,changeLanguageAdvance) => {
+  showLanguageSelectModelHandle = () => {
+    this.setState({ languageMobileMenu: !this.state.languageMobileMenu })
+  }
+  setCookieLanguage = (language,setState,getTaipeiDate,changeLanguageMRT,changeLanguageAdvance, isMobile = false) => {
     const expires = new Date();
     expires.setTime(expires.getTime() + 1*24*60*60*1000);
     document.cookie = `language=${language}; max-age=${expires}; path=/`;
@@ -41,9 +45,10 @@ class Header extends Component {
     getTaipeiDate(language);
     changeLanguageMRT(language);
     changeLanguageAdvance(language);
+    isMobile && this.mobileMenuHandle();
   }
   render() {
-    const { mobileMenu,languageSelect } = this.state;
+    const { mobileMenu,languageSelect,languageMobileMenu } = this.state;
     return (
       <Consumer>
         {({ setState,uid,userData,resetSearchInput,getTaipeiDate,changeLanguageMRT,language,changeLanguageAdvance}) => {
@@ -85,14 +90,14 @@ class Header extends Component {
                             </ul>
                           </span>
                         </div>
-                        <div className={mobileMenu ? 'menu-mobile-btn d-flex h-flex-column h-justify-content-between d-md-none active' : 'menu-mobile-btn d-flex h-flex-column h-justify-content-between d-md-none'} onClick={this.mobileMenuHandle}>
+                        <div className={mobileMenu ? 'menu-mobile-btn d-flex h-flex-column h-justify-content-between d-md-none h-align-items active' : 'menu-mobile-btn d-flex h-flex-column h-justify-content-between h-align-items d-md-none'} onClick={this.mobileMenuHandle}>
                           <span className="d-inline-block"></span>
                           <span className="d-inline-block"></span>
                           <span className="d-inline-block"></span>
                         </div>
                         <div className="memberIcon-mobile-wrap d-md-none" onClick={uid ? () => this.signOutHandle(setState) : () => setState({showSignInModel: true})}>
                           <img className="memberIcon d-inline-block" src={memberIcon} alt="" />
-                          <span className="mobile-text">{uid ? languageStatus.navbar.signOut : languageStatus.navbar.signIn}</span>
+                          <span className="mobile-text">{uid ? languageStatus.navbar.signOutModel : languageStatus.navbar.signInModel}</span>
                         </div>
                       </nav>
                     </div>
@@ -106,6 +111,19 @@ class Header extends Component {
                       <Link to={uid ? '/myHeart' : '/' } className="menuLink d-flex h-align-items-center" onClick={() => this.errorReminModelHandle(uid,setState)}>
                         <span className="menuLink-text" onClick={() => this.setState({ mobileMenu: false })}>{languageStatus.navbar.favorite}</span>
                       </Link>
+                      <div className="menuLink itemLink-2" onClick={this.showLanguageSelectModelHandle}>Language</div>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+              <nav className={languageMobileMenu ? 'mobile-menu-wrap language d-md-none show' : 'mobile-menu-wrap language d-md-none'}>
+                <div className="container">
+                  <div className="row">
+                    <div className="col-12">
+                      <div className="language-wrap">
+                        <div className="menuLink language-item" onClick={() => this.setCookieLanguage('zh-TW',setState, getTaipeiDate,changeLanguageMRT,changeLanguageAdvance,true)}>中文(繁體)</div>
+                        <div className="menuLink language-item" onClick={() => this.setCookieLanguage('en',setState, getTaipeiDate,changeLanguageMRT,changeLanguageAdvance,true)}>English</div>
+                      </div>
                     </div>
                   </div>
                 </div>

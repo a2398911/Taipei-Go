@@ -91,6 +91,9 @@
     font-size: 13px;
     bottom: 16px;
     background-color: $color_Secondary;
+    @media (max-width: 576px) {
+      bottom: 28px;
+    }
   }
   .MRT-yellow{
     background-color: $color_MRT_yellow;

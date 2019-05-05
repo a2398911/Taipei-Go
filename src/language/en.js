@@ -3,6 +3,8 @@ export default {
     favorite: 'Favorite',
     signIn: 'Sign In',
     signOut: 'Sign Out',
+    signInModel: 'Sign In',
+    signOutModel: 'Sign Out',
   },
   hero: {
     title: 'Impression of Taipei',

@@ -2,6 +2,9 @@
 
 .attractionCard.Horizontal{
   min-height: 230px;
+  @media (max-width: 576px) {
+    min-height: initial;
+  }
   .attractionCard-content{
     display: flex;
     flex-direction: column;

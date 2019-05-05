@@ -25,6 +25,9 @@
   @include centerY;
   right: 0;
   color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .hr{
   width: 100%;

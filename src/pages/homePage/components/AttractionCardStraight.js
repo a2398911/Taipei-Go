@@ -23,7 +23,7 @@ class AttractionCardStraight extends Component {
         let strTmpText;
         let addClass;
         language === 'zh-TW' ? languageStatus = LanguageZhTW : languageStatus = LanguageEn;
-        strTmp && (language === 'zh-TW' ? strTmpText = `距離 ${strTmp}` : strTmpText = this.strTmpLanguageHandle(strTmp));
+        strTmp && (language === 'zh-TW' ? strTmpText = strTmp : strTmpText = this.strTmpLanguageHandle(strTmp));
         language === 'zh-TW' ? addClass = '' : addClass = ' en';
         return (
           <div className="col-lg-4" data-id={_id}>

@@ -3,6 +3,8 @@ export default {
     favorite: '我的收藏',
     signIn: '會員登入',
     signOut: '會員登出',
+    signInModel: '登入',
+    signOutModel: '登出',
   },
   hero: {
     title: '臺北之旅，從這刻開始',
