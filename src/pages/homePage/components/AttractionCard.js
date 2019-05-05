@@ -150,7 +150,8 @@ class AttractionCard extends Component {
           MRT && (this.filterMRTLine(MRT, language))[0] && (MRTLine = (this.filterMRTLine(MRT, language))[0].line) && (MRTColor = this.switchMRTLine(MRTLine, language));
           !currentDay && (opentTIme = this.filterOpenTime(opening_hours));
           currentDay && (opentTIme = this.filterOpenTime(opening_hours, currentDay));
-          let data = {contentText,backgroundImage,opentTIme,MRTColor,strTmp,CAT2, _id, stitle, stitle_en, MRT, address,area,currentDay,currentActiveDay}
+          let data = {contentText,backgroundImage,opentTIme,MRTColor,strTmp,CAT2, _id, stitle, stitle_en, MRT, address,area,currentDay,currentActiveDay};
+          console.log('data',data);
           return (
             cardIsRow ? <AttractionCardHorizontal data={data} contentText={contentText} backgroundImageActive={backgroundImageActive}/> 
               : <AttractionCardStraight data={data} contentText={contentText} backgroundImageActive={backgroundImageActive}/>

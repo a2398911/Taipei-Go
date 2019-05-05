@@ -367,7 +367,7 @@ class AttractionPage extends Component {
                   <div className="col-12">
                     <div className="google-map">
                       <div className="google-map-tilte">{languageStatus.attractionPage.mapTitle}</div>
-                      <GoogleMap data={this.props.data[0]} language={language}/>
+                      <GoogleMap data={this.props.data[0]} language={language} />
                     </div>
                   </div>
                 </div>

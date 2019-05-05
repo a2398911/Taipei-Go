@@ -19,6 +19,7 @@ class GoogleMap extends Component {
       this.createMap
     );
   }
+
   createMap = () => {
     const { stitle, latitude, longitude } = this.props.data;
     this.setState({
@@ -48,7 +49,7 @@ class GoogleMap extends Component {
     this.setState({ markers: tempArr });
   };
   render() {
-    return <div className="google-map-show" ref={this.mapRef} />
+    return <div className={`google-map-show ${this.props.language}`} ref={this.mapRef} />
   }
 }
 

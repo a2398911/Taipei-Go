@@ -434,6 +434,28 @@ class App extends Component {
         pageNum: pageNumArray,
       });
     })
+
+    // DataRef.on('value').then((snapshot) => {
+    //   const taipeiData = snapshot.val();
+    //   let pageNumArray = [];
+    //   taipeiData.forEach(item => {
+    //     openTimeData.Tourist.forEach(touristItem => {
+    //       +item._id === +touristItem.id && (item.opening_hours = touristItem.opening_hours)
+    //     });
+    //   })
+    //   const newTaipeiData = taipeiData.filter(item => item !== null);
+    //   const count = newTaipeiData.length;
+    //   let pageNum = Math.ceil(+count / 21);
+    //   for (let i = 1; i <= pageNum; i++) { pageNumArray.push(i) };
+    //   newTaipeiData.sort((a, b) => b.star_rating > a.star_rating ? 1 : -1);
+    //   this.setState({
+    //     results: newTaipeiData,
+    //     count,
+    //     pageNum: pageNumArray,
+    //   });
+    // },(error) => {
+    //   console.error(error);
+    // })
   }
   changeTaipeiDataSortHandle = (mode) => {
     const taipeiData = this.state.results;
