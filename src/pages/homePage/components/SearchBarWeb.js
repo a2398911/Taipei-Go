@@ -91,7 +91,6 @@ class SearchBarWeb extends Component {
               </div>
               <div className="searchAdvanced-content d-flex h-flex-column h-align-items-center h-justify-content-center">
                 <div className="searchAdvanced-items-wrap d-flex h-justify-content-center h-flex-wrap">
-                  {console.log(tagTheme,'tagTheme')}
                   {currentThemeIsTag && tagTheme.map(item => (
                     <button className={ item.active ? "searchAdvanced-item active" : "searchAdvanced-item" }
                       key={item.id}

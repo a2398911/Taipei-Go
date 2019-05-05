@@ -132,7 +132,7 @@ class AttractionCard extends Component {
   }
   render() {
     if(!this.props.data) { return null }
-    const { CAT2, _id, stitle, stitle_en, MRT, address, xbody, images, area, opening_hours } = this.props.data;
+    const { CAT2, _id, stitle, stitle_en, MRT, address, xbody, images, area, opening_hours, language_status } = this.props.data;
     const { cardIsRow, strTmp } = this.props;
     let MRTLine;
     let MRTColor;
@@ -151,7 +151,6 @@ class AttractionCard extends Component {
           !currentDay && (opentTIme = this.filterOpenTime(opening_hours));
           currentDay && (opentTIme = this.filterOpenTime(opening_hours, currentDay));
           let data = {contentText,backgroundImage,opentTIme,MRTColor,strTmp,CAT2, _id, stitle, stitle_en, MRT, address,area,currentDay,currentActiveDay};
-          console.log('data',data);
           return (
             cardIsRow ? <AttractionCardHorizontal data={data} contentText={contentText} backgroundImageActive={backgroundImageActive}/> 
               : <AttractionCardStraight data={data} contentText={contentText} backgroundImageActive={backgroundImageActive}/>

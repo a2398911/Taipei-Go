@@ -41,7 +41,11 @@ class Header extends Component {
     expires.setTime(expires.getTime() + 1*24*60*60*1000);
     document.cookie = `language=${language}; max-age=${expires}; path=/`;
     this.setState({ languageSelect: false });
-    setState({ language: language });
+    setState({ 
+      language: language,
+      results: null,
+      searchData: null,
+    });
     getTaipeiDate(language);
     changeLanguageMRT(language);
     changeLanguageAdvance(language);
@@ -85,8 +89,8 @@ class Header extends Component {
                             <img className="icon" src={languageIcon} alt=""/>
                             <span className="menuLink-text">Language</span>
                             <ul className={languageSelect ? 'language-select show' : 'language-select'}>
-                              <li className="language-select-item" onClick={() => this.setCookieLanguage('zh-TW',setState, getTaipeiDate,changeLanguageMRT,changeLanguageAdvance)}>中文(繁)</li>
-                              <li className="language-select-item" onClick={() => this.setCookieLanguage('en',setState, getTaipeiDate,changeLanguageMRT,changeLanguageAdvance)}>English</li>
+                              <li className="language-select-item" onClick={() => this.setCookieLanguage('zh-TW',setState,getTaipeiDate,changeLanguageMRT,changeLanguageAdvance)}>中文(繁)</li>
+                              <li className="language-select-item" onClick={() => this.setCookieLanguage('en',setState,getTaipeiDate,changeLanguageMRT,changeLanguageAdvance)}>English</li>
                             </ul>
                           </span>
                         </div>
@@ -121,8 +125,8 @@ class Header extends Component {
                   <div className="row">
                     <div className="col-12">
                       <div className="language-wrap">
-                        <div className="menuLink language-item" onClick={() => this.setCookieLanguage('zh-TW',setState, getTaipeiDate,changeLanguageMRT,changeLanguageAdvance,true)}>中文(繁體)</div>
-                        <div className="menuLink language-item" onClick={() => this.setCookieLanguage('en',setState, getTaipeiDate,changeLanguageMRT,changeLanguageAdvance,true)}>English</div>
+                        <div className="menuLink language-item" onClick={() => this.setCookieLanguage('zh-TW',setState,getTaipeiDate,changeLanguageMRT,changeLanguageAdvance,true)}>中文(繁體)</div>
+                        <div className="menuLink language-item" onClick={() => this.setCookieLanguage('en',setState,getTaipeiDate,changeLanguageMRT,changeLanguageAdvance,true)}>English</div>
                       </div>
                     </div>
                   </div>
