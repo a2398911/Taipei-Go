@@ -90,7 +90,7 @@ export default {
   editor: {
     title: 'Give a rating',
     placeholder: 'Write a review!',
-    editMessage: 'Edit Message',
-    deleteMessage: 'Delete Message'
+    editMessage: 'Edit',
+    deleteMessage: 'Delete'
   }
 }

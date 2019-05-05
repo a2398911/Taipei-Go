@@ -8,11 +8,22 @@
   font-size: 20px;
   margin-bottom: 20px;
 }
+.attraction-title{
+  @media (max-width: 576px) {
+    font-size: 18px;
+    flex-direction: column;
+    margin-bottom: 10px;
+    margin-top: 30px;
+  }
+}
 .map{
   margin-right: 10px;
 }
 .attraction-star{
   margin-left: 10px;
+  @media (max-width: 576px) {
+    margin-top: 5px;
+  }
 }
 .star{
   color: $color_ligthGray;
@@ -67,6 +78,13 @@
   text-align: justify;
   line-height: 20px;
   color: $color_darkhGray;
+  @media (max-width: 576px) {
+    font-size: 14px;
+    line-height: 1.6em;
+  }
+}
+.attraction-info.en{
+  text-align: left;
 }
 .attraction-details-title, .google-map-tilte, .attraction-opinion-title, .nearby-title, .attraction-weather-tilte{
   color: $color_black;
@@ -233,7 +251,7 @@
   @include btnInteractive($color_Secondary);
 }
 .edit.en{
-  right: 140px;
+  right: 70px;
 }
 .MRT-yellow{
   background-color: $color_MRT_yellow;

@@ -258,8 +258,10 @@ class AttractionPage extends Component {
                 <div className="row">
                   <div className="col-12">
                     <div className="attraction-title d-flex h-align-items-center">
-                      <FontAwesome name="map" className="map"/>
-                      {language === 'zh-TW' ? stitle : stitle_en}
+                      <div className="title-wrap">
+                        <FontAwesome name="map" className="map"/>
+                        {language === 'zh-TW' ? stitle : stitle_en}
+                      </div>
                       <span className="attraction-star d-flex h-align-items-center">
                         <span className="start-wrap">
                           {starIcons.map(item => <FontAwesome name={item <= totalStarScore ? 'star active' : 'star'} className="star" key={item} />)}
@@ -277,7 +279,7 @@ class AttractionPage extends Component {
                           <div className="heart" data-id={_id} style={ filterFavorite(userData,_id) ? backgroundImageActive : null }></div>  
                         </button>
                       </div>
-                      <div className="attraction-info" dangerouslySetInnerHTML={{ __html: newXbody}}></div>
+                      <div className={language === 'zh-TW' ? 'attraction-info' : 'attraction-info en'} dangerouslySetInnerHTML={{ __html: newXbody}}></div>
                       <div className="attraction-detailsInfo-wrap">
                         <div className="attraction-details-title title">{languageStatus.attractionPage.infoTitle}</div>
                         <ul className="attraction-details-item d-flex">
