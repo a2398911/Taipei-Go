@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "b018f6cb3426ea236ecc",
-    "url": "/Taipei-Go/static/css/main.668e8605.chunk.css"
+    "revision": "b96db45b377d7bdd38dc",
+    "url": "/Taipei-Go/static/css/main.334a275a.chunk.css"
   },
   {
-    "revision": "b018f6cb3426ea236ecc",
-    "url": "/Taipei-Go/static/js/main.19ed1556.chunk.js"
+    "revision": "b96db45b377d7bdd38dc",
+    "url": "/Taipei-Go/static/js/main.ed684119.chunk.js"
   },
   {
     "revision": "e42d810f2fc2a8e3a61e",
@@ -44,12 +44,12 @@ self.__precacheManifest = [
     "url": "/Taipei-Go/static/media/heart-icon.01abb79c.svg"
   },
   {
-    "revision": "98792ccb1fe3d6d554b13c4e50728299",
-    "url": "/Taipei-Go/static/media/MRT-icon.98792ccb.svg"
-  },
-  {
     "revision": "18bf6b304a6dcd59241b7de106071a84",
     "url": "/Taipei-Go/static/media/clock-regular.18bf6b30.svg"
+  },
+  {
+    "revision": "98792ccb1fe3d6d554b13c4e50728299",
+    "url": "/Taipei-Go/static/media/MRT-icon.98792ccb.svg"
   },
   {
     "revision": "38c82163364c746db9890df95da34f4c",
@@ -64,7 +64,7 @@ self.__precacheManifest = [
     "url": "/Taipei-Go/static/media/footer.f1758370.png"
   },
   {
-    "revision": "3e205b873262e3fe775388762da88474",
+    "revision": "fb312fdb19f11eea40e4a36a419af519",
     "url": "/Taipei-Go/index.html"
   }
 ];
