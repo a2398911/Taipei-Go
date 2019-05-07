@@ -23,6 +23,8 @@ class App extends Component {
     count: null,
     pageNum: [],
     currentPage: 1,
+    pageAllGroup: null,
+    currentPageGroup: 0,
     TaipeiMRT,
     searchInput: "",
     searchMRT: null,
@@ -165,14 +167,9 @@ class App extends Component {
       searchDay: null
     })
   }
-  changePageNum = e => {
-    if(+e.target.dataset.num <= 0 || +e.target.dataset.num >= this.state.pageNum.length) { return }
-    document.querySelector('.attraction-texts').scrollIntoView({
-      block: 'start',
-      behavior: 'auto'
-    });
+  changePageNum = (currentPage) => {
     this.setState({
-      currentPage: +e.target.textContent || +e.target.dataset.num
+      currentPage
     });
   };
   selectTagThemes = e => {
@@ -432,10 +429,17 @@ class App extends Component {
         results: newTaipeiData,
         count,
         pageNum: pageNumArray,
-      });
+      }, () => this.setPageAllGroup(this.state.pageNum));
     }, (error) => {
       console.log(error,'error');
     });
+  }
+  setPageAllGroup = (pageNum) => {
+    let pageAllGroup = [];
+    for(let i=0; i<pageNum.length; i+=5) {
+      pageAllGroup.push(pageNum.slice(i,i+5))
+    }
+    this.setState({ pageAllGroup })
   }
   changeTaipeiDataSortHandle = (mode) => {
     const taipeiData = this.state.results;

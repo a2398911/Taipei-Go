@@ -160,15 +160,23 @@ class AttractionPage extends Component {
         this.setState({ editId: null }); 
         firebase.database().ref(`taipeiData/${_id}/star_rating`).set(this.state.totalStarScore);
         firebase.database().ref(`taipeiData/${_id}/message_num`).set(this.state.messageData.length);
-        firebase.database().ref(`taipeiData_EN/${_id}/star_rating`).set(this.state.totalStarScore);
-        firebase.database().ref(`taipeiData_EN/${_id}/message_num`).set(this.state.messageData.length);
+        firebase.database().ref(`taipeiData_EN/${_id}/star_rating`).once('value', (snapshot) => {
+          if(snapshot.val()) {
+            firebase.database().ref(`taipeiData_EN/${_id}/star_rating`).set(this.state.totalStarScore);
+            firebase.database().ref(`taipeiData_EN/${_id}/message_num`).set(this.state.messageData.length);
+          }
+        })
       });
     } else {
       firebase.database().ref(`/TouristMessage/${_id}`).push(MessageData).then(() => {
         firebase.database().ref(`taipeiData/${_id}/star_rating`).set(this.state.totalStarScore);
         firebase.database().ref(`taipeiData/${_id}/message_num`).set(this.state.messageData.length);
-        firebase.database().ref(`taipeiData_EN/${_id}/star_rating`).set(this.state.totalStarScore);
-        firebase.database().ref(`taipeiData_EN/${_id}/message_num`).set(this.state.messageData.length);
+        firebase.database().ref(`taipeiData_EN/${_id}/star_rating`).once('value', (snapshot) => {
+          if(snapshot.val()) {
+            firebase.database().ref(`taipeiData_EN/${_id}/star_rating`).set(this.state.totalStarScore);
+            firebase.database().ref(`taipeiData_EN/${_id}/message_num`).set(this.state.messageData.length);
+          } 
+        })
       })
     }
   }
@@ -190,8 +198,12 @@ class AttractionPage extends Component {
     firebase.database().ref(`/TouristMessage/${currentAttractionId}/${id}`).remove().then(() => {
       firebase.database().ref(`taipeiData/${_id}/star_rating`).set(this.state.totalStarScore);
       firebase.database().ref(`taipeiData/${_id}/message_num`).set(this.state.messageData.length);
-      firebase.database().ref(`taipeiData_EN/${_id}/star_rating`).set(this.state.totalStarScore);
-      firebase.database().ref(`taipeiData_EN/${_id}/message_num`).set(this.state.messageData.length);
+      firebase.database().ref(`taipeiData_EN/${_id}/star_rating`).once('value', (snapshot) => {
+        if(snapshot.val()) {
+          firebase.database().ref(`taipeiData_EN/${_id}/star_rating`).set(this.state.totalStarScore);
+          firebase.database().ref(`taipeiData_EN/${_id}/message_num`).set(this.state.messageData.length);
+        } 
+      })
     });
   }
   getMessageData = () => {
@@ -370,6 +382,7 @@ class AttractionPage extends Component {
                     <div className="google-map">
                       <div className="google-map-tilte">{languageStatus.attractionPage.mapTitle}</div>
                       <GoogleMap data={this.props.data[0]} language={language} />
+                      {/* <iframe style={{ width:"600",height:"450",frameborder:"0" }} src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ604BuRapQjQR6JNutnPhit0&key=AIzaSyBBMko9344y32hbPtFedASD3zGcWrx_gus&language" allowfullscreen></iframe> */}
                     </div>
                   </div>
                 </div>

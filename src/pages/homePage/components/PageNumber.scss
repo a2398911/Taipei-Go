@@ -12,6 +12,11 @@
   @include btnInteractiveBorder($color_ligthGray);
   cursor: pointer;
   z-index: 3;
+  @media (max-width: 576px) {
+    height: 25px;
+    width: 25px;
+    font-size: 14px;
+  }
 }
 .pageNum-ul{
   @media (max-width: 768px) {
@@ -40,4 +45,8 @@
 }
 .angle-right{
   margin-left: 10px;
+}
+.ellipsis{
+  color: $color_primary;
+  cursor: pointer;
 }

@@ -4,50 +4,120 @@ import { Consumer } from "../../../context/DataContext";
 import "./PageNumber.scss";
 
 class PageNumber extends Component {
-  // handleShowPage = (num) => {
-  //   console.log(num)
-  //   let groupNum = [];
-  //   for(let i=0; i<num.length; i+=5) {
-  //     groupNum.push(num.slice(i,i+5))
-  //   }
-  //   return groupNum;
-  // }
+  state = {
+    groupCount: 5,
+    startPage: 1,
+  }
+  go(currentPage, totalPage, changePageNum) {
+    const { groupCount } = this.state;
+    // 處理上一頁的狀態
+    currentPage % groupCount === 1 && this.setState({startPage: currentPage});
+    currentPage % groupCount === 0 && this.setState({startPage: currentPage - groupCount + 1});
+    totalPage - currentPage < 1 && this.setState({startPage: totalPage - groupCount});
+    changePageNum(currentPage);
+  }
+  // 頁面向前
+  goPrev = (e, currentPage, totalPage, changePageNum) => {
+    e.preventDefault();
+    if (--currentPage === 0) return;
+    this.go(currentPage, totalPage, changePageNum);
+  };
+  // 頁面向後
+  goNext = (e, currentPage, totalPage, changePageNum) => {
+    e.preventDefault();
+    if (++currentPage > totalPage) return;
+    this.go(currentPage, totalPage, changePageNum);
+  };
+  creatFivePages = (startPage,currentPage,totalPage,changePageNum) => {
+    let pages = [];
+    for (let i = startPage; i < 5 + startPage; i++) {
+      let classNames = 'pageNum-li d-flex h-align-items-center h-justify-content-center';
+      currentPage === i ? (classNames += ' active') : (classNames += '');
+      i<=totalPage - 1 && (pages.push(
+        <li className={classNames}
+          key={i}
+          onClick={() => this.go(i, totalPage, changePageNum)}>
+            {i}
+        </li>
+      ))
+    }
+    return pages;
+  }
   render() {
     return (
       <Consumer>
-      {({currentPage, changePageNum, pageNum}) => (
-        <div className="container">
-        <div className="row">
-          <div className="col-12">
-            {pageNum.length ? (
-              <div className="pageNum-wrap d-flex h-justify-content-center h-align-items-center">
-              <FontAwesome name="angle-left" 
-                    className="angle-left" 
-                    data-num={currentPage-1} 
-                    onClick={changePageNum}/>
-              <ul className="pageNum-ul d-flex h-flex-wrap">
-                {pageNum.map((listNum, index) => {
-                  let classNames = 'pageNum-li d-flex h-align-items-center h-justify-content-center';
-                  +index === (currentPage - 1) ? (classNames += ' active') : (classNames += '');
-                  return (
-                    <li className={classNames}
-                      key={listNum}
-                      onClick={changePageNum}>
-                        {listNum}
-                    </li>
-                  );
-                })}
-              </ul>
-              <FontAwesome name="angle-right" 
-                className="angle-right" 
-                data-num={currentPage+1}
-                onClick={changePageNum}/>
+        {({currentPage, changePageNum, pageNum}) => {
+          const totalPage = pageNum.length;
+          const { startPage, groupCount} = this.state;
+          const fivePages = this.creatFivePages(startPage,currentPage,totalPage,changePageNum);
+          if (!pageNum.length) {return}
+          return (
+            <div className="container">
+              <div className="row">
+                <div className="col-12">
+                  <div className="pageNum-wrap d-flex h-justify-content-center h-align-items-center">
+                    <FontAwesome name="angle-left" 
+                      className="angle-left" 
+                      data-num={currentPage-1} 
+                      onClick={(e) => this.goPrev(e, currentPage, totalPage, changePageNum)}/>
+                    {totalPage <= 10 ? (
+                      <ul className="pageNum-ul d-flex h-flex-wrap">
+                        {pageNum.map((listNum, index) => {
+                          let classNames = 'pageNum-li d-flex h-align-items-center h-justify-content-center';
+                          currentPage === index+1 ? (classNames += ' active') : (classNames += '');
+                          return (
+                            <li className={classNames}
+                              key={listNum}
+                              onClick={() => this.go(index+1, totalPage, changePageNum)}>
+                                {listNum}
+                            </li>);
+                          })}
+                      </ul>
+                    ) : (
+                      <ul className="pageNum-ul d-flex h-flex-wrap">
+                        {startPage > groupCount && (
+                          <>
+                            <li className={currentPage === 1 ? 'pageNum-li d-flex h-align-items-center h-justify-content-center active'
+                              :'pageNum-li d-flex h-align-items-center h-justify-content-center'}
+                              key={0}
+                              onClick={e => this.go(1, totalPage, changePageNum)}>
+                                1
+                            </li>
+                            <li className="ellipsis d-flex h-align-items-center" key={-2}>
+                              <span className="btn btn-sm btn-outline-primary text-primary"
+                                onClick={() => this.go(this.state.startPage - 5, totalPage, changePageNum)}>
+                                ···
+                              </span>
+                            </li>
+                          </>
+                        )}
+                        {fivePages}
+                        {totalPage - startPage > groupCount && (
+                          <li className="ellipsis d-flex h-align-items-center" key={-1}>
+                            <span className="btn btn-sm btn-outline-primary text-primary"
+                              onClick={() => this.go(this.state.startPage + 5, totalPage, changePageNum)}>
+                              ···
+                            </span>
+                          </li>
+                        )}
+                        <li className={currentPage === totalPage ? 'pageNum-li d-flex h-align-items-center h-justify-content-center active'
+                              :'pageNum-li d-flex h-align-items-center h-justify-content-center'}
+                          key={0}
+                          onClick={() => this.go(totalPage, totalPage, changePageNum)}>
+                            {totalPage}
+                        </li>
+                      </ul>
+                    )}
+                    <FontAwesome name="angle-right" 
+                      className="angle-right" 
+                      data-num={currentPage+1}
+                      onClick={e => this.goNext(e, currentPage, totalPage, changePageNum)}/>
+                  </div>
+                </div>
+              </div>
             </div>
-            ) : null }
-          </div>
-        </div>
-      </div>
-      )}
+          )
+        }}
       </Consumer>
     );
   }

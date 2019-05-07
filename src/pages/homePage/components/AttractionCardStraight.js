@@ -47,7 +47,7 @@ class AttractionCardStraight extends Component {
               </div>
               <div className="attractionCard-content">
                 <div className={language === 'zh-TW' ? 'attractionCard-tag h-align-items-center h-justify-content-center' : 'attractionCard-tag en h-align-items-center h-justify-content-center'}>
-                  <span className="tagText-wrap">{language === 'zh-TW' ? CAT2.replace(/\s*/g,"") : CAT2}</span>
+                  <span className="tagText-wrap">{language && language === 'zh-TW' ? CAT2.replace(/\s*/g,"") : CAT2}</span>
                 </div>
                 <div className="attractionCard-content-title-wrap">
                   <h1 className= 'attractionCard-content-title d-inline-block'>

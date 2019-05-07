@@ -15,6 +15,7 @@
     "react-dom": "^16.8.6",
     "react-fontawesome": "^1.6.1",
     "react-google-maps": "^9.4.5",
+    "react-paginate": "^6.3.0",
     "react-router-dom": "^5.0.0",
     "react-scripts": "2.1.8"
   },
