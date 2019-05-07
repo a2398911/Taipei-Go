@@ -27,7 +27,7 @@ class GoogleMap extends Component {
     });
     this.state.map.setCenter({ lat: +latitude, lng: +longitude });
     this.state.map.setZoom(17);
-
+    
     let tempArr;
     tempArr = this.state.markers;
     let marker = new window.google.maps.Marker({
@@ -49,7 +49,7 @@ class GoogleMap extends Component {
     this.setState({ markers: tempArr });
   };
   render() {
-    return <div className={`google-map-show ${this.props.language}`} ref={this.mapRef} />
+    return <div className="google-map-show" ref={this.mapRef} />
   }
 }
 

@@ -382,7 +382,7 @@ class AttractionPage extends Component {
                     <div className="google-map">
                       <div className="google-map-tilte">{languageStatus.attractionPage.mapTitle}</div>
                       <GoogleMap data={this.props.data[0]} language={language} />
-                      {/* <iframe style={{ width:"600",height:"450",frameborder:"0" }} src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ604BuRapQjQR6JNutnPhit0&key=AIzaSyBBMko9344y32hbPtFedASD3zGcWrx_gus&language" allowfullscreen></iframe> */}
+                      {/* <iframe allowFullScreen="" src={`https://www.google.com/maps/embed/v1/place?q=${latitude},${longitude}&key=AIzaSyBBMko9344y32hbPtFedASD3zGcWrx_gus&language=${language}`} frameBorder="0" style={{ width:"100%",height:"300px",border:"0"}}></iframe> */}
                     </div>
                   </div>
                 </div>
