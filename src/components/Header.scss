@@ -36,14 +36,21 @@
       height: 18px;
       margin-right: 5px;
       vertical-align: middle;
+      transition: .5s;
     }
     .menuLink-text{
       width: 75px;
       font-size: 15px;
+      transition: .5s;
     }
     transition: .5s;
     &:hover,&:active{
-      opacity: .5;
+      .icon,.heart{
+        opacity: .5;
+      }
+      .menuLink-text{
+        color: rgba(#fff,.5);
+      }
     }
   }
 }
@@ -56,6 +63,7 @@
 .heart{
   margin-right: 5px;
   font-size: 15px;
+  transition: .5s;
 }
 .menu-mobile-btn{
   width: 40px;

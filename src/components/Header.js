@@ -61,7 +61,7 @@ class Header extends Component {
                         <div className="menu-wrap d-none d-md-flex h-align-items-center">
                           {userData ? <span className="header-name">{`Hi，${userData.nickName}`}</span> : null}
                           <Link to={uid ? '/myHeart' : '/' } className="menuLink d-flex h-align-items-center" onClick={() => this.errorReminModelHandle(uid,setState)}>
-                            <FontAwesome name="heart" className="heart"/>
+                            <FontAwesome name="heart" className="heart icon"/>
                             <span className="menuLink-text">{languageStatus.navbar.favorite}</span>
                           </Link>
                           <span className="menuLink d-flex h-align-items-center" onClick={uid ? () => this.signOutHandle(setState) : e => {e.preventDefault(); setState({ showSignInModel: true });} }>

@@ -68,7 +68,7 @@ class Hero extends Component {
         let languageStatus;
         let week;
         language === 'zh-TW' ? languageStatus = LanguageZhTW : languageStatus = LanguageEn;
-        language === 'zh-TW' ? week = this.state.week : week = this.state.weekEn
+        language === 'zh-TW' ? week = this.state.week : week = this.state.weekEn;
         return (
           <>
             <section className="hero d-flex h-align-items-center" onClick={this.closeOptionDateOnSection}>

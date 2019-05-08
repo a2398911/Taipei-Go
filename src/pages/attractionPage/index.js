@@ -107,30 +107,19 @@ class AttractionPage extends Component {
       block: 'start',
       behavior: 'smooth'
     });
-    if (editId) {
-      firebase.database().ref(`/TouristMessage/${currentAttractionId}/${editId}`).set(MessageData).then(() => {
-        this.setState({ editId: null }); 
-        firebase.database().ref(`taipeiData/${_id}/star_rating`).set(this.state.totalStarScore);
-        firebase.database().ref(`taipeiData/${_id}/message_num`).set(this.state.messageData.length);
-        firebase.database().ref(`taipeiData_EN/${_id}/star_rating`).once('value', (snapshot) => {
-          if(snapshot.val()) {
-            firebase.database().ref(`taipeiData_EN/${_id}/star_rating`).set(this.state.totalStarScore);
-            firebase.database().ref(`taipeiData_EN/${_id}/message_num`).set(this.state.messageData.length);
-          }
-        })
-      });
-    } else {
-      firebase.database().ref(`/TouristMessage/${_id}`).push(MessageData).then(() => {
-        firebase.database().ref(`taipeiData/${_id}/star_rating`).set(this.state.totalStarScore);
-        firebase.database().ref(`taipeiData/${_id}/message_num`).set(this.state.messageData.length);
-        firebase.database().ref(`taipeiData_EN/${_id}/star_rating`).once('value', (snapshot) => {
-          if(snapshot.val()) {
-            firebase.database().ref(`taipeiData_EN/${_id}/star_rating`).set(this.state.totalStarScore);
-            firebase.database().ref(`taipeiData_EN/${_id}/message_num`).set(this.state.messageData.length);
-          } 
-        })
+    let MessageRef;
+    editId ? MessageRef = `/TouristMessage/${currentAttractionId}/${editId}` : MessageRef = `/TouristMessage/${_id}`;
+    firebase.database().ref(MessageRef).set(MessageData).then(() => {
+      this.setState({ editId: null }); 
+      firebase.database().ref(`taipeiData/${_id}/star_rating`).set(this.state.totalStarScore);
+      firebase.database().ref(`taipeiData/${_id}/message_num`).set(this.state.messageData.length);
+      firebase.database().ref(`taipeiData_EN/${_id}/star_rating`).once('value', (snapshot) => {
+        if(snapshot.val()) {
+          firebase.database().ref(`taipeiData_EN/${_id}/star_rating`).set(this.state.totalStarScore);
+          firebase.database().ref(`taipeiData_EN/${_id}/message_num`).set(this.state.messageData.length);
+        }
       })
-    }
+    });
   }
   editMessageHandle = e => {
     const id = e.target.dataset.id;
