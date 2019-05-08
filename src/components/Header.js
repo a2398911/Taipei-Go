@@ -36,20 +36,12 @@ class Header extends Component {
   showLanguageSelectModelHandle = () => {
     this.setState({ languageMobileMenu: !this.state.languageMobileMenu })
   }
-  setCookieLanguage = (language,setState,getTaipeiDate,changeLanguageMRT,changeLanguageAdvance, isMobile = false) => {
+  setCookieLanguage = (language) => {
     const expires = new Date();
     expires.setTime(expires.getTime() + 1*24*60*60*1000);
     document.cookie = `language=${language}; max-age=${expires}; path=/`;
     this.setState({ languageSelect: false });
-    setState({ 
-      language: language,
-      results: null,
-      searchData: null,
-    });
-    getTaipeiDate(language);
-    changeLanguageMRT(language);
-    changeLanguageAdvance(language);
-    isMobile && this.mobileMenuHandle();
+    window.location.reload();
   }
   render() {
     const { mobileMenu,languageSelect,languageMobileMenu } = this.state;
@@ -72,15 +64,12 @@ class Header extends Component {
                             <FontAwesome name="heart" className="heart"/>
                             <span className="menuLink-text">{languageStatus.navbar.favorite}</span>
                           </Link>
-                          <span className="menuLink d-flex h-align-items-center">
+                          <span className="menuLink d-flex h-align-items-center" onClick={uid ? () => this.signOutHandle(setState) : e => {e.preventDefault(); setState({ showSignInModel: true });} }>
                             <img className="icon" src={memberIcon} alt=""/>
                             {uid ? (
-                              <span className="menuLink-text" onClick={() => this.signOutHandle(setState)}>{languageStatus.navbar.signOut}</span>
+                              <span className="menuLink-text">{languageStatus.navbar.signOut}</span>
                             ) : (
-                              <span className="menuLink-text" onClick={e => {
-                                e.preventDefault();
-                                setState({ showSignInModel: true })  
-                              }}>
+                              <span className="menuLink-text">
                                 {languageStatus.navbar.signIn}
                               </span>
                             )}
@@ -89,8 +78,8 @@ class Header extends Component {
                             <img className="icon" src={languageIcon} alt=""/>
                             <span className="menuLink-text">Language</span>
                             <ul className={languageSelect ? 'language-select show' : 'language-select'}>
-                              <li className="language-select-item" onClick={() => this.setCookieLanguage('zh-TW',setState,getTaipeiDate,changeLanguageMRT,changeLanguageAdvance)}>中文(繁)</li>
-                              <li className="language-select-item" onClick={() => this.setCookieLanguage('en',setState,getTaipeiDate,changeLanguageMRT,changeLanguageAdvance)}>English</li>
+                              <li className="language-select-item" onClick={() => this.setCookieLanguage('zh-TW')}>中文(繁)</li>
+                              <li className="language-select-item" onClick={() => this.setCookieLanguage('en')}>English</li>
                             </ul>
                           </span>
                         </div>

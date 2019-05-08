@@ -1,0 +1,24 @@
+.attraction-load-wrap{
+  position: absolute;
+  height: calc(100vh - 55px - 68px);
+  display: flex;
+  @media (max-width: 992px) {
+    height: calc(100vh - 55px - 103px);
+  }
+  @media (max-width: 768px) {
+    height: calc(100vh - 55px - 62px);
+  }
+  @media (max-width: 576px) {
+    height: calc(100vh - 55px - 68px);
+  }
+}
+.attraction-load-bg{
+  padding-top: 55px;
+  height: calc(100vh - 400px);
+  @media (max-width: 768px) {
+    height: calc(100vh - 300px);
+  }
+  @media (max-width: 576px) {
+    height: calc(100vh - 70px);
+  }
+}

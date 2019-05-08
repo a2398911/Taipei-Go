@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import HomePage from "./pages/homePage";
 import AttractionPage from "./pages/attractionPage";
+import AttractionPageLoad from './pages/attractionPage/components/AttractionPageLoad';
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import SigninModel from './components/SigninModel';
@@ -517,7 +518,7 @@ class App extends Component {
             <Route exact path="/" render={() => <HomePage /> }/>
             <Route exact path="/attraction/:id" render={({ match }) => {
               const currentData = this.filterCurrentAttraction((match.params.id));
-              return <AttractionPage data={currentData} id={match.params.id}/>
+              return currentData ? <AttractionPage data={currentData} id={match.params.id}/> : <AttractionPageLoad />;
             }}/>
             <Route exact path="/myHeart" render={() => <CollectionPage /> }/>
             <Footer />

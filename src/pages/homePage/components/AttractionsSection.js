@@ -55,7 +55,7 @@ class AttractionsSection extends Component {
                     <div className="attraction-texts">
                       <h1 className="title">{languageStatus.contentSection.title}</h1>
                       {<div className="subtitle">{currentCountText}</div>}
-                      <button className="changeList" onClick={this.changeCardArrangement}>
+                      <button className="changeList d-none d-lg-flex" onClick={this.changeCardArrangement}>
                         {cardIsRow ? <div className="list-icon" style={backgroundImage}></div> 
                           : <FontAwesome name="list" />}
                       </button>

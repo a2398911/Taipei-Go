@@ -18,6 +18,10 @@
   @media (max-width: 768px) {
     order: 2;
   }
+  transition: .5s;
+  &:hover,&:active{
+    opacity: .5;
+  }
 }
 .menu-wrap{
   color: white;
@@ -36,6 +40,10 @@
     .menuLink-text{
       width: 75px;
       font-size: 15px;
+    }
+    transition: .5s;
+    &:hover,&:active{
+      opacity: .5;
     }
   }
 }
