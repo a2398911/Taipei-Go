@@ -267,7 +267,7 @@ class AttractionPage extends Component {
                     ) : null }
                   </div>
                 </div>
-                {currenIdNearbyData && currenIdNearbyData.length ? (
+                {currenIdNearbyData && ccurrenIdNearbyData.length ? (
                   <div className="row">
                     <div className="col-12">
                       <h1 className="nearby-title">
