@@ -34,6 +34,9 @@
   }
   .attractionCard-content-texts{
     margin-top: 30px;
+    @media (max-width: 576px) {
+      display: none;
+    }
   }
   .attractionCard-details-wrap{
     margin-top: auto;

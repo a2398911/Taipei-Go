@@ -52,7 +52,6 @@
   overflow: hidden;
 }
 .signIn-title,.signup-title{
-  margin-top: auto;
   margin-bottom: 10px;
   font-size: 18px;
   text-align: center;
@@ -86,7 +85,6 @@
   }
 }
 .signIn,.siginIn-google,.signUp{
-  margin-bottom: auto;
   width: 80%;
   background-color: $color_Secondary;
   padding: 7px;
@@ -129,4 +127,8 @@
 }
 .lock{
   font-size: 18px;
+}
+.form{
+  text-align: center;
+  width: 100%;
 }

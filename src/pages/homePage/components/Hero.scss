@@ -6,21 +6,47 @@
   height: 700px;
   color: #fff;
   overflow: hidden;
-  &::before{
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    background: url(../../../img/hero.png) center/cover no-repeat;
-    height: 100%;
-    width: 100%;
-    // animation: heroBg 15s ease infinite;
-  }
   @media (max-width: 1200px) {
     height: 600px;
   }
   @media (max-width: 768px) {
     height: 400px;
+  }
+}
+.hero-bg{
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url(../../../img/hero.jpg) center/cover no-repeat;
+  height: 100%;
+  width: 100%;
+  animation: heroBg 15s 2s infinite, opacity 2s ease-in;
+}
+._2{
+  background: url(../../../img/hero-2.jpg) center/cover no-repeat;
+  animation: heroBg 15s 2s infinite both, opacity 2s ease-in both;
+}
+._3{
+  background: url(../../../img/hero-3.jpg) center/cover no-repeat;
+  animation: heroBg 15s 2s infinite both, opacity 2s ease-in both;
+}
+.z-index{
+  z-index: 1;
+}
+@keyframes opacity {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+@keyframes heroBg {
+  0%{
+    transform: scale(1);
+  }
+  100%{
+    transform:  scale(1.2);
   }
 }
 .hero-title, .hero-subtitle{
@@ -164,7 +190,7 @@
   }
   @media (max-width: 768px) {
     background-color: rgba(#fff, .98);
-    z-index: 100;
+    z-index: 50;
     & li{
       padding: 10px 0;
     }

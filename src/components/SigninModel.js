@@ -11,34 +11,59 @@ class SigninModel extends Component {
     signinBtnActive: true,
     signInErrorMessage: null,
     signUpErrorMessage: null,
+    language: 'zh-TW',
   }
-  signUpErrorHandle = (message, language) => {
+  signUpErrorHandle = (message) => {
     let errorMessage;
-    switch(message) {
-      case '請填寫，不能為空值':
-        errorMessage = '請填寫，不能為空值'
-        break;
-      case '信箱已經註冊過':
-        errorMessage = '信箱已經註冊過'
-        break;
-      case '密碼和確認密碼不一致':
-        errorMessage = '密碼和確認密碼不一致'
-        break;
-      case 'The email address is already in use by another account.':
-        errorMessage = '此信箱已經註冊過'
-        break;
-      case 'The email address is badly formatted.':
-        errorMessage = '信箱格式錯誤'
-        break;
-      case 'There is no user record corresponding to this identifier. The user may have been deleted.':
-        errorMessage = '沒有此信箱的會員資料，請註冊'
-        break;
-      case 'The password is invalid or the user does not have a password.':
-        errorMessage = '密碼錯誤，或是帳戶無效'
-        break;
-      default:
-        errorMessage = '密碼必須為六位數'
-        break;
+    const { language } = this.props;
+    if (language === 'zh-TW') {
+      switch(message) {
+        case '請填寫，不能為空值':
+          errorMessage = '請填寫，不能為空值'
+          break;
+        case '密碼和確認密碼不一致':
+          errorMessage = '密碼和確認密碼不一致'
+          break;
+        case 'The email address is already in use by another account.':
+          errorMessage = '此信箱已經註冊過'
+          break;
+        case 'The email address is badly formatted.':
+          errorMessage = '信箱格式錯誤'
+          break;
+        case 'There is no user record corresponding to this identifier. The user may have been deleted.':
+          errorMessage = '沒有此信箱的會員資料，請註冊'
+          break;
+        case 'The password is invalid or the user does not have a password.':
+          errorMessage = '密碼錯誤，或是帳戶無效'
+          break;
+        default:
+          errorMessage = '密碼必須為六位數'
+          break;
+      }
+    } else {
+      switch(message) {
+        case '請填寫，不能為空值':
+          errorMessage = 'Please fill in the content'
+          break;
+        case '密碼和確認密碼不一致':
+          errorMessage = 'Inconsistent password and confirmation password'
+          break;
+        case 'The email address is already in use by another account.':
+          errorMessage = 'The email address is already in use'
+          break;
+        case 'The email address is badly formatted.':
+          errorMessage = 'The email address is badly formatted'
+          break;
+        case 'There is no user record corresponding to this identifier. The user may have been deleted.':
+          errorMessage = 'The user may have been deleted'
+          break;
+        case 'The password is invalid or the user does not have a password.':
+          errorMessage = 'The password is invalid'
+          break;
+        default:
+          errorMessage = 'Password must be six digits'
+          break;
+      }
     }
     this.setState({
       signUpErrorMessage: errorMessage
@@ -57,11 +82,11 @@ class SigninModel extends Component {
               <div className="button-wrap">
                 <button className={ signinBtnActive ? 'signIn-select select-btn active' : 'signIn-select select-btn' }
                   onClick={ () => {
-                    this.setState({ signinBtnActive: true })
+                    this.setState({ signinBtnActive: true, signUpErrorMessage: null })
                   }}>{languageStatus.model.signInTitle}</button>
                 <button className={ signinBtnActive ? 'signUp-select select-btn' : 'signUp-select select-btn active' }
                   onClick={ () => {
-                    this.setState({ signinBtnActive: false })
+                    this.setState({ signinBtnActive: false, signUpErrorMessage: null })
                   }}>{languageStatus.model.signUpTitle}</button>
               </div>
               {signinBtnActive ? <SigninContent signUpErrorHandle={this.signUpErrorHandle} /> : <SignupContent signUpErrorHandle={this.signUpErrorHandle} /> }

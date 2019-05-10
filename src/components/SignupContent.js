@@ -16,7 +16,6 @@ class SignupContent extends Component {
     confirmPasswordInputError: false,
     nickNameInputError: false,
     emailInputError: false,
-    passwordInputError: false,
   }
   nickNameInputHandle = (e) => {
     this.setState({
@@ -38,7 +37,9 @@ class SignupContent extends Component {
       confirmPassword: e.target.value
     })
   }
-  signUpHandle = (setState) => {
+  signUpHandle = (e,setState) => {
+    e.preventDefault();
+    if(e.keyCode !== 13 && e.target.className !== 'signUp') return;
     const { email, password, confirmPassword, nickName } = this.state;
     if(password !== confirmPassword) {
       this.props.signUpErrorHandle('密碼和確認密碼不一致');
@@ -109,45 +110,49 @@ class SignupContent extends Component {
             <div className="signup-content d-flex h-align-items-center">
               <div className="signup-wrap d-flex h-flex-column h-align-items-center">
                 <h2 className="signup-title">{languageStatus.model.signUpSubTitle}</h2>
-                <div className="signup-input-wrap">
-                  <input type="text" className={ nickNameInputError ? 'signIn-input error' : 'signIn-input' } value={nickName} onChange={this.nickNameInputHandle} />
-                  {!nickName && (
-                    <span className="placeholder d-flex h-align-items-center">
-                      <FontAwesome name="user" className="user"/>
-                      {languageStatus.model.nickNameInput}
-                    </span>
-                  )}
-                </div>
-                <div className="signup-input-wrap">
-                  <input type="text" className={ emailInputError ? 'signIn-input error' : 'signIn-input' } value={email} onChange={this.emailInputHandle}/>
-                  {!email && (
-                    <span className="placeholder d-flex h-align-items-center">
-                      <FontAwesome name="envelope" className="envelope"/>
-                      {languageStatus.model.emailInput}
-                    </span>
-                  )}
-                </div>
-                <div className="signIn-input-wrap">
-                  <input type="password" className={passwordInputError ? 'signIn-input error' : 'signIn-input'} 
-                    value={password} onChange={this.passwordInputHandle} />
-                  {!password && (
-                    <span className="placeholder d-flex h-align-items-center">
-                      <FontAwesome name="lock" className="lock" />
-                      {languageStatus.model.passwordInput}
-                    </span>
-                  )}
-                </div>
-                <div className="signIn-input-wrap">
-                  <input type="password" className={confirmPasswordInputError ? 'signIn-input error' : 'signIn-input'} 
-                    value={confirmPassword} onChange={this.confirmPasswordInputHandle}/>
-                  {!confirmPassword && (
-                    <span className="placeholder d-flex h-align-items-center">
-                      <FontAwesome name="lock" className="lock" />
-                      {languageStatus.model.checkPasswordInput}
-                    </span>
-                  )}
-                </div>
-                <button className="signUp" onClick={() => this.signUpHandle(setState)}>{languageStatus.model.signUpTitle}</button>
+                <form action="" onSubmit={(e) => this.signUpHandle(e,setState)} className="form d-flex h-flex-column h-align-items-center">
+                  <div className="signup-input-wrap">
+                    <input type="text" className={ nickNameInputError ? 'signIn-input error' : 'signIn-input' } value={nickName} 
+                      onChange={this.nickNameInputHandle} />
+                    {!nickName && (
+                      <span className="placeholder d-flex h-align-items-center">
+                        <FontAwesome name="user" className="user"/>
+                        {languageStatus.model.nickNameInput}
+                      </span>
+                    )}
+                  </div>
+                  <div className="signup-input-wrap">
+                    <input type="text" className={ emailInputError ? 'signIn-input error' : 'signIn-input' } value={email} 
+                      onChange={this.emailInputHandle}/>
+                    {!email && (
+                      <span className="placeholder d-flex h-align-items-center">
+                        <FontAwesome name="envelope" className="envelope"/>
+                        {languageStatus.model.emailInput}
+                      </span>
+                    )}
+                  </div>
+                  <div className="signIn-input-wrap">
+                    <input type="password" className={passwordInputError ? 'signIn-input error' : 'signIn-input'} 
+                      value={password} onChange={this.passwordInputHandle} />
+                    {!password && (
+                      <span className="placeholder d-flex h-align-items-center">
+                        <FontAwesome name="lock" className="lock" />
+                        {languageStatus.model.passwordInput}
+                      </span>
+                    )}
+                  </div>
+                  <div className="signIn-input-wrap">
+                    <input type="password" className={confirmPasswordInputError ? 'signIn-input error' : 'signIn-input'} 
+                      value={confirmPassword} onChange={this.confirmPasswordInputHandle}/>
+                    {!confirmPassword && (
+                      <span className="placeholder d-flex h-align-items-center">
+                        <FontAwesome name="lock" className="lock" />
+                        {languageStatus.model.checkPasswordInput}
+                      </span>
+                    )}
+                  </div>
+                  <button className="signUp" onClick={(e) => this.signUpHandle(e,setState)}>{languageStatus.model.signUpTitle}</button>
+                </form>
               </div>
             </div>
           )

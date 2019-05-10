@@ -22,19 +22,24 @@ class SigninContent extends Component {
       password: e.target.value
     })
   }
-  signInHandle = () => {
+  signInHandle = (e) => {
+    console.log(e.target.className)
+    if(e.target.className !== 'signIn' && e.keyCode !== 13) return;
     const { email,password } = this.state;
-    if(email === '' && password === '') {
+    if(email === '' || password === '') {
       this.props.signUpErrorHandle('請填寫，不能為空值');
       email === '' ? this.setState({ emailInputError: true }) : this.setState({ emailInputError: false });
       password === '' ? this.setState({ passwordInputError: true }) : this.setState({ passwordInputError: false });
+      return;
     }
     fireAuth.signInWithEmailAndPassword(email, password).then((user) => {
       console.log(user,'登入');
     }).catch((error) => {
       const { code:errorCode, message:errorMessage } = error;
       this.props.signUpErrorHandle(errorMessage);
-      errorMessage === 'The email address is badly formatted.' && this.setState({ emailInputError: true })
+      errorMessage === 'The email address is badly formatted.' && this.setState({ emailInputError: true });
+      errorMessage === 'The password is invalid or the user does not have a password.' && this.setState({ passwordInputError: true });
+      errorMessage === 'There is no user record corresponding to this identifier. The user may have been deleted.' && this.setState({ emailInputError: true, passwordInputError: true })
       console.log('errorCode',errorCode,'errorMessage',errorMessage);
     })
   }
@@ -67,29 +72,31 @@ class SigninContent extends Component {
         language === 'zh-TW' ? languageStatus = LanguageZhTW : languageStatus = LanguageEn;
         return (
           <div className="signIn-content d-flex h-flex-column">
-            <div className="signIn-email-wrap d-flex h-flex-column h-align-items-center">
+            <div className="signIn-email-wrap d-flex h-flex-column h-align-items-center h-justify-content-center">
               <h2 className="signIn-title">{languageStatus.model.signInSubTitle}</h2>
-              <div className="signIn-input-wrap">
-                <input type="text" className={ emailInputError ? 'signIn-input error' : 'signIn-input' } value={email} onChange={this.emailInputHandle}/>
-                {!email && (
-                  <span className="placeholder d-flex h-align-items-center">
-                    <FontAwesome name="envelope" className="envelope"/>
-                    {languageStatus.model.emailInput}
-                  </span>
-                )}
-              </div>
-              <div className="signIn-input-wrap">
-                <input type="password" className={ passwordInputError ? 'signIn-input error' : 'signIn-input' } value={password} onChange={this.passwordInputHandle}/>
-                {!password && (
-                  <span className="placeholder d-flex h-align-items-center">
-                    <FontAwesome name="lock" className="lock" />
-                    {languageStatus.model.passwordInput}
-                  </span>
-                )}
-              </div>
-              <button className="signIn" onClick={this.signInHandle}>{languageStatus.model.signInTitle}</button>
+              <form action="" className="form d-flex h-flex-column h-align-items-center" onSubmit={this.signInHandle}>
+                <div className="signIn-input-wrap">
+                  <input type="text" className={ emailInputError ? 'signIn-input error' : 'signIn-input' } value={email} onChange={this.emailInputHandle}/>
+                  {!email && (
+                    <span className="placeholder d-flex h-align-items-center">
+                      <FontAwesome name="envelope" className="envelope"/>
+                      {languageStatus.model.emailInput}
+                    </span>
+                  )}
+                </div>
+                <div className="signIn-input-wrap">
+                  <input type="password" className={ passwordInputError ? 'signIn-input error' : 'signIn-input' } value={password} onChange={this.passwordInputHandle}/>
+                  {!password && (
+                    <span className="placeholder d-flex h-align-items-center">
+                      <FontAwesome name="lock" className="lock" />
+                      {languageStatus.model.passwordInput}
+                    </span>
+                  )}
+                </div>
+                <button className="signIn" onClick={this.signInHandle}>{languageStatus.model.signInTitle}</button>
+              </form>
             </div>
-            <div className="signIn-google-wrap d-flex h-flex-column h-align-items-center">
+            <div className="signIn-google-wrap d-flex h-flex-column h-align-items-center h-justify-content-center">
               <h2 className="signIn-title">{languageStatus.model.googleSignIn}</h2>
               <button className="siginIn-google" onClick={this.googleSignInHandle}>
                 <FontAwesome name="google" className="google"/>

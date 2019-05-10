@@ -56,7 +56,7 @@ class AttractionCardStraight extends Component {
                 </div>
                 <p className="attractionCard-content-subtilte d-flex h-align-items-center"><FontAwesome name="map-marker" className="map-marker"/>{area}</p>
                 <div className="attractionCard-content-addres-wrap"><p className="attractionCard-content-addres d-sm-none">{address}</p></div>
-                <p className={`attractionCard-content-texts d-none d-sm-block${addClass}`}>{`${contentText}....。`}</p>
+                <p className={`attractionCard-content-texts${addClass}`}>{`${contentText}....。`}</p>
                 <div className="attractionCard-details-wrap d-flex h-align-items-center h-justify-content-between">
                   <button className="attractionCard-details-btn">{languageStatus.card.detailsBtn}</button>
                   <div className="attractionCard-details-time d-flex h-align-items-center">{opentTIme ? 

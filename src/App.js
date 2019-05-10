@@ -172,6 +172,10 @@ class App extends Component {
     this.setState({
       currentPage
     });
+    document.querySelector('.attraction-texts').scrollIntoView({
+      block: 'start',
+      behavior: 'auto'
+    });
   };
   selectTagThemes = e => {
     let filterTagThems;
@@ -514,7 +518,7 @@ class App extends Component {
           <Provider value={contextValue}>
             <Header />
             {this.state.showRemindModel || this.state.showErrorReminModel ? <RemindModel /> : null}
-            {this.state.showSignInModel && !this.state.uid ? <SigninModel /> : null }
+            {this.state.showSignInModel && !this.state.uid ? <SigninModel language={this.state.language} /> : null }
             <Route exact path="/" render={() => <HomePage /> }/>
             <Route exact path="/attraction/:id" render={({ match }) => {
               const currentData = this.filterCurrentAttraction((match.params.id));
