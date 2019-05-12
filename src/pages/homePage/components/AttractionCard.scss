@@ -116,10 +116,15 @@
     padding: 20px 10px;
     width: 100%;
     position: relative;
+    min-height: 160px;
+    @media (max-width: 1200px) {
+      min-height: 177px;
+    }
     @media (max-width: 992px) {
       display: flex;
       flex-direction: column;
       overflow: hidden;
+      min-height: initial;
     }
     @media (max-width: 768px) {
       width: 260px;
@@ -211,6 +216,7 @@
     text-align: initial;
   }
   .attractionCard-details-wrap{
+    margin-top: auto;
     @media (max-width: 992px) {
       margin-top: auto;
     }

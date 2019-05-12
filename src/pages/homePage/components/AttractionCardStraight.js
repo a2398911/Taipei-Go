@@ -45,7 +45,7 @@ class AttractionCardStraight extends Component {
                   <div className="heart" data-id={_id} style={ filterFavorite(userData,_id) ? backgroundImageActive : null }></div>
                 </button>
               </div>
-              <div className="attractionCard-content">
+              <div className="attractionCard-content d-flex h-flex-column">
                 <div className={language === 'zh-TW' ? 'attractionCard-tag h-align-items-center h-justify-content-center' : 'attractionCard-tag en h-align-items-center h-justify-content-center'}>
                   <span className="tagText-wrap">{language && language === 'zh-TW' ? CAT2.replace(/\s*/g,"") : CAT2}</span>
                 </div>

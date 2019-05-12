@@ -25,7 +25,7 @@ class Hero extends Component {
     this.heroBg_3Ref = React.createRef();
   }
   componentDidMount(){
-    var intervalId = setInterval(this.timer, 15000);
+    const intervalId = setInterval(this.timer, 15000);
     this.setState({intervalId: intervalId});
   }
   timer = () => {
@@ -107,7 +107,7 @@ class Hero extends Component {
               <div className="hero-bg" ref={this.heroBg_1Ref}></div>
               <div className="hero-bg _2 d-none" ref={this.heroBg_2Ref}></div>
               <div className="hero-bg _3 d-none" ref={this.heroBg_3Ref}></div>
-              <div className="container z-index">
+              <div className="container z-index mt-50">
                 <div className="row">
                   <div className="col-12">
                     <h1 className="hero-title">{languageStatus.hero.title}</h1>

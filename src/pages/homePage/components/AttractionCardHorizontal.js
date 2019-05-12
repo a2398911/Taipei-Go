@@ -10,7 +10,6 @@ export default class AttractionCardHorizontal extends Component {
   render() {
     const { contentText,backgroundImage,opentTIme,MRTColor,CAT2, _id, stitle, MRT, address,area,currentDay,currentActiveDay, stitle_en } = this.props.data;
     const { backgroundImageActive } = this.props;
-    console.log(opentTIme,'opentTIme');
     return (
       <Consumer>
       {({uid,userData,clickHeartIconHandle,filterFavorite,language}) => {

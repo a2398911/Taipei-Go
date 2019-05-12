@@ -1,0 +1,46 @@
+@import '../scss/variable.scss';
+
+.errorMessage-bg{
+  height: calc(100vh - 400px);
+  @media (max-width: 768px) {
+    height: calc(100vh - 300px);
+  }
+  @media (max-width: 576px) {
+    height: calc(100vh - 68px);
+  }
+}
+.errorMessage{
+  position: fixed;
+  @include center();
+  padding: 10px;
+  height: 35%;
+  width: 40%;
+  max-width: 450px;
+  min-width: 300px;
+  min-height: 250px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 3px 8px 0px rgba($color_black, .3);
+  color: $color_primary;
+}
+.errorMessage-exclamation-triangle{
+  font-size: 100px;
+  margin-bottom: 10px;
+  color: $color_Secondary;
+}
+.errorMessage-title{
+  font-size: 18px;
+}
+.errorMessage-text{
+  margin: 5px 0;
+}
+.backHomePage-btn{
+  cursor: pointer;
+  margin-top: 10px;
+  padding: 5px 15px;
+  border-radius: 15px;
+  background-color: $color_focus;
+  @include btnInteractive($color_focus);
+  transition: .5s;
+  color: #fff;
+}

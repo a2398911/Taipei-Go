@@ -26,6 +26,7 @@ class SearchBarWeb extends Component {
                 className="search"
                 value={searchInput}
                 onChange={changeInputHandle}
+                onKeyDown={(e) => e.keyCode === 13 && searchHandle(e)}
               />
               {!searchInput && (
               <span className="placeholder d-flex h-align-items-center">

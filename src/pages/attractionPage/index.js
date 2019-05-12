@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import FontAwesome from "react-fontawesome";
-// import TaipeiMRT from '../../taipei-MRT.json';
-// import TaipeiMRT_EN from '../../taipei-MRT_EN';
 import GoogleMap from './components/GoogleMap';
 import AttractionOpinion from './components/AttractionOpinion';
 import AttractionCard from '../homePage/components/AttractionCard';
@@ -14,6 +12,7 @@ import './index.scss';
 import LanguageZhTW from '../../language/zh-TW';
 import LanguageEn from '../../language/en';
 import AttractionDetailsInfo from '../../pages/attractionPage/components/AttractionDetailsInfo';
+import ErrorMessage from '../../components/ErrorMessage';
 
 // const api = 'https://data.taipei/opendata/datalist/apiAccess?scope=resourceAquire&rid=e6831708-02b4-4ef8-98fa-4b4ce53459d9&q=%E8%87%BA%E5%8C%97%E5%B8%82';
 const api = 'https://weather.yfxie.com/api?region=taipei_city&_=1555515701988';
@@ -53,7 +52,10 @@ class AttractionPage extends Component {
         throw error
       }
     }).then(data => {
-      console.log(data);
+      // console.log(data.result.results);
+      // const result = data.result.results;
+      // const currentTime = +new Date();
+      // const earlyMorning = currentTime.setHours()
       const { currentTemperature, week } = data;
       this.setState({
         weather: week,
@@ -169,8 +171,8 @@ class AttractionPage extends Component {
     })
   }
   render() {
-    if(!this.props.data) { return };
     console.log(this.props.data,'currentData');
+    if (this.props.data.length === 0) { return <ErrorMessage /> }
     const { stitle, stitle_en, _id} = this.props.data[0];
     const { nearbyAllData, weather, currentTemperature, showMessageTextarea, editorState, messageData, star, totalStarScore } = this.state;
     const starIcons = [1,2,3,4,5];

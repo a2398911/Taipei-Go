@@ -20,34 +20,21 @@
   background: url(../../../img/hero.jpg) center/cover no-repeat;
   height: 100%;
   width: 100%;
-  animation: heroBg 15s 2s infinite, opacity 2s ease-in;
+  animation: changeHeroBg 15s 2s infinite, FadeOutOpacity 2s ease-in;
 }
 ._2{
   background: url(../../../img/hero-2.jpg) center/cover no-repeat;
-  animation: heroBg 15s 2s infinite both, opacity 2s ease-in both;
+  animation: changeHeroBg 15s 2s infinite both, FadeOutOpacity 2s ease-in both;
 }
 ._3{
   background: url(../../../img/hero-3.jpg) center/cover no-repeat;
-  animation: heroBg 15s 2s infinite both, opacity 2s ease-in both;
+  animation: changeHeroBg 15s 2s infinite both, FadeOutOpacity 2s ease-in both;
 }
 .z-index{
   z-index: 1;
 }
-@keyframes opacity {
-  0%{
-    opacity: 0;
-  }
-  100%{
-    opacity: 1;
-  }
-}
-@keyframes heroBg {
-  0%{
-    transform: scale(1);
-  }
-  100%{
-    transform:  scale(1.2);
-  }
+.mt-50{
+  margin-top: 50px;
 }
 .hero-title, .hero-subtitle{
   text-align: center;

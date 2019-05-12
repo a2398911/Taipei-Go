@@ -7,7 +7,7 @@ import Footer from "./components/Footer";
 import SigninModel from './components/SigninModel';
 import CollectionPage from './pages/collectionPage';
 import { Provider } from "./context/DataContext";
-import { HashRouter, Route } from 'react-router-dom';
+import { HashRouter, Route, Switch  } from 'react-router-dom';
 import firebase, { fireAuth } from './config/firebase.js';
 import TaipeiMRT from "./taipei-MRT";
 import TaipeiMRT_EN from './taipei-MRT_EN';
@@ -24,8 +24,9 @@ class App extends Component {
     count: null,
     pageNum: [],
     currentPage: 1,
+    groupCount: 5,
+    startPage: 1,
     pageAllGroup: null,
-    currentPageGroup: 0,
     TaipeiMRT,
     searchInput: "",
     searchMRT: null,
@@ -66,6 +67,7 @@ class App extends Component {
     uid: null,
     userData: null,
     language: 'zh-TW',
+    hasError: false,
   };
   componentDidMount() {
     this.checkSigninStatus();
@@ -356,6 +358,7 @@ class App extends Component {
     filterData && this.setState({
       searchData: filterData,
       currentPage: 1,
+      startPage: 1,
       pageNum: pageNumArray
     });
   };
@@ -519,12 +522,16 @@ class App extends Component {
             <Header />
             {this.state.showRemindModel || this.state.showErrorReminModel ? <RemindModel /> : null}
             {this.state.showSignInModel && !this.state.uid ? <SigninModel language={this.state.language} /> : null }
-            <Route exact path="/" render={() => <HomePage /> }/>
-            <Route exact path="/attraction/:id" render={({ match }) => {
-              const currentData = this.filterCurrentAttraction((match.params.id));
-              return currentData ? <AttractionPage data={currentData} id={match.params.id}/> : <AttractionPageLoad />;
-            }}/>
-            <Route exact path="/myHeart" render={() => <CollectionPage /> }/>
+            <Switch>
+              <Route exact path="/" render={() => <HomePage /> }/>
+              <Route exact path="/attraction/:id" render={({ match }) => {
+                const currentData = this.filterCurrentAttraction((match.params.id));
+                return currentData ? <AttractionPage data={currentData} id={match.params.id}/> : <AttractionPageLoad />;
+              }}/>
+              <Route exact path="/myHeart" render={() => <CollectionPage /> }/>
+              <Route exact path='/myHeart/*' component={CollectionPage} />
+              <Route path='*' component={HomePage} />
+            </Switch>
             <Footer />
           </Provider>
         </ScrollToTop>
