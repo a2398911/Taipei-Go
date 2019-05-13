@@ -87,15 +87,19 @@ class AttractionPage extends Component {
             newDay = '星期日'
             break;
         }
+        let timeSlot;
         if (startTime === 18) {
-          objectDay.nightDay = `${ month+1 < 10 ? '0'+(month+1) : month+1 }/${date < 10 ? '0'+date : date}${newDay}`;
+          timeSlot = 'nightDay';
+        } else if (startTime === 6) {
+          timeSlot = 'morningDay';
         } else {
-          objectDay.morningDay = `${ month+1 < 10 ? '0'+(month+1) : month+1 }/${date < 10 ? '0'+date : date}${newDay}`;
+          timeSlot = 'midnightDay';
         }
+        objectDay[timeSlot] = `${ month+1 < 10 ? '0'+(month+1) : month+1 }/${date < 10 ? '0'+date : date}${newDay}`;
         week.push(objectDay);
       })
-      const filterWeek = week.filter((item,index) => item.morningDay || item.id === 1)
-      const newWeek = filterWeek.filter((item,index) => index < 7)
+      const filterWeek = week.filter((item,index) => item.morningDay || item.id === 1 & !item.midnightDay);
+      const newWeek = filterWeek.filter((item,index) => index < 7);
       this.setState({
         weather: newWeek,
       })
