@@ -5,7 +5,6 @@ import { Consumer } from "../../../context/DataContext";
 import "./Hero.scss";
 import LanguageZhTW from '../../../language/zh-TW';
 import LanguageEn from '../../../language/en';
-import test from '../../../img/hero-3.jpg';
 
 class Hero extends Component {
   constructor(props) {

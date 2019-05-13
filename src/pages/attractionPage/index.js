@@ -54,8 +54,26 @@ class AttractionPage extends Component {
     }).then(data => {
       // console.log(data.result.results);
       // const result = data.result.results;
-      // const currentTime = +new Date();
-      // const earlyMorning = currentTime.setHours()
+      // const currentTimeHours = new Date().getHours();
+      // let week = [];
+      // console.log(currentTimeHours);
+      // console.log(result, 'result');
+      // result.length > 0 && result.forEach(item => {
+      //   let objectDay = {};
+      //   objectDay.temperature = `${item.parameterName3}~${item.parameterName2}`;
+      //   objectDay.situation = item.parameterName1;
+      //   week.push(objectDay);
+      // })
+      // console.log(week,'week');
+
+      // const morningTime = currentTime.setHours(6,0,0,0);
+      // const nightTime = currentTime.setHours(18,0,0,0);
+      // const test = currentTime.setHours(24,0,0,0);
+      // console.log(new Date(test).getDate());
+      // console.log(currentTime, morningTime, nightTime);
+
+
+      
       const { currentTemperature, week } = data;
       this.setState({
         weather: week,
