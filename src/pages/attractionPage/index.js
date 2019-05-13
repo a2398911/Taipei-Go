@@ -14,8 +14,8 @@ import LanguageEn from '../../language/en';
 import AttractionDetailsInfo from '../../pages/attractionPage/components/AttractionDetailsInfo';
 import ErrorMessage from '../../components/ErrorMessage';
 
-// const api = 'https://data.taipei/opendata/datalist/apiAccess?scope=resourceAquire&rid=e6831708-02b4-4ef8-98fa-4b4ce53459d9&q=%E8%87%BA%E5%8C%97%E5%B8%82';
-const api = 'https://weather.yfxie.com/api?region=taipei_city&_=1555515701988';
+const api = 'https://data.taipei/opendata/datalist/apiAccess?scope=resourceAquire&rid=e6831708-02b4-4ef8-98fa-4b4ce53459d9&q=%E8%87%BA%E5%8C%97%E5%B8%82';
+// const api = 'https://weather.yfxie.com/api?region=taipei_city&_=1555515701988';
 
 class AttractionPage extends Component {
   state = {
@@ -52,32 +52,52 @@ class AttractionPage extends Component {
         throw error
       }
     }).then(data => {
-      // console.log(data.result.results);
-      // const result = data.result.results;
-      // const currentTimeHours = new Date().getHours();
-      // let week = [];
-      // console.log(currentTimeHours);
-      // console.log(result, 'result');
-      // result.length > 0 && result.forEach(item => {
-      //   let objectDay = {};
-      //   objectDay.temperature = `${item.parameterName3}~${item.parameterName2}`;
-      //   objectDay.situation = item.parameterName1;
-      //   week.push(objectDay);
-      // })
-      // console.log(week,'week');
-
-      // const morningTime = currentTime.setHours(6,0,0,0);
-      // const nightTime = currentTime.setHours(18,0,0,0);
-      // const test = currentTime.setHours(24,0,0,0);
-      // console.log(new Date(test).getDate());
-      // console.log(currentTime, morningTime, nightTime);
-
-
-      
-      const { currentTemperature, week } = data;
+      const result = data.result.results;
+      let week = [];
+      result.length > 0 && result.forEach(item => {
+        let objectDay = {};
+        objectDay.temperature = `${item.parameterName3}~${item.parameterName2}`;
+        objectDay.situation = item.parameterName1;
+        objectDay.id = item._id;
+        const startTime = new Date(item.startTime).getHours();
+        const month = new Date(item.startTime).getMonth();
+        const date = new Date(item.startTime).getDate();
+        const day =  new Date(item.startTime).getDay();
+        let newDay;
+        switch (day) {
+          case 1:
+            newDay = '星期一'
+            break;
+          case 2:
+            newDay = '星期二'
+            break;
+          case 3:
+            newDay = '星期三'
+            break;
+          case 4:
+            newDay = '星期四'
+            break;
+          case 5:
+            newDay = '星期五'
+            break;
+          case 6:
+            newDay = '星期六'
+            break;
+          default:
+            newDay = '星期日'
+            break;
+        }
+        if (startTime === 18) {
+          objectDay.nightDay = `${ month+1 < 10 ? '0'+(month+1) : month+1 }/${date < 10 ? '0'+date : date}${newDay}`;
+        } else {
+          objectDay.morningDay = `${ month+1 < 10 ? '0'+(month+1) : month+1 }/${date < 10 ? '0'+date : date}${newDay}`;
+        }
+        week.push(objectDay);
+      })
+      const filterWeek = week.filter((item,index) => item.morningDay || item.id === 1)
+      const newWeek = filterWeek.filter((item,index) => index < 7)
       this.setState({
-        weather: week,
-        currentTemperature
+        weather: newWeek,
       })
     })
   }
@@ -154,7 +174,6 @@ class AttractionPage extends Component {
   deleteMessageHandle = (e,setState,_id) => {
     const id = e.target.dataset.id;
     const currentAttractionId = e.target.dataset.currentid;
-    console.log(id, currentAttractionId);
     setState({ showRemindModel: 7 });
     firebase.database().ref(`/TouristMessage/${currentAttractionId}/${id}`).remove().then(() => {
       firebase.database().ref(`taipeiData/${_id}/star_rating`).set(this.state.totalStarScore);
@@ -189,7 +208,6 @@ class AttractionPage extends Component {
     })
   }
   render() {
-    console.log(this.props.data,'currentData');
     if (this.props.data.length === 0) { return <ErrorMessage /> }
     const { stitle, stitle_en, _id} = this.props.data[0];
     const { nearbyAllData, weather, currentTemperature, showMessageTextarea, editorState, messageData, star, totalStarScore } = this.state;
@@ -245,7 +263,6 @@ class AttractionPage extends Component {
                         <span className="attraction-message-num">({messageData ? messageData.length : 0})</span>
                       </div>
                       {messageData && messageData.map(item => {
-                        console.log(item)
                         return <AttractionOpinion data={item} key={item.id} editMessageHandle={this.editMessageHandle} 
                           currentAttractionId={_id} deleteMessageHandle={this.deleteMessageHandle}/>
                       })}

@@ -77,7 +77,6 @@ class App extends Component {
     let cookie;
     const reg = new RegExp(`(^| )${name}=([^;]*)(;|$)`);
     if((cookie=document.cookie.match(reg))){
-      console.log(cookie[2],'language');
       this.setState({ language:cookie[2]},() => {
         this.getTaipeiDate(this.state.language);
         this.changeLanguageMRT(this.state.language);
@@ -383,7 +382,6 @@ class App extends Component {
   }
   checkSigninStatus = () => {
     fireAuth.onAuthStateChanged((user) => {
-      console.log('更新',user);
       if ( this.state.uid !== user && user !== null ) {
         let reminStatus;
         this.state.showRemindModel === 3 ? reminStatus = 3 : reminStatus = 1
@@ -403,10 +401,8 @@ class App extends Component {
     })
   }
   getUserData = (id) => {
-    console.log('getUserData更新');
     const userIdRef = firebase.database().ref(`user/${id}`);
     userIdRef.on('value', (snapshot) => {
-      console.log(snapshot.val())
       this.setState({ userData: snapshot.val() })
     })
   }

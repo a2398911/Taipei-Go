@@ -23,7 +23,6 @@ class SigninContent extends Component {
     })
   }
   signInHandle = (e) => {
-    console.log(e.target.className)
     if(e.target.className !== 'signIn' && e.keyCode !== 13) return;
     const { email,password } = this.state;
     if(email === '' || password === '') {
@@ -33,14 +32,12 @@ class SigninContent extends Component {
       return;
     }
     fireAuth.signInWithEmailAndPassword(email, password).then((user) => {
-      console.log(user,'登入');
     }).catch((error) => {
-      const { code:errorCode, message:errorMessage } = error;
+      const {  message:errorMessage } = error;
       this.props.signUpErrorHandle(errorMessage);
       errorMessage === 'The email address is badly formatted.' && this.setState({ emailInputError: true });
       errorMessage === 'The password is invalid or the user does not have a password.' && this.setState({ passwordInputError: true });
-      errorMessage === 'There is no user record corresponding to this identifier. The user may have been deleted.' && this.setState({ emailInputError: true, passwordInputError: true })
-      console.log('errorCode',errorCode,'errorMessage',errorMessage);
+      errorMessage === 'There is no user record corresponding to this identifier. The user may have been deleted.' && this.setState({ emailInputError: true, passwordInputError: true });
     })
   }
   googleSignInHandle = () => {

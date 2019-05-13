@@ -24,7 +24,6 @@ export default class MessageBraftEditor extends React.Component {
   render () {
     const { editorState, editorHandleChange, clickStarHandle, star } = this.props;
     const { starIons } = this.state;
-    console.log(star,'star')
     return (
       <Consumer>
       {({language}) => {
