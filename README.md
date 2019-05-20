@@ -3,6 +3,7 @@
   <br/>
 A quick search of Taipei's attractions website built with react/react context.<br/>
 </p>
+<img src="https://i.imgur.com/5moHlwb.gif" />
 
 <table>
 <tr>
@@ -30,8 +31,9 @@ Here is a working live demo : https://a2398911.github.io/Taipei-Go
 
 ## Features
 
-#### Member managment
+#### Member management
 Users can sign up and login by email and password.<br/>
+![image](https://upload.cc/i1/2019/05/20/fU2TN3.png) <br/>
 
 Users can leave comments and evaluation.<br/>
 Users can collect attractions.
