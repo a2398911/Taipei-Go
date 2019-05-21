@@ -23,11 +23,13 @@ Here is a working live demo : https://a2398911.github.io/Taipei-Go
 
 ## Technologies
 
+- Responsive Web Design
 - React
 - React Context
 - Router
 - Firebase
 - Google Map API
+- Google Login API
 - Use AJAX with Open Government API
 
 ## Features
