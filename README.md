@@ -40,6 +40,5 @@ Users can leave comments and evaluation.<br/>
 Users can collect attractions. <br/>
 ![image](https://upload.cc/i1/2019/05/20/0FdUJe.png) <br/>
 
-test
 #### Search for Taipei's attractions
 Users can check the attractions' status, comments, and evaluation.

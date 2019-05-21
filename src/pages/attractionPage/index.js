@@ -151,19 +151,29 @@ class AttractionPage extends Component {
       block: 'start',
       behavior: 'smooth'
     });
-    let MessageRef;
-    editId ? MessageRef = `/TouristMessage/${currentAttractionId}/${editId}` : MessageRef = `/TouristMessage/${_id}`;
-    firebase.database().ref(MessageRef).set(MessageData).then(() => {
-      this.setState({ editId: null }); 
-      firebase.database().ref(`taipeiData/${_id}/star_rating`).set(this.state.totalStarScore);
-      firebase.database().ref(`taipeiData/${_id}/message_num`).set(this.state.messageData.length);
-      firebase.database().ref(`taipeiData_EN/${_id}/star_rating`).once('value', (snapshot) => {
-        if(snapshot.val()) {
-          firebase.database().ref(`taipeiData_EN/${_id}/star_rating`).set(this.state.totalStarScore);
-          firebase.database().ref(`taipeiData_EN/${_id}/message_num`).set(this.state.messageData.length);
-        }
-      })
-    });
+
+    if (editId) {
+      let MessageRef = `/TouristMessage/${currentAttractionId}/${editId}`;
+      firebase.database().ref(MessageRef).set(MessageData).then(() => {
+        this.editFirebaseDateHandle(_id);
+      });
+    } else {
+      let MessageRef = `/TouristMessage/${_id}`;
+      firebase.database().ref(MessageRef).push(MessageData).then(() => {
+        this.editFirebaseDateHandle(_id);
+      });
+    }
+  }
+  editFirebaseDateHandle = (_id) => {
+    this.setState({ editId: null }); 
+    firebase.database().ref(`taipeiData/${_id}/star_rating`).set(this.state.totalStarScore);
+    firebase.database().ref(`taipeiData/${_id}/message_num`).set(this.state.messageData.length);
+    firebase.database().ref(`taipeiData_EN/${_id}/star_rating`).once('value', (snapshot) => {
+      if(snapshot.val()) {
+        firebase.database().ref(`taipeiData_EN/${_id}/star_rating`).set(this.state.totalStarScore);
+        firebase.database().ref(`taipeiData_EN/${_id}/message_num`).set(this.state.messageData.length);
+      }
+    })
   }
   editMessageHandle = e => {
     const id = e.target.dataset.id;
@@ -195,6 +205,7 @@ class AttractionPage extends Component {
     const dataRef = firebase.database().ref(`/TouristMessage/${id}`);
     dataRef.on('value', (snapshot) => {
       const data = snapshot.val();
+      console.log(data,'data');
       let messageData = [];
       for(let key in data) {
         data[key].id = key;
