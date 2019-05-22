@@ -48,7 +48,6 @@ class PageNumber extends Component {
       <Consumer>
         {({currentPage, changePageNum, pageNum, groupCount, startPage, setState}) => {
           const totalPage = pageNum.length;
-          {/* const { startPage, groupCount} = this.state; */}
           const fivePages = this.creatFivePages(startPage,currentPage,totalPage,changePageNum, groupCount, setState);
           if (!pageNum.length) {return}
           return (

@@ -15,7 +15,6 @@ import AttractionDetailsInfo from '../../pages/attractionPage/components/Attract
 import ErrorMessage from '../../components/ErrorMessage';
 
 const api = 'https://data.taipei/opendata/datalist/apiAccess?scope=resourceAquire&rid=e6831708-02b4-4ef8-98fa-4b4ce53459d9&q=%E8%87%BA%E5%8C%97%E5%B8%82';
-// const api = 'https://weather.yfxie.com/api?region=taipei_city&_=1555515701988';
 
 class AttractionPage extends Component {
   state = {
@@ -32,6 +31,8 @@ class AttractionPage extends Component {
   componentDidMount() {
     this.getNearbyDataFromFirebase();
     this.getWeatherData(api);
+  }
+  componentDidUpdate() {
     this.getMessageData();
   }
   getNearbyDataFromFirebase = () => {
@@ -219,7 +220,7 @@ class AttractionPage extends Component {
       } else {
         totalStarScore = 0;
       }
-      this.setState({ messageData,totalStarScore });
+      this.state.messageData !== messageData && this.state.totalStarScore !== totalStarScore && this.setState({ messageData,totalStarScore });
     })
   }
   render() {
@@ -249,7 +250,7 @@ class AttractionPage extends Component {
                         <span className="start-wrap">
                           {starIcons.map(item => <FontAwesome name={item <= totalStarScore ? 'star active' : 'star'} className="star" key={item} />)}
                         </span>
-                        <span className="starNum">({messageData && messageData.length})</span>
+                        <span className="starNum">({messageData ? messageData.length : 0})</span>
                       </span>
                     </div>
                   </div>

@@ -132,7 +132,7 @@ class AttractionCard extends Component {
   }
   render() {
     if(!this.props.data) { return null }
-    const { CAT2, _id, stitle, stitle_en, MRT, address, xbody, images, area, opening_hours, language_status } = this.props.data;
+    const { CAT2, _id, stitle, stitle_en, MRT, address, xbody, images, area, opening_hours } = this.props.data;
     const { cardIsRow, strTmp } = this.props;
     let MRTLine;
     let MRTColor;
