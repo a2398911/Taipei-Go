@@ -206,7 +206,6 @@ class AttractionPage extends Component {
     const dataRef = firebase.database().ref(`/TouristMessage/${id}`);
     dataRef.on('value', (snapshot) => {
       const data = snapshot.val();
-      console.log(data,'data');
       let messageData = [];
       for(let key in data) {
         data[key].id = key;
