@@ -1,22 +1,22 @@
 self.__precacheManifest = [
   {
-    "revision": "5f6f492d2314a26d3a46",
-    "url": "/Taipei-Go/static/css/main.e76eb46e.chunk.css"
+    "revision": "7d700da9511abc1d7c9b0c9171e2e4ed",
+    "url": "/Taipei-Go/static/media/hero-2.7d700da9.jpg"
   },
   {
-    "revision": "5f6f492d2314a26d3a46",
-    "url": "/Taipei-Go/static/js/main.104dc11d.chunk.js"
+    "revision": "5365f553f0acf7b8393a",
+    "url": "/Taipei-Go/static/css/main.baec6cc1.chunk.css"
   },
   {
     "revision": "e42d810f2fc2a8e3a61e",
     "url": "/Taipei-Go/static/js/runtime~main.d6f203cd.js"
   },
   {
-    "revision": "10b432b83d344c41aaa3",
-    "url": "/Taipei-Go/static/css/2.7f492b66.chunk.css"
+    "revision": "f17583708b3b75c3457baccd6be6d4fe",
+    "url": "/Taipei-Go/static/media/footer.f1758370.png"
   },
   {
-    "revision": "10b432b83d344c41aaa3",
+    "revision": "05e883ffbedee4cd7836",
     "url": "/Taipei-Go/static/js/2.0d9b0b12.chunk.js"
   },
   {
@@ -36,8 +36,8 @@ self.__precacheManifest = [
     "url": "/Taipei-Go/static/media/language-icon.debcbd9f.svg"
   },
   {
-    "revision": "7d700da9511abc1d7c9b0c9171e2e4ed",
-    "url": "/Taipei-Go/static/media/hero-2.7d700da9.jpg"
+    "revision": "5365f553f0acf7b8393a",
+    "url": "/Taipei-Go/static/js/main.9311678f.chunk.js"
   },
   {
     "revision": "384674c83e80c7fa3e20c160c8f7608d",
@@ -52,12 +52,12 @@ self.__precacheManifest = [
     "url": "/Taipei-Go/static/media/heart-icon.01abb79c.svg"
   },
   {
-    "revision": "18bf6b304a6dcd59241b7de106071a84",
-    "url": "/Taipei-Go/static/media/clock-regular.18bf6b30.svg"
-  },
-  {
     "revision": "98792ccb1fe3d6d554b13c4e50728299",
     "url": "/Taipei-Go/static/media/MRT-icon.98792ccb.svg"
+  },
+  {
+    "revision": "18bf6b304a6dcd59241b7de106071a84",
+    "url": "/Taipei-Go/static/media/clock-regular.18bf6b30.svg"
   },
   {
     "revision": "38c82163364c746db9890df95da34f4c",
@@ -68,11 +68,11 @@ self.__precacheManifest = [
     "url": "/Taipei-Go/static/media/logo.32657923.svg"
   },
   {
-    "revision": "f17583708b3b75c3457baccd6be6d4fe",
-    "url": "/Taipei-Go/static/media/footer.f1758370.png"
+    "revision": "05e883ffbedee4cd7836",
+    "url": "/Taipei-Go/static/css/2.23926694.chunk.css"
   },
   {
-    "revision": "98ca878b4cdb2b1f0b82501792e9b3cb",
+    "revision": "82b53bb52682414b2a38647d79e0953c",
     "url": "/Taipei-Go/index.html"
   }
 ];
