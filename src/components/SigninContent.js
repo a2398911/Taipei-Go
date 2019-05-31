@@ -23,6 +23,8 @@ class SigninContent extends Component {
     })
   }
   signInHandle = (e) => {
+    e.preventDefault();
+    console.log('??');
     if(e.target.className !== 'signIn' && e.keyCode !== 13) return;
     const { email,password } = this.state;
     if(email === '' || password === '') {
