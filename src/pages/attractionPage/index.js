@@ -31,6 +31,8 @@ class AttractionPage extends Component {
   componentDidMount() {
     this.getNearbyDataFromFirebase();
     this.getWeatherData(api);
+  }
+  componentDidUpdate() {
     this.getMessageData();
   }
   getNearbyDataFromFirebase = () => {
@@ -100,7 +102,6 @@ class AttractionPage extends Component {
       const filterWeek = week.filter((item,index) => {
         return item.morningDay && item.id !== 1
       });
-      console.log('filterWeek',filterWeek);
       const newWeek = filterWeek.filter((item,index) => index < 7);
       this.setState({
         weather: newWeek,
@@ -164,6 +165,7 @@ class AttractionPage extends Component {
         this.editFirebaseDateHandle(_id);
       });
     }
+    this.getMessageData(true);
   }
   editFirebaseDateHandle = (_id) => {
     this.setState({ editId: null }); 
@@ -205,7 +207,7 @@ class AttractionPage extends Component {
       })
     });
   }
-  getMessageData = () => {
+  getMessageData = (editStatus = false) => {
     const id = this.props.id;
     const dataRef = firebase.database().ref(`/TouristMessage/${id}`);
     dataRef.on('value', (snapshot) => {
@@ -224,7 +226,11 @@ class AttractionPage extends Component {
       } else {
         totalStarScore = 0;
       }
-      this.setState({ messageData,totalStarScore });
+      if (editStatus) {
+        this.setState({ messageData,totalStarScore });
+      } else {
+        this.state.messageData !== messageData && this.state.totalStarScore !== totalStarScore && this.setState({ messageData,totalStarScore });
+      }
     })
   }
   render() {
