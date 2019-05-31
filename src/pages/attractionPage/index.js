@@ -225,7 +225,6 @@ class AttractionPage extends Component {
         totalStarScore = 0;
       }
       this.setState({ messageData,totalStarScore });
-      // this.state.messageData !== messageData && this.state.totalStarScore !== totalStarScore && this.setState({ messageData,totalStarScore });
     })
   }
   render() {
