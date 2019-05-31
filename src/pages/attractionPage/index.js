@@ -31,8 +31,6 @@ class AttractionPage extends Component {
   componentDidMount() {
     this.getNearbyDataFromFirebase();
     this.getWeatherData(api);
-  }
-  componentDidUpdate() {
     this.getMessageData();
   }
   getNearbyDataFromFirebase = () => {
@@ -99,7 +97,10 @@ class AttractionPage extends Component {
         objectDay[timeSlot] = `${ month+1 < 10 ? '0'+(month+1) : month+1 }/${date < 10 ? '0'+date : date}${newDay}`;
         week.push(objectDay);
       })
-      const filterWeek = week.filter((item,index) => item.morningDay || item.id === 1 & !item.midnightDay);
+      const filterWeek = week.filter((item,index) => {
+        return item.morningDay && item.id !== 1
+      });
+      console.log('filterWeek',filterWeek);
       const newWeek = filterWeek.filter((item,index) => index < 7);
       this.setState({
         weather: newWeek,
@@ -152,7 +153,6 @@ class AttractionPage extends Component {
       block: 'start',
       behavior: 'smooth'
     });
-
     if (editId) {
       let MessageRef = `/TouristMessage/${currentAttractionId}/${editId}`;
       firebase.database().ref(MessageRef).set(MessageData).then(() => {
@@ -177,6 +177,10 @@ class AttractionPage extends Component {
     })
   }
   editMessageHandle = e => {
+    document.querySelector('.messageBtn').scrollIntoView({
+      block: 'center',
+      behavior: 'smooth'
+    });
     const id = e.target.dataset.id;
     const currentAttractionId = e.target.dataset.currentid;
     firebase.database().ref(`/TouristMessage/${currentAttractionId}/${id}`).once('value', (snapshot) => {
@@ -206,6 +210,7 @@ class AttractionPage extends Component {
     const dataRef = firebase.database().ref(`/TouristMessage/${id}`);
     dataRef.on('value', (snapshot) => {
       const data = snapshot.val();
+      console.log(data,'TouristMessage');
       let messageData = [];
       for(let key in data) {
         data[key].id = key;
@@ -219,7 +224,8 @@ class AttractionPage extends Component {
       } else {
         totalStarScore = 0;
       }
-      this.state.messageData !== messageData && this.state.totalStarScore !== totalStarScore && this.setState({ messageData,totalStarScore });
+      this.setState({ messageData,totalStarScore });
+      // this.state.messageData !== messageData && this.state.totalStarScore !== totalStarScore && this.setState({ messageData,totalStarScore });
     })
   }
   render() {
