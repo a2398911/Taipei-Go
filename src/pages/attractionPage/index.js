@@ -31,7 +31,6 @@ class AttractionPage extends Component {
   componentDidMount() {
     this.getNearbyDataFromFirebase();
     this.getWeatherData(api);
-    // this.getMessageData();
   }
   componentDidUpdate() {
     this.getMessageData();
