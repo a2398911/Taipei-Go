@@ -1,22 +1,22 @@
 self.__precacheManifest = [
   {
-    "revision": "7d700da9511abc1d7c9b0c9171e2e4ed",
-    "url": "/Taipei-Go/static/media/hero-2.7d700da9.jpg"
+    "revision": "4d9fd22c4683690b87e0",
+    "url": "/Taipei-Go/static/css/main.e76eb46e.chunk.css"
   },
   {
-    "revision": "5365f553f0acf7b8393a",
-    "url": "/Taipei-Go/static/css/main.baec6cc1.chunk.css"
+    "revision": "4d9fd22c4683690b87e0",
+    "url": "/Taipei-Go/static/js/main.8ae0168c.chunk.js"
   },
   {
     "revision": "e42d810f2fc2a8e3a61e",
     "url": "/Taipei-Go/static/js/runtime~main.d6f203cd.js"
   },
   {
-    "revision": "f17583708b3b75c3457baccd6be6d4fe",
-    "url": "/Taipei-Go/static/media/footer.f1758370.png"
+    "revision": "10b432b83d344c41aaa3",
+    "url": "/Taipei-Go/static/css/2.7f492b66.chunk.css"
   },
   {
-    "revision": "05e883ffbedee4cd7836",
+    "revision": "10b432b83d344c41aaa3",
     "url": "/Taipei-Go/static/js/2.0d9b0b12.chunk.js"
   },
   {
@@ -36,8 +36,8 @@ self.__precacheManifest = [
     "url": "/Taipei-Go/static/media/language-icon.debcbd9f.svg"
   },
   {
-    "revision": "5365f553f0acf7b8393a",
-    "url": "/Taipei-Go/static/js/main.9311678f.chunk.js"
+    "revision": "7d700da9511abc1d7c9b0c9171e2e4ed",
+    "url": "/Taipei-Go/static/media/hero-2.7d700da9.jpg"
   },
   {
     "revision": "384674c83e80c7fa3e20c160c8f7608d",
@@ -68,11 +68,11 @@ self.__precacheManifest = [
     "url": "/Taipei-Go/static/media/logo.32657923.svg"
   },
   {
-    "revision": "05e883ffbedee4cd7836",
-    "url": "/Taipei-Go/static/css/2.23926694.chunk.css"
+    "revision": "f17583708b3b75c3457baccd6be6d4fe",
+    "url": "/Taipei-Go/static/media/footer.f1758370.png"
   },
   {
-    "revision": "82b53bb52682414b2a38647d79e0953c",
+    "revision": "1c521ee905b5ed74d642e69812ac1238",
     "url": "/Taipei-Go/index.html"
   }
 ];

@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Taipei-Go/precache-manifest.038c114e1d358faca1f5b21d4154a423.js"
+  "/Taipei-Go/precache-manifest.5b5359ae7349fd8b682b7156ef88335a.js"
 );
 
 workbox.clientsClaim();
