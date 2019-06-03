@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "d205fb15d1195ea9701d",
+    "revision": "6e0bb3fcc4975efa5463",
     "url": "/Taipei-Go/static/css/main.e76eb46e.chunk.css"
   },
   {
-    "revision": "d205fb15d1195ea9701d",
-    "url": "/Taipei-Go/static/js/main.3c95a9e8.chunk.js"
+    "revision": "6e0bb3fcc4975efa5463",
+    "url": "/Taipei-Go/static/js/main.525f6006.chunk.js"
   },
   {
     "revision": "e42d810f2fc2a8e3a61e",
@@ -72,7 +72,7 @@ self.__precacheManifest = [
     "url": "/Taipei-Go/static/media/footer.f1758370.png"
   },
   {
-    "revision": "4e92be680de43e9056092e1228c4a273",
+    "revision": "521c5cf3bffb3fa043c9cfe0fe64d281",
     "url": "/Taipei-Go/index.html"
   }
 ];
