@@ -38,8 +38,9 @@ class Header extends Component {
   }
   setCookieLanguage = (language) => {
     const expires = new Date();
+    console.log(expires.getTime() + 1*24*60*60*1000);
     expires.setTime(expires.getTime() + 1*24*60*60*1000);
-    document.cookie = `language=${language}; max-age=${expires}; path=/`;
+    document.cookie = `language=${language}; max-age=${+expires}; path=/`;
     this.setState({ languageSelect: false });
     window.location.reload();
   }
