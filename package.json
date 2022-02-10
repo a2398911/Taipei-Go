@@ -10,7 +10,7 @@
     "braft-editor": "^2.2.9",
     "firebase": "^5.9.3",
     "firebase-admin": "^7.2.0",
-    "node-sass": "^4.11.0",
+    "node-sass": "^7.0.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-fontawesome": "^1.6.1",
